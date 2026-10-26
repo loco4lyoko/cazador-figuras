@@ -69,6 +69,7 @@ class Cazador:
                      "sin_clasificar": [], "ref_aprendida": {}, "ultima_fuente": {}}.items():
             self.d.setdefault(k, v)
         self.d["tasas"] = monedas.actualizar(self.d.get("tasas"))
+        self.cla.ref_aprendida = self.d["ref_aprendida"]
         self.alertas_enviadas = 0
 
     # ---------- utilidades ----------
@@ -80,7 +81,11 @@ class Cazador:
     def referencia(self, busqueda: dict, art: dict, listado: Listado):
         if art.get("tipo") == "lote":
             return self.cla.referencia_lote(busqueda, listado)
-        return art.get("precio_referencia_jpy") or self.d["ref_aprendida"].get(art["id"], {}).get("mediana")
+        # Si hay suficientes ventas reales registradas, manda el mercado real (se actualiza cada día)
+        aprendida = self.d["ref_aprendida"].get(art["id"], {})
+        if self.aj.get("usar_ventas_reales", True) and aprendida.get("n", 0) >= 5:
+            return aprendida["mediana"]
+        return art.get("precio_referencia_jpy") or aprendida.get("mediana")
 
     def solo_notebook(self) -> list:
         """Sitios que bloquean a GitHub: se revisan solo desde el notebook (modo --solo)."""

@@ -140,7 +140,7 @@ busquedas:
       - id: nagisa
         nombre: "Nagisa transformada (No.741)"
         personaje: nagisa
-        precio_referencia_jpy: 30000   # estimado
+        precio_referencia_jpy: 64000   # ventas reales: 45.000–70.000 ¥
         prioridad: alta
 
       # ---------- TRANSFORMADAS (solo si están baratas) ----------

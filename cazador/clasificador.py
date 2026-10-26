@@ -13,6 +13,7 @@ class Clasificador:
     def __init__(self, config: dict):
         self.ajustes = config.get("ajustes", {})
         self.excluir_global = config.get("excluir_global", [])
+        self.ref_aprendida = {}   # lo llena el Cazador con las ventas reales
 
     # ---------- coincidencias ----------
     def personajes_texto(self, busqueda: dict, titulo: str) -> list[str]:
@@ -90,7 +91,8 @@ class Clasificador:
             if not candidatos:
                 continue
             elegido = next((a for a in candidatos if self._cumple_reglas(a, t)), candidatos[0])
-            total += float(elegido["precio_referencia_jpy"])
+            aprendida = (self.ref_aprendida or {}).get(elegido["id"], {})
+            total += float(aprendida["mediana"] if aprendida.get("n", 0) >= 5 else elegido["precio_referencia_jpy"])
         return total or None
 
     # ---------- evaluación de precio ----------
