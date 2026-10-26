@@ -6040,8 +6040,8 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:21:41+00:00",
-    "resultados": 118,
+    "fecha": "2026-10-26T15:00:54+00:00",
+    "resultados": 120,
     "error": ""
    },
    "ultima": "2026-10-26T12:35:55+00:00",
@@ -6053,8 +6053,8 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:21:44+00:00",
-    "resultados": 0,
+    "fecha": "2026-10-26T15:00:57+00:00",
+    "resultados": 50,
     "error": ""
    },
    "ultima": "2026-10-26T12:36:03+00:00",
@@ -6066,7 +6066,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:21:46+00:00",
+    "fecha": "2026-10-26T15:01:00+00:00",
     "resultados": 40,
     "error": ""
    },
@@ -6079,7 +6079,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:21:54+00:00",
+    "fecha": "2026-10-26T15:01:09+00:00",
     "resultados": 0,
     "error": "bloqueado (HTTP 403) — www.suruga-ya.jp"
    }
@@ -6088,7 +6088,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:21:57+00:00",
+    "fecha": "2026-10-26T15:01:12+00:00",
     "resultados": 48,
     "error": ""
    },
@@ -6101,7 +6101,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:22:09+00:00",
+    "fecha": "2026-10-26T15:01:24+00:00",
     "resultados": 0,
     "error": ""
    },
@@ -6114,7 +6114,7 @@
    "fallas_seguidas": 4,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:22:18+00:00",
+    "fecha": "2026-10-26T15:01:33+00:00",
     "resultados": 0,
     "error": "HTTP 500 — shopping.yahoo.co.jp"
    },
@@ -6126,7 +6126,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:22:26+00:00",
+    "fecha": "2026-10-26T15:01:42+00:00",
     "resultados": 0,
     "error": "bloqueado (HTTP 403) — netmall.hardoff.co.jp"
    }
@@ -6135,7 +6135,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:22:35+00:00",
+    "fecha": "2026-10-26T15:01:50+00:00",
     "resultados": 0,
     "error": "bloqueado (HTTP 403) — shop.lashinbang.com"
    }
@@ -6144,7 +6144,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:22:39+00:00",
+    "fecha": "2026-10-26T15:01:52+00:00",
     "resultados": 0,
     "error": "HTTP 403 — AmiAmi"
    }
@@ -6153,7 +6153,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:22:42+00:00",
+    "fecha": "2026-10-26T15:01:55+00:00",
     "resultados": 0,
     "error": "Goofish rechazó la búsqueda (RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试!). Probablemente bloquea esta IP; usa el modo notebook."
    }
@@ -6162,9 +6162,9 @@
    "fallas_seguidas": 1,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:22:45+00:00",
-    "resultados": 120,
-    "error": ""
+    "fecha": "2026-10-26T15:02:03+00:00",
+    "resultados": 0,
+    "error": "bloqueado (HTTP 403) — www.ebay.com"
    },
    "ultima": "2026-10-26T12:37:53+00:00",
    "resultados": 0,
@@ -6175,7 +6175,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-10-26T08:22:47+00:00",
+    "fecha": "2026-10-26T15:02:05+00:00",
     "resultados": 0,
     "error": ""
    }
@@ -7147,69 +7147,69 @@
    "minimo": 22660,
    "maximo": 39700,
    "n": 6,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   },
   "nagisa": {
    "mediana": 64400,
    "minimo": 45000,
    "maximo": 70000,
    "n": 3,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   },
   "mami_magica": {
    "mediana": 27600,
    "minimo": 11550,
    "maximo": 55000,
    "n": 45,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   },
   "sayaka_escolar": {
    "mediana": 39800,
    "minimo": 27280,
    "maximo": 77600,
    "n": 7,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   },
   "homura_magica": {
    "mediana": 31480,
    "minimo": 11700,
    "maximo": 49900,
    "n": 21,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   },
   "madoka_escolar": {
    "mediana": 65001,
    "minimo": 35001,
    "maximo": 79200,
    "n": 11,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   },
   "homura_escolar": {
    "mediana": 47746,
    "minimo": 21600,
    "maximo": 62370,
    "n": 6,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   },
   "kyoko_magica": {
    "mediana": 18640,
    "minimo": 9130,
    "maximo": 35000,
    "n": 13,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   },
   "lotes": {
    "mediana": 117500,
    "minimo": 30000,
    "maximo": 191800,
    "n": 4,
-   "fecha": "2026-10-26T08:21:40+00:00"
+   "fecha": "2026-10-26T15:00:54+00:00"
   }
  },
  "ultima_fuente": {
-  "RAH Madoka Magica|mercari|v": "2026-10-26T08:21:11+00:00",
-  "RAH Madoka Magica|yahoo|v": "2026-10-26T08:21:20+00:00",
-  "RAH Madoka Magica|ebay|v": "2026-10-26T08:21:30+00:00",
+  "RAH Madoka Magica|mercari|v": "2026-10-26T15:00:20+00:00",
+  "RAH Madoka Magica|yahoo|v": "2026-10-26T15:00:29+00:00",
+  "RAH Madoka Magica|ebay|v": "2026-10-26T15:00:38+00:00",
   "RAH Madoka Magica|mercari|a": "2026-10-26T12:35:46+00:00",
   "RAH Madoka Magica|yahoo|a": "2026-10-26T12:35:55+00:00",
   "RAH Madoka Magica|rakuma|a": "2026-10-26T12:36:03+00:00",
@@ -7390,7 +7390,7 @@
   },
   "fecha": 1793002871.31664
  },
- "actualizado": "2026-10-26T12:37:53+00:00",
+ "actualizado": "2026-10-26T15:02:07+00:00",
  "articulos": [
   {
    "id": "madoka_escolar",
