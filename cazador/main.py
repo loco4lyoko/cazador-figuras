@@ -8,6 +8,7 @@ Modos:
 from __future__ import annotations
 
 import argparse
+import sys
 import json
 import os
 import statistics
@@ -232,6 +233,8 @@ class Cazador:
         self.d["actualizado"] = ahora()
         self.d["articulos"] = self.resumen_articulos()
         self.d["solo_notebook"] = self.solo_notebook()
+        self.d["fuentes_activas"] = sorted({f for b in self.cfg.get("busquedas", []) for f in b.get("fuentes", [])})
+        self.d["revision_manual"] = links_manuales(self.cfg)
         self.d["ajustes_costos"] = {**COSTO_DEFECTO, **(self.aj.get("costo_hasta_chile_jpy") or {})}
         if primera_vez_global and self.d["listados"] and not self.d.get("bienvenida"):
             self.d["bienvenida"] = ahora()
@@ -465,8 +468,35 @@ def cargar_env():
                 os.environ.setdefault(k.strip(), v.strip().strip('"'))
 
 
+def links_manuales(config: dict) -> list[dict]:
+    """Búsquedas listas para abrir a mano en los sitios que no permiten bots."""
+    from urllib.parse import quote
+    plantillas = {
+        "goofish": "https://www.goofish.com/search?q={q}",
+        "surugaya": "https://www.suruga-ya.jp/search?search_word={q}",
+        "lashinbang": "https://shop.lashinbang.com/products/list?keyword={q}",
+        "offmall": "https://netmall.hardoff.co.jp/search/?q={q}",
+        "amiami": "https://www.amiami.com/eng/search/list/?s_keywords={q}&s_st_condition_flg=1",
+    }
+    out = []
+    for b in config.get("busquedas", []):
+        for f in config.get("ajustes", {}).get("revision_manual", []):
+            if f not in plantillas:
+                continue
+            qs = b.get("consultas", {}).get(IDIOMA_FUENTE.get(f, "jp")) or b.get("consultas", {}).get("jp") or []
+            for q in qs[:2]:
+                out.append({"busqueda": b["nombre"], "fuente": f, "consulta": q,
+                            "url": plantillas[f].format(q=quote(q))})
+    return out
+
+
 def main():
     global DATOS
+    for flujo in (sys.stdout, sys.stderr):
+        try:
+            flujo.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:
+            pass
     ap = argparse.ArgumentParser()
     ap.add_argument("--modo", default="normal", choices=["normal", "historico", "diagnostico", "prueba"])
     ap.add_argument("--sin-enviar", action="store_true", help="no manda mensajes, solo imprime")

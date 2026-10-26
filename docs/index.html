@@ -88,6 +88,9 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .sitios{display:grid;gap:6px;margin-top:10px;font-size:13px}
 .sitio{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px solid var(--line)}
 .ok{color:var(--good)}.mal{color:var(--bad)}.pend{color:var(--muted)}
+.manual{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.manual a{display:inline-flex;gap:6px;align-items:center;text-decoration:none;border:1px solid var(--line);background:var(--surface-2);padding:8px 12px;border-radius:10px;font-size:13px}
+.manual a span{color:var(--muted);font-size:12px}
 .aviso{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:20px;color:var(--text-2)}
 </style>
 </head>
@@ -110,6 +113,9 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
     </div>
   </div>
 
+  <details class="card" id="manual"><summary>🔎 Revisar a mano los sitios que no permiten bots</summary>
+    <p class="sub">Goofish, Suruga-ya, Lashinbang, Off Mall y AmiAmi bloquean cualquier revisión automática. Toca un botón y se abre la búsqueda ya hecha.</p>
+    <div id="manual-c" class="manual"></div></details>
   <div id="grid"></div>
 
   <details class="card" id="estado"><summary>Estado de los sitios que revisa el bot</summary><div id="sitios" class="sitios"></div></details>
@@ -171,6 +177,9 @@ function pintar(){
   const vis=arts.filter(x=>FIL==="todos"||(FIL==="alta"&&x.a.prioridad==="alta")||(FIL==="ofertas"&&x.oferta));
   $("#grid").innerHTML=vis.length?vis.map(tarjeta).join(""):'<div class="aviso">Ninguna figura en oferta ahora. Te aviso por Telegram apenas aparezca una.</div>';
   sitios();
+  const man=D.revision_manual||[];
+  $("#manual").style.display=man.length?"":"none";
+  $("#manual-c").innerHTML=man.map(m=>`<a href="${esc(m.url)}" target="_blank" rel="noopener">${BANDERA[m.fuente]||""} <b>${NOMBRES[m.fuente]||m.fuente}</b> <span>${esc(m.consulta)}</span></a>`).join("");
   const sc=D.sin_clasificar||[];
   $("#sinclas-c").innerHTML=sc.length?`<p class="sub">Listados de RAH Madoka que no calzan con tu lista (por ejemplo Madoka transformada o Ultimate). Si quieres seguir alguna, dile a Claude.</p><table>${sc.slice().reverse().map(s=>`<tr><td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.titulo)}</a></td><td class="n">${s.precio!=null?(s.moneda==="JPY"?"¥":"")+Math.round(s.precio).toLocaleString("es-CL")+(s.moneda!=="JPY"?" "+s.moneda:""):""}</td></tr>`).join("")}</table>`:'<p class="vacio">Nada por ahora.</p>';
 }
@@ -180,7 +189,9 @@ function sitios(){
   const filas=Object.keys(NOMBRES).filter(f=>f!=="mercadolibre_cl").map(f=>{
     const s=(D.salud||{})[f]||{};
     let estado,clase;
-    if(solo.includes(f)){estado="💻 se revisa desde tu notebook (pendiente de activar)";clase="pend"}
+    const activas=D.fuentes_activas||[];
+    if(activas.length&&!activas.includes(f)){estado="revisar a mano (bloquea bots)";clase="pend"}
+    else if(solo.includes(f)){estado="💻 se revisa desde tu notebook";clase="pend"}
     else if((s.fallas_seguidas||0)>=4||(s.diagnostico&&s.diagnostico.resultados===0)){estado="no está funcionando";clase="mal"}
     else if(s.ultima){estado=`funciona · ${s.resultados??0} resultados`;clase="ok"}
     else{estado="esperando primera revisión";clase="pend"}
