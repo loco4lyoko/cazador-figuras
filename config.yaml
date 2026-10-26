@@ -23,8 +23,9 @@ ajustes:
   #   CN: Superbuy + envío a Chile
   #   INT: eBay cuando el listado no dice el envío (si lo dice, se usa ese)
   costo_hasta_chile_jpy: {JP: 9000, CN: 7000, INT: 7000, CL: 0}
-  # Goofish bloquea servidores en la nube. Si lo corres desde tu notebook, pon false.
-  goofish_en_nube: true
+  # Sitios que bloquean a GitHub ("nube"). Estos solo se revisan desde tu notebook
+  # (ver LEEME → "Sitios desde el notebook"). Si un día dejan de bloquear, bórralos de aquí.
+  fuentes_solo_notebook: [goofish, surugaya, offmall, lashinbang, amiami]
 
 # Palabras que descartan un listado en TODAS las búsquedas.
 # Las figuras junk, incompletas o SIN CAJA sí se aceptan, y las cajas vacías /
@@ -42,6 +43,15 @@ excluir_global:
   - アクスタ
   - 缶バッジ
   - 予約
+  - チラシ        # folletos / pósters promocionales
+  - ちらし
+  - フライヤー
+  - 販促
+  - ポスター
+  - flyer
+  - poster
+  - 传单
+  - 海报
 
 busquedas:
   - nombre: RAH Madoka Magica
@@ -92,7 +102,8 @@ busquedas:
       es: ["rah madoka", "medicom madoka magica"]
       zh: ["RAH 小圆", "RAH 魔法少女小圆", "medicom 小圆", "RAH 晓美焰"]
     fuentes: [mercari, yahoo, rakuma, surugaya, mandarake, rakuten, yahoo_shopping, offmall,
-              lashinbang, amiami, goofish, ebay, mercadolibre_cl]
+              lashinbang, amiami, goofish, ebay]
+    # mercadolibre_cl: desactivado, MercadoLibre ahora exige iniciar sesión para ver resultados
 
     articulos:
       # ---------- ESCOLARES (prioridad) ----------

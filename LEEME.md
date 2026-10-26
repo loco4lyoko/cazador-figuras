@@ -14,12 +14,17 @@ Corre gratis en GitHub: tu notebook puede estar apagado.
 | 🇯🇵 | **Mercari** (segunda mano) | 15 min | ZenMarket / Buyee (botón directo) |
 | 🇯🇵 | **Yahoo Auctions + Yahoo Flea** | 15 min | ZenMarket / Buyee (botón directo) |
 | 🇯🇵 | **Rakuma** (segunda mano) | 15 min | ZenMarket (pegar link) |
-| 🇯🇵 | Suruga-ya, Mandarake, Lashinbang (tiendas de usados de anime) | 1 h | ZenMarket (pegar link) |
-| 🇯🇵 | Off Mall (Hard Off / Hobby Off), Rakuten, Yahoo Shopping | 1 h | ZenMarket (pegar link) |
-| 🇯🇵 | AmiAmi (sección usados) | 2 h | ZenMarket (pegar link) |
-| 🇨🇳 | **Goofish 闲鱼** (busca en chino) | 30 min | Superbuy (pegar link) — *ver nota abajo* |
+| 🇯🇵 | Mandarake (tienda de usados de anime) | 1 h | ZenMarket (pegar link) |
+| 🇯🇵 | Suruga-ya, Lashinbang 💻 | 30 min | ZenMarket (pegar link) |
+| 🇯🇵 | Rakuten, Yahoo Shopping | 1 h | ZenMarket (pegar link) |
+| 🇯🇵 | Off Mall (Hard Off / Hobby Off) 💻 | 30 min | ZenMarket (pegar link) |
+| 🇯🇵 | AmiAmi (sección usados) 💻 | 30 min | ZenMarket (pegar link) |
+| 🇨🇳 | **Goofish 闲鱼** (busca en chino) 💻 | 30 min | Superbuy (pegar link) |
 | 🌎 | eBay (suma el envío que cobra el vendedor) | 30 min | directo |
-| 🇨🇱 | MercadoLibre Chile | 30 min | directo |
+
+💻 = estos sitios bloquean a los servidores de GitHub, así que se revisan **desde tu notebook**
+(sección "Sitios desde el notebook"), solo mientras esté encendido.
+MercadoLibre Chile quedó fuera: ahora exige iniciar sesión incluso para ver resultados.
 
 Los mercados de segunda mano se revisan más seguido porque ahí las gangas duran minutos;
 las tiendas cambian lento. ZenMarket compra en *cualquier* tienda japonesa pegando el link.
@@ -158,17 +163,16 @@ El próximo rastreo ya usa lo nuevo.
 - Mercari solo muestra los ~120 listados más nuevos por búsqueda: perfecto para cazar
   lo recién publicado, que es justo lo que importa.
 
-## Goofish desde el notebook
+## Sitios desde el notebook (Goofish, Suruga-ya, Off Mall, Lashinbang, AmiAmi)
 
-Desde tu casa (IP chilena normal) Goofish bloquea mucho menos. Funciona mientras el notebook
+Estos sitios bloquean a los servidores en la nube, pero no a una conexión de casa. Funciona mientras el notebook
 esté encendido:
 
 1. Instala Python desde <https://www.python.org/downloads/> (marca **"Add python.exe to PATH"**).
 2. Descomprime el zip en una carpeta fija, por ejemplo `Documentos\cazador-figuras`.
 3. Copia `.env.ejemplo` como `.env` y pega tu `TELEGRAM_TOKEN` y `TELEGRAM_CHAT_ID`.
 4. Doble clic en `notebook\instalar_tarea.bat` → queda programado cada 30 minutos.
-5. Prueba ya: doble clic en `notebook\goofish_notebook.bat` y revisa `notebook\registro.txt`.
-6. En GitHub, en `config.yaml`, cambia `goofish_en_nube: true` a `false` (para no duplicar).
+5. Prueba ya: doble clic en `notebook\rastrear_notebook.bat` y revisa `notebook\registro.txt`.
 
 Para mejorar aún más el éxito, inicia sesión en goofish.com en Chrome, copia tus cookies
 (F12 → Application → Cookies) en una línea `nombre=valor; nombre=valor` y pégalas en

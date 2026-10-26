@@ -4,7 +4,7 @@ from __future__ import annotations
 import re
 from urllib.parse import quote, quote_plus
 
-from .base import descargar, tarjetas, primer_precio
+from .base import descargar, tarjetas, primer_precio, productos_ldjson
 from ..modelos import Listado, parse_precio
 
 YEN = [r"[¥￥]\s*([\d,]+)", r"([\d,]+)\s*円"]
@@ -119,6 +119,15 @@ def rakuten(consulta: str) -> list[Listado]:
     url = f"https://search.rakuten.co.jp/search/mall/{quote(consulta)}/?s=4"  # s=4: más nuevos
     html = descargar(url)
     out = []
+    for p in productos_ldjson(html):
+        m = re.search(r"item\.rakuten\.co\.jp/([^/?#]+/[^/?#]+)", p["url"])
+        if not m or p["agotado"]:
+            continue
+        out.append(Listado(fuente="rakuten", id=m.group(1).replace("/", "_"), titulo=p["titulo"],
+                           precio=parse_precio(str(p["precio"])), moneda=p["moneda"],
+                           url=p["url"].split("?")[0], foto=p["foto"]))
+    if out:
+        return [l for l in out if l.precio]
     for t in tarjetas(html, "https://search.rakuten.co.jp", r"item\.rakuten\.co\.jp/([^/?#]+/[^/?#]+)"):
         t["id"] = t["id"].replace("/", "_")
         if re.search(r"売り切れ|在庫なし", t["texto"]):

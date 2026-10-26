@@ -55,6 +55,7 @@ CASOS = {
     "RAH まどか ほむら 制服 2体セット": "lotes",
     "RAH 鹿目まどか 暁美ほむら 制服": "lotes",
     "30MP 鹿目まどか(制服Ver.)": None,
+    "非売品 チラシ RAH MGM 暁美ほむら 制服": None,
     "RAH MGM 暁美ほむら 制服Ver. 箱なし 本体のみ": "homura_escolar",
     "ジャンク 欠品あり RAH 美樹さやか 制服 箱無し": "sayaka_escolar",
     "RAH Homura Akemi school uniform loose no box": "homura_escolar",
@@ -208,3 +209,22 @@ def test_ebay_envio(monkeypatch):
     ls = {l.id: l for l in tiendas.ebay("rah madoka")}
     assert ls["123456789012"].precio == 150 and ls["123456789012"].envio == 45.5
     assert ls["223456789012"].envio == 0
+
+
+def test_yahoo_diseno_2026():
+    """Página real de Yahoo (26-10-2026): los productos vienen en __NEXT_DATA__."""
+    html = (Path(__file__).parent / "datos" / "yahoo_2026.html").read_text(encoding="utf-8")
+    ls = {l.id: l for l in yahoo._listados(html, cerrados=False)}
+    assert len(ls) == 12
+    flea = ls["z707344464"]
+    assert flea.url.startswith("https://paypayfleamarket") and not flea.subasta and flea.precio == 50000
+    sub = ls["r1244775112"]
+    assert sub.subasta and sub.compra_inmediata == 60000 and sub.termina.startswith("2026-10-30")
+    clasif = {i: art(l.titulo) for i, l in ls.items()}
+    assert clasif["z707344464"] == "homura_escolar"
+    assert clasif["r1244775112"] == "homura_escolar"
+    assert clasif["z516649870"] == "kyoko_magica"
+    assert clasif["o1246133720"] == "mami_magica"
+    assert clasif["r1248073141"] == "homura_magica"
+    assert clasif["q1195912203"] is None          # folleto, no figura
+    assert clasif["e1246114875"] is None          # Mami escolar: no está en tu lista

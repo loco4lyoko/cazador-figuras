@@ -82,6 +82,13 @@ class Cazador:
             return self.cla.referencia_lote(busqueda, listado)
         return art.get("precio_referencia_jpy") or self.d["ref_aprendida"].get(art["id"], {}).get("mediana")
 
+    def solo_notebook(self) -> list:
+        """Sitios que bloquean a GitHub: se revisan solo desde el notebook (modo --solo)."""
+        lista = list(self.aj.get("fuentes_solo_notebook") or [])
+        if self.aj.get("goofish_en_nube") is False and "goofish" not in lista:
+            lista.append("goofish")
+        return lista
+
     def costo_chile(self, art: dict, l: Listado) -> float:
         """Yenes extra para que el artículo llegue a Chile (envío + intermediario)."""
         pais = PAIS_FUENTE.get(l.fuente, "JP")
@@ -116,7 +123,7 @@ class Cazador:
                 continue
             if self.solo and fuente not in self.solo:
                 continue
-            if fuente == "goofish" and not self.solo and not self.aj.get("goofish_en_nube", True):
+            if not self.solo and fuente in self.solo_notebook():
                 continue
             clave_t = f"{busqueda['nombre']}|{fuente}|{'v' if vendidos else 'a'}"
             if not vendidos and not self.forzar and not self.toca(clave_t, MINUTOS_FUENTE.get(fuente, 0)):
@@ -356,7 +363,7 @@ class Cazador:
         for fuente, (fn, _) in FUENTES.items():
             if self.solo and fuente not in self.solo:
                 continue
-            if fuente == "goofish" and not self.solo and not self.aj.get("goofish_en_nube", True):
+            if not self.solo and fuente in self.solo_notebook():
                 continue
             q = CONSULTA_DIAGNOSTICO.get(IDIOMA_FUENTE.get(fuente, "jp"), "figure")
             s = self.d["salud"].setdefault(fuente, {"fallas_seguidas": 0, "avisado": False})
@@ -368,6 +375,7 @@ class Cazador:
                 s["diagnostico"] = {"fecha": ahora(), "resultados": 0, "error": str(e)[:300]}
             print(f"  {NOMBRE_FUENTE.get(fuente, fuente):28s} {n:4d}")
             if n == 0:
+                self.guardar_debug(fuente)
                 rotos.append(f"• {NOMBRE_FUENTE.get(fuente, fuente)}: {s['diagnostico']['error'] or '0 resultados'}")
             time.sleep(PAUSA)
         if rotos:
@@ -377,6 +385,22 @@ class Cazador:
                          "(LEEME → \"Goofish desde el notebook\").")
             self.texto("🛠 <b>Lectores que no están funcionando</b>\n" + "\n".join(rotos) +
                        "\nMándale este mensaje a Claude para arreglarlos." + extra, silencioso=True)
+
+    def guardar_debug(self, fuente: str):
+        """Guarda en docs/debug/ la página que devolvió el sitio, para poder arreglar su lector."""
+        from .fuentes import base
+        dominio = {"yahoo": "auctions.yahoo.co.jp", "rakuma": "fril.jp", "surugaya": "www.suruga-ya.jp",
+                   "mandarake": "order.mandarake.co.jp", "rakuten": "search.rakuten.co.jp",
+                   "yahoo_shopping": "shopping.yahoo.co.jp", "offmall": "netmall.hardoff.co.jp",
+                   "lashinbang": "shop.lashinbang.com", "ebay": "www.ebay.com",
+                   "mercadolibre_cl": "listado.mercadolibre.cl"}.get(fuente)
+        r = base.ULTIMA.get(dominio or "")
+        if not r:
+            return
+        carpeta = DATOS.parent / "debug"
+        carpeta.mkdir(parents=True, exist_ok=True)
+        (carpeta / f"{fuente}.html").write_text(
+            f"<!-- {r['status']} {r['url']} -->\n" + r["texto"], encoding="utf-8")
 
     def aprender_referencias(self):
         for art_id, lista in self.d["vendidos"].items():

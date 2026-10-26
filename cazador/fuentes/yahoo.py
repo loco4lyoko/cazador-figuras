@@ -4,14 +4,46 @@ from __future__ import annotations
 import re
 from urllib.parse import quote
 
-from .base import descargar, tarjetas, primer_precio
+from .base import descargar, tarjetas, primer_precio, json_embebido, buscar_dicts
 from ..modelos import Listado, parse_precio
 
 BASE = "https://auctions.yahoo.co.jp"
 PATRON = r"(?:auctions\.yahoo\.co\.jp/jp/auction/|page\.auctions\.yahoo\.co\.jp/jp/auction/|paypayfleamarket\.yahoo\.co\.jp/item/)([A-Za-z0-9]+)"
 
 
+def _desde_json(html: str, cerrados: bool) -> list[Listado]:
+    """Diseño actual de Yahoo (2026): los productos vienen en __NEXT_DATA__."""
+    data = json_embebido(html)
+    if not data:
+        return []
+    salida, vistos = [], set()
+    for it in buscar_dicts(data, "auctionId"):
+        iid, titulo = str(it.get("auctionId") or ""), it.get("title")
+        precio = it.get("price") if it.get("price") not in (None, 0) else it.get("buyNowPrice")
+        if not iid or not titulo or not precio or iid in vistos:
+            continue
+        vistos.add(iid)
+        flea = bool(it.get("isFleamarketItem")) or iid.startswith("z")
+        fijo = bool(it.get("isFixedPrice")) or flea
+        inmediata = it.get("buyNowPrice") or None
+        envio = None if it.get("hasShippingFee") and not it.get("isFreeShipping") else 0.0
+        salida.append(Listado(
+            fuente="yahoo", id=iid, titulo=titulo, precio=float(precio), moneda="JPY",
+            url=(f"https://paypayfleamarket.yahoo.co.jp/item/{iid}" if flea
+                 else f"https://auctions.yahoo.co.jp/jp/auction/{iid}"),
+            foto=it.get("imageUrl") or "", vendido=cerrados, subasta=not fijo,
+            compra_inmediata=float(inmediata) if (inmediata and not fijo) else None,
+            termina=(it.get("endTime") or "") if not cerrados else "",
+            pujas=it.get("bidCount"), fecha_venta=(it.get("endTime") or "") if cerrados else "",
+            envio=envio,
+        ))
+    return salida
+
+
 def _listados(html: str, cerrados: bool) -> list[Listado]:
+    desde_json = _desde_json(html, cerrados)
+    if desde_json:
+        return desde_json
     salida = []
     for t in tarjetas(html, BASE, PATRON):
         texto, a, nodo = t["texto"], t["a"], t["nodo"]

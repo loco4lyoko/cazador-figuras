@@ -15,6 +15,8 @@ UA = (
 )
 
 _sesion: Optional[requests.Session] = None
+# Última respuesta de cada sitio (para el modo diagnóstico: guarda lo que realmente se recibió)
+ULTIMA: dict[str, dict] = {}
 
 
 def sesion() -> requests.Session:
@@ -35,6 +37,7 @@ def descargar(url: str, intentos: int = 2, **kw) -> str:
     for i in range(intentos):
         try:
             r = sesion().get(url, timeout=25, **kw)
+            ULTIMA[urlparse(url).netloc] = {"url": r.url, "status": r.status_code, "texto": r.text[:500_000]}
             if r.status_code == 200:
                 r.encoding = r.apparent_encoding if not r.encoding or r.encoding.lower() == "iso-8859-1" else r.encoding
                 return r.text
@@ -131,3 +134,60 @@ def primer_precio(texto: str, patrones: Iterable[str]) -> Optional[str]:
 
 
 Buscador = Callable[[str], list]
+
+
+def json_embebido(html: str, id_script: str = "__NEXT_DATA__"):
+    """Datos JSON que las páginas modernas (Next.js) traen dentro de un <script id=...>."""
+    import json
+    m = re.search(rf'<script[^>]*id="{id_script}"[^>]*>(.*?)</script>', html, re.S)
+    if not m:
+        return None
+    try:
+        return json.loads(m.group(1))
+    except ValueError:
+        return None
+
+
+def buscar_dicts(obj, clave: str):
+    """Recorre un JSON y devuelve todos los diccionarios que tengan `clave`."""
+    out = []
+    pila = [obj]
+    while pila:
+        o = pila.pop()
+        if isinstance(o, dict):
+            if clave in o:
+                out.append(o)
+            pila.extend(o.values())
+        elif isinstance(o, list):
+            pila.extend(o)
+    return out
+
+
+def productos_ldjson(html: str) -> list[dict]:
+    """Productos del bloque estándar schema.org (ld+json) que muchas tiendas incluyen.
+
+    Devuelve dicts con titulo, url, foto, precio, moneda."""
+    import json
+    out = []
+    for bloque in re.findall(r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', html, re.S):
+        try:
+            data = json.loads(bloque.strip())
+        except ValueError:
+            continue
+        for p in buscar_dicts(data, "offers"):
+            if not isinstance(p, dict) or not p.get("name"):
+                continue
+            ofertas = p["offers"]
+            if isinstance(ofertas, list):
+                ofertas = ofertas[0] if ofertas else {}
+            precio = ofertas.get("price") or ofertas.get("lowPrice")
+            img = p.get("image")
+            if isinstance(img, list):
+                img = img[0] if img else ""
+            if isinstance(img, dict):
+                img = img.get("url", "")
+            out.append({"titulo": p["name"], "url": p.get("url") or ofertas.get("url") or "",
+                        "foto": img or "", "precio": precio,
+                        "moneda": ofertas.get("priceCurrency") or "JPY",
+                        "agotado": "OutOfStock" in str(ofertas.get("availability", ""))})
+    return [x for x in out if x["url"] and x["precio"] not in (None, "")]
