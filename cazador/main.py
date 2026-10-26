@@ -231,6 +231,8 @@ class Cazador:
         self.podar()
         self.d["actualizado"] = ahora()
         self.d["articulos"] = self.resumen_articulos()
+        self.d["solo_notebook"] = self.solo_notebook()
+        self.d["ajustes_costos"] = {**COSTO_DEFECTO, **(self.aj.get("costo_hasta_chile_jpy") or {})}
         if primera_vez_global and self.d["listados"] and not self.d.get("bienvenida"):
             self.d["bienvenida"] = ahora()
             self.texto(f"🤖 <b>Cazador de figuras activo</b>\nEncontré {len(self.d['listados'])} listados "
