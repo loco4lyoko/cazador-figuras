@@ -1,0 +1,192 @@
+# ============================================================
+#  CAZADOR DE FIGURAS — configuración
+#  Edita este archivo para agregar/quitar artículos, cambiar
+#  presupuestos o países. Guía completa en LEEME.md
+# ============================================================
+
+ajustes:
+  # % bajo el precio de referencia para considerar "OFERTA" (0.30 = 30% más barato)
+  umbral_oferta: 0.30
+  # % bajo la referencia para "OFERTA BOMBA" (alerta con más énfasis)
+  umbral_bomba: 0.50
+  # Avisar en silencio (sin sonido) cada vez que aparece un listado NUEVO de un
+  # artículo, aunque no esté barato. Se puede cambiar por artículo.
+  avisar_nuevos: true
+  # Moneda en la que quieres ver los precios convertidos en las alertas
+  moneda_local: CLP
+  # Las junk/dañadas/incompletas y las sin caja SÍ se avisan, marcadas con ⚠️ / 📦❌
+  aceptar_junk: true
+  # Costo aproximado (en yenes) para que algo llegue a Chile, además de su precio.
+  # Sirve para comparar justo: una figura en Chile no paga envío internacional,
+  # una de Japón sí. Ajústalo con lo que realmente te cobran.
+  #   JP: comisión ZenMarket + envío dentro de Japón + envío a Chile (figura 1/6 en caja ~1,5 kg)
+  #   CN: Superbuy + envío a Chile
+  #   INT: eBay cuando el listado no dice el envío (si lo dice, se usa ese)
+  costo_hasta_chile_jpy: {JP: 9000, CN: 7000, INT: 7000, CL: 0}
+  # Goofish bloquea servidores en la nube. Si lo corres desde tu notebook, pon false.
+  goofish_en_nube: true
+
+# Palabras que descartan un listado en TODAS las búsquedas.
+# Las figuras junk, incompletas o SIN CAJA sí se aceptan, y las cajas vacías /
+# piezas sueltas van a su propio artículo ("Cajas vacías y piezas sueltas").
+excluir_global:
+  # otras líneas de figuras / productos que no son RAH
+  - ねんどろいど
+  - nendoroid
+  - 粘土人
+  - figma
+  - 30mp
+  - プラモ
+  - 一番くじ
+  - ぬいぐるみ
+  - アクスタ
+  - 缶バッジ
+  - 予約
+
+busquedas:
+  - nombre: RAH Madoka Magica
+    # El listado debe mencionar la línea (al menos una de estas)
+    debe_incluir: [RAH, リアルアクションヒーローズ, real action heroes, real action hero, medicom, メディコム, 美蒂科姆]
+    # Si el título tiene una de estas, es una caja vacía o pieza suelta (va a su propio artículo)
+    palabras_piezas: [本体なし, 箱のみ, 空箱, 外箱のみ, 箱だけ, ヘッドのみ, 頭部のみ, ヘッドパーツ, 衣装のみ, 素体のみ,
+                      付属品のみ, パーツのみ, 小物のみ, 武器のみ, スタンドのみ, 台座のみ, パーツ取り,
+                      empty box, box only, head only, outfit only, accessories only, parts only,
+                      caja vacia, caja vacía, solo caja, solo cabeza, 空盒, 只有盒, 仅盒, 单头, 头雕, 只有配件, 仅配件, 只有衣服]
+    # Otras series con RAH y nombres parecidos (Kaworu "Nagisa" de Evangelion, etc.)
+    excluir: [エヴァ, evangelion, カヲル, kaworu, 福音战士, 渚薰, 碇シンジ, 綾波, 式波, アスカ]
+    # Se borra antes de detectar personajes (si no, "まどか☆マギカ" contaría como Madoka)
+    quitar_antes_de_detectar:
+      - 魔法少女まどか☆マギカ
+      - 魔法少女まどかマギカ
+      - 魔法少女まどか マギカ
+      - まどか☆マギカ
+      - まどかマギカ
+      - まどか マギカ
+      - まどか★マギカ
+      - まどマギ
+      - madoka magica
+      - madoka☆magica
+      - madoka★magica
+      - puella magi madoka
+      - 魔法少女小圆
+      - 魔法少女小圓
+      - 魔法少女まどか
+      - 魔圆
+      - 魔圓
+      - 小圆魔法少女
+    personajes:
+      madoka: [鹿目, まどか, madoka, kaname, 小圆, 小圓, 鹿目圆]
+      homura: [暁美, ほむら, homura, akemi, 晓美, 曉美, 小焰, 焰]
+      sayaka: [美樹, さやか, sayaka, miki, 美树, 沙耶香]
+      kyoko: [佐倉, 杏子, kyoko, kyouko, sakura kyo, 佐仓]
+      mami: [巴, マミ, mami, tomoe, 麻美]
+      nagisa: [百江, なぎさ, nagisa, momoe]
+    # Nombres que a veces son el personaje y a veces la serie ("Madoka Homura RAH" = Homura).
+    # Solo cuentan como personaje si no aparece otro, o si el título dice que es un lote.
+    alias_ambiguos:
+      madoka: [madoka, まどか, 小圆, 小圓]
+    palabras_lote: [セット, まとめ, 2体, 3体, 4体, 5体, set, lot, bundle, 套装, 一套, 合售, 打包]
+    consultas:
+      jp: ["RAH MGM", "リアルアクションヒーローズ まどか", "RAH まどかマギカ", "メディコム まどか 制服"]
+      en: ["RAH madoka medicom", "real action heroes madoka"]
+      es: ["rah madoka", "medicom madoka magica"]
+      zh: ["RAH 小圆", "RAH 魔法少女小圆", "medicom 小圆", "RAH 晓美焰"]
+    fuentes: [mercari, yahoo, rakuma, surugaya, mandarake, rakuten, yahoo_shopping, offmall,
+              lashinbang, amiami, goofish, ebay, mercadolibre_cl]
+
+    articulos:
+      # ---------- ESCOLARES (prioridad) ----------
+      - id: madoka_escolar
+        nombre: "Madoka escolar (No.654 / No.721 Ver.1.5)"
+        personaje: madoka
+        incluir: [[制服, uniform, school, escolar, 校服]]
+        excluir: [アルティメット, ultimate, 圆神]
+        precio_referencia_jpy: 45000   # vendidas 35.000–65.000 ¥ (Yahoo, jul–oct 2026)
+        # presupuesto: {monto: 300000, moneda: CLP}   # <- descomenta para fijar tu tope
+        prioridad: alta
+
+      - id: homura_escolar
+        nombre: "Homura escolar (No.695)"
+        personaje: homura
+        incluir: [[制服, uniform, school, escolar, 校服]]
+        precio_referencia_jpy: 45000   # 45.501 ¥ nueva; una junk se fue en 13.166 ¥
+        prioridad: alta
+
+      - id: sayaka_escolar
+        nombre: "Sayaka escolar (No.718)"
+        personaje: sayaka
+        incluir: [[制服, uniform, school, escolar, 校服]]
+        precio_referencia_jpy: 50000   # 39.800–60.500 ¥
+        prioridad: alta
+
+      - id: kyoko_civil
+        nombre: "Kyoko ropa de calle 私服 (la del set escolar)"
+        personaje: kyoko
+        incluir: [[私服, 制服, civilian, casual, uniform, school, 便服, 便装, 校服]]
+        precio_referencia_jpy: 40000   # estimado: casi no hay ventas recientes
+        prioridad: alta
+
+      - id: nagisa
+        nombre: "Nagisa transformada (No.741)"
+        personaje: nagisa
+        precio_referencia_jpy: 30000   # estimado
+        prioridad: alta
+
+      # ---------- TRANSFORMADAS (solo si están baratas) ----------
+      - id: kyoko_magica
+        nombre: "Kyoko transformada (No.624)"
+        personaje: kyoko
+        excluir: [私服, 制服, civilian, casual, uniform, school, 便服, 便装, 校服]
+        precio_referencia_jpy: 17000   # 15.980–19.000 ¥
+        avisar_nuevos: false           # solo avisar si es oferta
+        prioridad: media
+
+      - id: mami_magica
+        nombre: "Mami transformada (No.610)"
+        personaje: mami
+        excluir: [制服, uniform, school, 校服]
+        precio_referencia_jpy: 22000   # 11.550–29.150 ¥
+        avisar_nuevos: false
+        prioridad: media
+
+      - id: homura_magica
+        nombre: "Homura transformada"
+        personaje: homura
+        excluir: [制服, uniform, school, 校服, 悪魔, devil, 恶魔]
+        precio_referencia_jpy: 33000   # 32.780–35.000 ¥
+        avisar_nuevos: false
+        prioridad: media
+
+      # ---------- CAJAS VACÍAS Y PIEZAS SUELTAS ----------
+      # Cabezas, ropa, accesorios, bases o cajas solas de cualquier RAH de Madoka.
+      # Te avisa de todas las nuevas (con sonido) y marca OFERTA si cuestan menos que tu tope.
+      - id: piezas
+        nombre: "Cajas vacías y piezas sueltas"
+        tipo: piezas
+        presupuesto: {monto: 60000, moneda: CLP}
+        costo_hasta_chile_jpy: {JP: 4500, CN: 4000, INT: 4000}   # pesan menos que una figura
+        sonido_nuevos: true
+        prioridad: alta
+
+      # ---------- LOTES (varias figuras en un solo listado) ----------
+      # Su precio de referencia se calcula sumando las figuras que trae.
+      - id: lotes
+        nombre: "Lotes / sets de varias figuras"
+        tipo: lote
+        prioridad: alta
+
+# ------------------------------------------------------------
+# EJEMPLO para agregar otra cosa (quita los # para activarlo):
+#
+#  - nombre: Consola PS Vita celeste
+#    debe_incluir: [vita, ヴィータ]
+#    consultas:
+#      jp: ["PS Vita アイスシルバー"]
+#      es: ["ps vita"]
+#    fuentes: [mercadolibre_cl]        # solo Chile
+#    articulos:
+#      - id: vita_chile
+#        nombre: "PS Vita en Chile"
+#        presupuesto: {monto: 120000, moneda: CLP}
+#        avisar_nuevos: false
+# ------------------------------------------------------------

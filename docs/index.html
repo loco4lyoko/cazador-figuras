@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cazador de figuras</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f6f4f1; --surface:#fcfcfb; --surface-2:#efece7; --line:#e2ded7;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#85837d;
+  --accent:#b8325f; --accent-soft:#f7e3ea;
+  --series-activo:#2a78d6; --series-vendido:#eb6834;
+  --good:#1a7f45; --good-soft:#e2f3e8; --warn:#9a6400; --warn-soft:#fbf0d9; --bad:#b42323;
+  --radius:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root:where(:not([data-theme="light"])){
+    color-scheme: dark;
+    --bg:#121211; --surface:#1a1a19; --surface-2:#232321; --line:#2f2e2b;
+    --text:#f0efec; --text-2:#c3c2b7; --muted:#8d8b84;
+    --accent:#ec7aa2; --accent-soft:#3a1f2a;
+    --series-activo:#3987e5; --series-vendido:#d95926;
+    --good:#5ccf8a; --good-soft:#16301f; --warn:#e9b44c; --warn-soft:#33280f; --bad:#ef7070;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121211; --surface:#1a1a19; --surface-2:#232321; --line:#2f2e2b;
+  --text:#f0efec; --text-2:#c3c2b7; --muted:#8d8b84;
+  --accent:#ec7aa2; --accent-soft:#3a1f2a;
+  --series-activo:#3987e5; --series-vendido:#d95926;
+  --good:#5ccf8a; --good-soft:#16301f; --warn:#e9b44c; --warn-soft:#33280f; --bad:#ef7070;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 Inter,"Zen Kaku Gothic New",system-ui,sans-serif}
+a{color:inherit}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between;margin-bottom:18px}
+h1{font-size:26px;margin:0;letter-spacing:-.01em}
+h1 span{color:var(--accent)}
+.sub{color:var(--text-2);font-size:13px}
+.controles{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 18px}
+.chip{border:1px solid var(--line);background:var(--surface);color:var(--text-2);padding:7px 12px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--text);color:var(--surface);border-color:var(--text)}
+.salud{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.fuente{font-size:12px;padding:4px 9px;border-radius:999px;background:var(--surface);border:1px solid var(--line);color:var(--text-2)}
+.fuente b{font-weight:600}
+.fuente.ok::before{content:"● ";color:var(--good)}
+.fuente.mal::before{content:"▲ ";color:var(--bad)}
+.grid{display:grid;gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;min-width:0}
+.card-top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.card h2{font-size:17px;margin:0 0 2px}
+.badge{font-size:11px;font-weight:600;padding:3px 8px;border-radius:999px;white-space:nowrap}
+.badge.alta{background:var(--accent-soft);color:var(--accent)}
+.badge.oferta{background:var(--good-soft);color:var(--good)}
+.stats{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0 6px}
+.stat .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.stat .v{font-size:17px;font-weight:600;font-variant-numeric:tabular-nums}
+.chart{position:relative;margin:8px 0 4px}
+.chart svg{display:block;width:100%;height:200px;overflow:visible}
+.leyenda{display:flex;gap:14px;font-size:12px;color:var(--text-2);margin:2px 0 8px}
+.leyenda i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;vertical-align:0}
+.tip{position:absolute;pointer-events:none;background:var(--text);color:var(--surface);font-size:12px;padding:7px 9px;border-radius:8px;max-width:240px;opacity:0;transition:opacity .12s;z-index:5}
+.lista{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:10px}
+.item{display:block;text-decoration:none;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface-2)}
+.item img{width:100%;aspect-ratio:1;object-fit:cover;display:block;background:var(--line)}
+.item .t{padding:7px 8px 8px;font-size:12px}
+.item .p{font-weight:700;font-size:14px;font-variant-numeric:tabular-nums}
+.item .meta{color:var(--muted);font-size:11px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.item .tag{display:inline-block;font-size:10px;font-weight:700;padding:1px 6px;border-radius:5px;margin-right:4px}
+.tag.bomba{background:var(--bad);color:#fff}.tag.oferta{background:var(--good);color:#fff}
+.tag.junk{background:var(--warn-soft);color:var(--warn)}.tag.sub{background:var(--surface);color:var(--text-2);border:1px solid var(--line)}
+details{margin-top:10px}
+summary{cursor:pointer;color:var(--text-2);font-size:13px}
+.vacio{color:var(--muted);font-size:13px;padding:8px 0}
+table{width:100%;border-collapse:collapse;font-size:12px;margin-top:6px}
+td,th{text-align:left;padding:5px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.aviso{background:var(--surface);border:1px dashed var(--line);border-radius:var(--radius);padding:20px;color:var(--text-2)}
+@media (min-width:860px){.grid{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Cazador de <span>figuras</span></h1>
+      <div class="sub" id="actualizado">Cargando…</div>
+    </div>
+    <div class="controles" id="moneda" role="group" aria-label="Moneda">
+      <button class="chip" data-m="JPY" aria-pressed="true">¥ Yen</button>
+      <button class="chip" data-m="CLP" aria-pressed="false">$ CLP</button>
+      <button class="chip" data-m="USD" aria-pressed="false">US$</button>
+    </div>
+  </header>
+  <div class="salud" id="salud"></div>
+  <div class="controles" id="filtro" role="group" aria-label="Filtro">
+    <button class="chip" data-f="todos" aria-pressed="true">Todos</button>
+    <button class="chip" data-f="alta" aria-pressed="false">Prioridad alta</button>
+    <button class="chip" data-f="ofertas" aria-pressed="false">Con ofertas ahora</button>
+  </div>
+  <div class="grid" id="grid"></div>
+  <details id="sinclas" style="margin-top:28px"><summary>Listados que no calzaron con ningún artículo (para afinar)</summary><div id="sinclas-c"></div></details>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+const NOMBRES={mercari:"Mercari",yahoo:"Yahoo",rakuma:"Rakuma",surugaya:"Suruga-ya",mandarake:"Mandarake",rakuten:"Rakuten",yahoo_shopping:"Yahoo Shopping",offmall:"Off Mall",lashinbang:"Lashinbang",amiami:"AmiAmi",goofish:"Goofish",ebay:"eBay",mercadolibre_cl:"MercadoLibre CL"};
+const BANDERA={mercari:"🇯🇵",yahoo:"🇯🇵",rakuma:"🇯🇵",surugaya:"🇯🇵",mandarake:"🇯🇵",rakuten:"🇯🇵",yahoo_shopping:"🇯🇵",offmall:"🇯🇵",lashinbang:"🇯🇵",amiami:"🇯🇵",goofish:"🇨🇳",ebay:"🌎",mercadolibre_cl:"🇨🇱"};
+const NOMBRE_PJ={madoka:"Madoka",homura:"Homura",sayaka:"Sayaka",kyoko:"Kyoko",mami:"Mami",nagisa:"Nagisa"};
+let D=null, MON="JPY", FIL="todos";
+try{MON=localStorage.getItem("moneda")||"JPY"}catch(e){}
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function conv(jpy){if(jpy==null)return null;const t=D.tasas.tasas;return jpy*(t[MON]||1)}
+function fmt(jpy){const v=conv(jpy);if(v==null)return"–";
+  if(MON==="JPY")return"¥"+Math.round(v).toLocaleString("ja-JP");
+  if(MON==="CLP")return"$"+Math.round(v).toLocaleString("es-CL");
+  return"US$"+v.toLocaleString("en-US",{maximumFractionDigits:0})}
+function hace(iso){if(!iso)return"";const m=(Date.now()-new Date(iso))/6e4;
+  if(m<60)return`hace ${Math.max(1,Math.round(m))} min`;if(m<1440)return`hace ${Math.round(m/60)} h`;return`hace ${Math.round(m/1440)} d`}
+function reciente(r){return r.ultima_vez&&(Date.now()-new Date(r.ultima_vez))<864e5}
+
+async function cargar(){
+  try{const r=await fetch("data.json?t="+Date.now());D=await r.json()}catch(e){
+    $("#grid").innerHTML='<div class="aviso">Todavía no hay datos. Aparecerán después de la primera ejecución del bot (máx. 15 min).</div>';$("#actualizado").textContent="";return}
+  pintar()}
+
+function pintar(){
+  document.querySelectorAll("#moneda .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===MON));
+  document.querySelectorAll("#filtro .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.f===FIL));
+  $("#actualizado").textContent="Última revisión "+hace(D.actualizado)+(D.actualizado?" · "+new Date(D.actualizado).toLocaleString("es-CL"):"");
+  $("#salud").innerHTML=Object.entries(D.salud||{}).map(([f,s])=>{
+    const diag=s.diagnostico, roto=diag&&diag.resultados===0, ok=(s.fallas_seguidas||0)<4&&!roto;
+    const msg=ok?(s.resultados??0)+" res.":(roto?"lector roto":"sin respuesta");
+    return`<span class="fuente ${ok?"ok":"mal"}" title="${esc(s.error||diag?.error||"")}">${BANDERA[f]||""} <b>${NOMBRES[f]||f}</b> ${msg}</span>`}).join("");
+  const L=Object.values(D.listados||{});
+  const arts=(D.articulos||[]).map(a=>{
+    const ls=L.filter(l=>l.articulo===a.id);
+    const act=ls.filter(reciente).sort((x,y)=>(x.total_chile_jpy??x.precio_jpy??1e12)-(y.total_chile_jpy??y.precio_jpy??1e12));
+    const vend=(D.vendidos||{})[a.id]||[];
+    return{a,ls,act,vend,ofertas:act.filter(l=>l.nivel==="oferta"||l.nivel==="bomba")}});
+  const vis=arts.filter(x=>FIL==="todos"||(FIL==="alta"&&x.a.prioridad==="alta")||(FIL==="ofertas"&&x.ofertas.length));
+  $("#grid").innerHTML=vis.length?vis.map(tarjeta).join(""):'<div class="aviso">Nada que mostrar con este filtro.</div>';
+  vis.forEach(x=>grafico(x));
+  const sc=D.sin_clasificar||[];
+  $("#sinclas-c").innerHTML=sc.length?`<table><tr><th>Título</th><th>Sitio</th><th class="n">Precio</th></tr>${sc.slice().reverse().map(s=>`<tr><td><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.titulo)}</a></td><td>${NOMBRES[s.fuente]||s.fuente}</td><td class="n">${s.precio??""} ${s.moneda}</td></tr>`).join("")}</table>`:'<div class="vacio">Nada por ahora.</div>';
+}
+
+function tarjeta({a,act,vend,ofertas}){
+  const ref=a.referencia_jpy||(D.ref_aprendida?.[a.id]?.mediana);
+  const apr=D.ref_aprendida?.[a.id];
+  const min=act.length?Math.min(...act.map(l=>l.precio_jpy??1e12)):null;
+  return`<section class="card" id="c-${a.id}">
+  <div class="card-top"><div><h2>${esc(a.nombre)}</h2><div class="sub">${esc(a.busqueda)}${a.paises?" · solo "+a.paises.join(", "):""}</div></div>
+  <div>${ofertas.length?`<span class="badge oferta">${ofertas.length} oferta${ofertas.length>1?"s":""}</span> `:""}${a.prioridad==="alta"?'<span class="badge alta">Prioridad</span>':""}</div></div>
+  <div class="stats">
+    <div class="stat"><div class="k">Precio normal</div><div class="v">${fmt(ref)}</div></div>
+    <div class="stat"><div class="k">Más barata ahora</div><div class="v">${fmt(min)}</div></div>
+    <div class="stat"><div class="k">Puesta en Chile</div><div class="v">${fmt(act.length?act[0].total_chile_jpy:null)}</div></div>
+    <div class="stat"><div class="k">Ventas reales</div><div class="v">${apr?fmt(apr.minimo)+"–"+fmt(apr.maximo):"–"}</div></div>
+    ${a.presupuesto?`<div class="stat"><div class="k">Tu tope</div><div class="v">${Number(a.presupuesto.monto).toLocaleString("es-CL")} ${a.presupuesto.moneda}</div></div>`:""}
+  </div>
+  <div class="leyenda"><span><i style="background:var(--series-activo)"></i>En venta</span><span><i style="background:var(--series-vendido)"></i>Vendida</span><span>– – precio normal</span></div>
+  <div class="chart" data-art="${a.id}"></div>
+  ${act.length?`<div class="lista">${act.slice(0,8).map(item).join("")}</div>`:'<div class="vacio">Ningún listado activo en las últimas 24 h.</div>'}
+  ${act.length>8?`<details><summary>Ver las ${act.length} en venta</summary><div class="lista">${act.slice(8).map(item).join("")}</div></details>`:""}
+  ${vend.length?`<details><summary>${vend.length} ventas registradas</summary><table><tr><th>Fecha</th><th>Título</th><th class="n">Precio</th></tr>${vend.slice().reverse().map(v=>`<tr><td>${esc(v.fecha_venta||v.registrado?.slice(0,10))}</td><td><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.titulo)}</a>${v.junk?" ⚠️ junk":""}${v.sin_caja?" 📦❌":""}</td><td class="n">${fmt(v.precio_jpy)}</td></tr>`).join("")}</table></details>`:""}
+  </section>`}
+
+function item(l){
+  const tags=(l.nivel==="bomba"?'<span class="tag bomba">BOMBA</span>':l.nivel==="oferta"?'<span class="tag oferta">OFERTA</span>':"")+(l.junk?'<span class="tag junk">junk</span>':"")+(l.sin_caja?'<span class="tag junk">sin caja</span>':"")+(l.subasta?'<span class="tag sub">subasta</span>':"");
+  const d=l.descuento!=null?` · ${l.descuento>0?"−":"+"}${Math.abs(Math.round(l.descuento*100))}%`:"";
+  const pj=(l.personajes||[]).map(p=>NOMBRE_PJ[p]||p).join(", ");
+  const tot=l.total_chile_jpy&&l.fuente!=="mercadolibre_cl"?`<div class="meta">≈ ${fmt(l.total_chile_jpy)} puesto en Chile</div>`:"";
+  return`<a class="item" href="${esc(l.url)}" target="_blank" rel="noopener">
+  <img loading="lazy" src="${esc(l.foto||"")}" alt="" referrerpolicy="no-referrer" onerror="this.style.visibility='hidden'">
+  <div class="t">${tags}<div class="p">${fmt(l.precio_jpy)}<span class="sub">${d}</span></div>${tot}<div class="meta">${BANDERA[l.fuente]||""} ${NOMBRES[l.fuente]||l.fuente} · ${hace(l.primera_vez)}${pj?" · "+esc(pj):""} · ${esc(l.titulo)}</div></div></a>`}
+
+function grafico({a,ls,vend}){
+  const box=document.querySelector(`.chart[data-art="${a.id}"]`);if(!box)return;
+  const pts=[];
+  ls.forEach(l=>(l.historial||[]).forEach(([t,p])=>pts.push({t:+new Date(t),p,tipo:"activo",l})));
+  vend.forEach(v=>{const t=+new Date(v.registrado);if(v.precio_jpy)pts.push({t,p:v.precio_jpy,tipo:"vendido",l:v})});
+  if(!pts.length){box.innerHTML='<div class="vacio">Aún sin datos de precio.</div>';return}
+  const ref=a.referencia_jpy||(D.ref_aprendida?.[a.id]?.mediana);
+  const W=box.clientWidth||500,H=200,m={l:58,r:10,t:10,b:24};
+  let t0=Math.min(...pts.map(p=>p.t)),t1=Math.max(...pts.map(p=>p.t));if(t1-t0<864e5){t0-=432e5;t1+=432e5}
+  // escala "redonda" en la moneda que se está mostrando
+  const k=conv(1),ys=pts.map(p=>p.p).concat(ref?[ref]:[]);const top=Math.max(...ys)*1.05*k,y0=0;
+  const raw=top/4,mag=10**Math.floor(Math.log10(raw)),pasoM=[1,2,2.5,5,10].map(f=>f*mag).find(v=>v>=raw);
+  const paso=pasoM/k,y1=Math.ceil(top/pasoM)*paso;
+  const X=t=>m.l+(t-t0)/(t1-t0)*(W-m.l-m.r),Y=p=>H-m.b-(p-y0)/(y1-y0)*(H-m.t-m.b);
+  const ticks=[];for(let v=0;v<=y1+1;v+=paso)ticks.push(v);
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Precios de ${esc(a.nombre)} en el tiempo">`;
+  ticks.forEach(v=>{s+=`<line x1="${m.l}" x2="${W-m.r}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)" stroke-width="1"/><text x="${m.l-6}" y="${Y(v)+4}" text-anchor="end" font-size="11" fill="var(--muted)">${fmt(v)}</text>`});
+  [t0,(t0+t1)/2,t1].forEach((t,i)=>{s+=`<text x="${X(t)}" y="${H-6}" text-anchor="${["start","middle","end"][i]}" font-size="11" fill="var(--muted)">${new Date(t).toLocaleDateString("es-CL",{day:"numeric",month:"short"})}</text>`});
+  if(ref)s+=`<line x1="${m.l}" x2="${W-m.r}" y1="${Y(ref)}" y2="${Y(ref)}" stroke="var(--text-2)" stroke-width="1.5" stroke-dasharray="5 4"/>`;
+  pts.forEach((p,i)=>{s+=`<circle cx="${X(p.t)}" cy="${Y(p.p)}" r="4.5" fill="var(--series-${p.tipo})" stroke="var(--surface)" stroke-width="2"/><circle data-i="${i}" cx="${X(p.t)}" cy="${Y(p.p)}" r="12" fill="transparent" style="cursor:pointer"/>`});
+  s+="</svg>";box.innerHTML=s;
+  const tip=$("#tip");
+  box.querySelectorAll("circle[data-i]").forEach(c=>{
+    const p=pts[c.dataset.i];
+    const show=e=>{tip.innerHTML=`<b>${fmt(p.p)}</b> · ${p.tipo==="vendido"?"vendida":"en venta"}<br>${esc((p.l.titulo||"").slice(0,90))}<br>${new Date(p.t).toLocaleString("es-CL")}`;
+      const r=c.getBoundingClientRect();tip.style.left=Math.min(innerWidth-250,r.left+scrollX+10)+"px";tip.style.top=(r.top+scrollY-10-tip.offsetHeight)+"px";tip.style.opacity=1};
+    c.addEventListener("mouseenter",show);c.addEventListener("touchstart",show,{passive:true});
+    c.addEventListener("mouseleave",()=>tip.style.opacity=0);
+    c.addEventListener("click",()=>p.l.url&&window.open(p.l.url,"_blank"));
+  });
+}
+document.querySelector("#moneda").addEventListener("click",e=>{const m=e.target.dataset.m;if(!m)return;MON=m;try{localStorage.setItem("moneda",m)}catch(_){}pintar()});
+document.querySelector("#filtro").addEventListener("click",e=>{const f=e.target.dataset.f;if(!f)return;FIL=f;pintar()});
+addEventListener("resize",()=>D&&pintar());
+cargar();setInterval(cargar,5*60*1000);
+</script>
+</body>
+</html>
