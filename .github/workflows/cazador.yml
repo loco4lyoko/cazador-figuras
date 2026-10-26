@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "cazador-bot"
           git config user.email "cazador-bot@users.noreply.github.com"
-          git add docs/data.json || true
+          git add docs/data.json docs/debug 2>/dev/null || git add docs/data.json || true
           if ! git diff --staged --quiet; then
             git commit -m "Actualizar datos $(date -u +%Y-%m-%dT%H:%MZ)"
             git pull --rebase --autostash || true
