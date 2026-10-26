@@ -1,5 +1,3714 @@
 {
- "listados": {},
+ "listados": {
+  "mercari:m82106987713": {
+   "fuente": "mercari",
+   "id": "m82106987713",
+   "titulo": "未開封　RAH まどか☆マギカ 暁美ほむら　まどマギ　フィギュア　MGM",
+   "precio": 48980.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m82106987713",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m82106987713_1.jpg?1791741990",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     48980
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 48980.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.38,
+   "nivel": "normal",
+   "total_chile_jpy": 57980,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:2JYQqWA9HffW3DYaExCvBw": {
+   "fuente": "mercari",
+   "id": "2JYQqWA9HffW3DYaExCvBw",
+   "titulo": "【中古】フィギュア RAH MGM 佐倉杏子 「魔法少女まどか☆マギカ」 リアルアクションヒーローズ No.624",
+   "precio": 35066.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JYQqWA9HffW3DYaExCvBw",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JYQqW96Vi8mj9RCQuKMaP.webp@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     35066
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 35066.0,
+   "referencia_jpy": 17000,
+   "descuento": -0.695,
+   "nivel": "normal",
+   "total_chile_jpy": 44066,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:m93503248888": {
+   "fuente": "mercari",
+   "id": "m93503248888",
+   "titulo": "RAH MGM 魔法少女まどかマギカ　暁美ほむら",
+   "precio": 55000.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m93503248888",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m93503248888_1.jpg?1791007766",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     55000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 55000.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.524,
+   "nivel": "normal",
+   "total_chile_jpy": 64000,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:2JYN5KAzeqaCnNUfLJMynb": {
+   "fuente": "mercari",
+   "id": "2JYN5KAzeqaCnNUfLJMynb",
+   "titulo": "【中古】フィギュア RAH MGM 鹿目まどか 制服Ver. 「劇場版 魔法少女まどか☆マギカ [前編]始まりの物語/[後編]永遠の物語」 リアルアクションヒーローズ No.654 ワンダ-フェスティバル2014冬開催記念商品",
+   "precio": 95653.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JYN5KAzeqaCnNUfLJMynb",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JYN5K9qE66k2FS5RR3j3v.webp@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "madoka_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     95653
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 95653.0,
+   "referencia_jpy": 45000,
+   "descuento": -0.938,
+   "nivel": "normal",
+   "total_chile_jpy": 104653,
+   "personajes": [
+    "madoka"
+   ]
+  },
+  "mercari:m41379711640": {
+   "fuente": "mercari",
+   "id": "m41379711640",
+   "titulo": "RAH MGM 百江なぎさ",
+   "precio": 87590.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m41379711640",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m41379711640_1.jpg?1791015907",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "nagisa",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     87590
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 87590.0,
+   "referencia_jpy": 30000,
+   "descuento": -1.477,
+   "nivel": "normal",
+   "total_chile_jpy": 96590,
+   "personajes": [
+    "nagisa"
+   ]
+  },
+  "mercari:2JY4KNLmNBmqbAWXLnhk4v": {
+   "fuente": "mercari",
+   "id": "2JY4KNLmNBmqbAWXLnhk4v",
+   "titulo": "【中古】現状渡 リアルアクションヒーローズ RAH MGM No.615 暁美ほむら メディコム･トイ 魔法少女まどか☆マギカ まどマギ[17]",
+   "precio": 40600.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JY4KNLmNBmqbAWXLnhk4v",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JY4KNKRCTFvnme3Z3KCQD.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     40600
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 40600.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.181,
+   "nivel": "normal",
+   "total_chile_jpy": 49600,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:m30614859557": {
+   "fuente": "mercari",
+   "id": "m30614859557",
+   "titulo": "RAH MGM リアルアクションヒーローズ 魔法少女まどか☆マギカ 巴マミ",
+   "precio": 32800.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m30614859557",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m30614859557_1.jpg?1791138852",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     32800
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 32800.0,
+   "referencia_jpy": 22000,
+   "descuento": -0.348,
+   "nivel": "normal",
+   "total_chile_jpy": 41800,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "mercari:m75348934003": {
+   "fuente": "mercari",
+   "id": "m75348934003",
+   "titulo": "RAH MGM 魔法少女まどかマギカ　佐倉杏子",
+   "precio": 49000.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m75348934003",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m75348934003_1.jpg?1791007825",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     49000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 49000.0,
+   "referencia_jpy": 17000,
+   "descuento": -1.231,
+   "nivel": "normal",
+   "total_chile_jpy": 58000,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:m87387242421": {
+   "fuente": "mercari",
+   "id": "m87387242421",
+   "titulo": "RAH MGM 魔法少女まどかマギカ　巴マミ",
+   "precio": 53000.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m87387242421",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m87387242421_1.jpg?1791007808",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     53000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 53000.0,
+   "referencia_jpy": 22000,
+   "descuento": -1.0,
+   "nivel": "normal",
+   "total_chile_jpy": 62000,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "mercari:2JX9KVYbSFpZ7EcA6NGKHS": {
+   "fuente": "mercari",
+   "id": "2JX9KVYbSFpZ7EcA6NGKHS",
+   "titulo": "【中古】フィギュア RAH MGM 暁美ほむら 「魔法少女まどか☆マギカ」 リアルアクションヒーローズ No.615",
+   "precio": 48479.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JX9KVYbSFpZ7EcA6NGKHS",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JX9KVWs4Yjfx55Q5wnpmB.webp@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     48479
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 48479.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.369,
+   "nivel": "normal",
+   "total_chile_jpy": 57479,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:2JX9KVjN9FtNRMPBnKAH9i": {
+   "fuente": "mercari",
+   "id": "2JX9KVjN9FtNRMPBnKAH9i",
+   "titulo": "【中古】フィギュア RAH MGM 佐倉杏子 「魔法少女まどか☆マギカ」 リアルアクションヒーローズ No.624",
+   "precio": 35424.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JX9KVjN9FtNRMPBnKAH9i",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JX9KVghHZPE8VdKWXruB4.webp@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     35424
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 35424.0,
+   "referencia_jpy": 17000,
+   "descuento": -0.709,
+   "nivel": "normal",
+   "total_chile_jpy": 44424,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:2JX9KQ245D2n6bThCeaBRo": {
+   "fuente": "mercari",
+   "id": "2JX9KQ245D2n6bThCeaBRo",
+   "titulo": "【中古】フィギュア RAH MGM 巴マミ 「魔法少女まどか☆マギカ」 リアルアクションヒーローズ No.610",
+   "precio": 41305.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JX9KQ245D2n6bThCeaBRo",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JX9KPybWk6PwB8PVJFchY.webp@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     41305
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 41305.0,
+   "referencia_jpy": 22000,
+   "descuento": -0.623,
+   "nivel": "normal",
+   "total_chile_jpy": 50305,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "mercari:m55021145365": {
+   "fuente": "mercari",
+   "id": "m55021145365",
+   "titulo": "RAH 魔法少女まどか☆マギカ 暁美ほむら 制服Ver. フィギュア 限定",
+   "precio": 60000.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m55021145365",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m55021145365_1.jpg?1788087133",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     60000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 60000.0,
+   "referencia_jpy": 45000,
+   "descuento": -0.278,
+   "nivel": "normal",
+   "total_chile_jpy": 69000,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:pmWeGvwKx3NScrzCaNKxBW": {
+   "fuente": "mercari",
+   "id": "pmWeGvwKx3NScrzCaNKxBW",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 佐倉杏子(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 125330.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/pmWeGvwKx3NScrzCaNKxBW",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JWXKnDY6xsURdB7gzWoT2.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     125330
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 125330.0,
+   "referencia_jpy": 17000,
+   "descuento": -4.167,
+   "nivel": "normal",
+   "total_chile_jpy": 134330,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:3NY45Zr2yUKFFnJAoKYqD": {
+   "fuente": "mercari",
+   "id": "3NY45Zr2yUKFFnJAoKYqD",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) MGM 佐倉杏子 (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 57156.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/3NY45Zr2yUKFFnJAoKYqD",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JQoKJwbVpDY9QmdrqPU3v.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     57156
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 57156.0,
+   "referencia_jpy": 17000,
+   "descuento": -1.544,
+   "nivel": "normal",
+   "total_chile_jpy": 66156,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:HgRchP6BmKtKuD5PhW34Kf": {
+   "fuente": "mercari",
+   "id": "HgRchP6BmKtKuD5PhW34Kf",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) MGM 暁美ほむら (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 79056.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/HgRchP6BmKtKuD5PhW34Kf",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JQoE8fDq9FCiQD9Pqrpz2.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     79056
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 79056.0,
+   "referencia_jpy": 33000,
+   "descuento": -1.097,
+   "nivel": "normal",
+   "total_chile_jpy": 88056,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:4q3FESuP6VXaozQjpiiKmA": {
+   "fuente": "mercari",
+   "id": "4q3FESuP6VXaozQjpiiKmA",
+   "titulo": "【中古】(未使用･未開封品)　RAH MGM 美樹さやか 制服Ver. df5ndr3",
+   "precio": 92660.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/4q3FESuP6VXaozQjpiiKmA",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/FAMbmVEeizQfWsReSSUfEX.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "sayaka_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     92660
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 92660.0,
+   "referencia_jpy": 50000,
+   "descuento": -0.723,
+   "nivel": "normal",
+   "total_chile_jpy": 101660,
+   "personajes": [
+    "sayaka"
+   ]
+  },
+  "mercari:aaw48xdUnNFsQkvMqVSMHT": {
+   "fuente": "mercari",
+   "id": "aaw48xdUnNFsQkvMqVSMHT",
+   "titulo": "【中古】【メディコム・トイプレミアムクラブ限定】RAH(リアルアクションヒーローズ) MGM 鹿目まどか 制服Ver.1.5『魔法少女まどか☆マギカ［新編］叛逆",
+   "precio": 180340.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/aaw48xdUnNFsQkvMqVSMHT",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/aU7covNFfKqbWos9NKmHWM.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "madoka_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     180340
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 180340.0,
+   "referencia_jpy": 45000,
+   "descuento": -2.506,
+   "nivel": "normal",
+   "total_chile_jpy": 189340,
+   "personajes": [
+    "madoka"
+   ]
+  },
+  "mercari:QY7T5x3s9vR9M6Xwhog43e": {
+   "fuente": "mercari",
+   "id": "QY7T5x3s9vR9M6Xwhog43e",
+   "titulo": "【中古】(未使用･未開封品)　RAH(リアルアクションヒーローズ) MGM 巴マミ(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) 60wa65s",
+   "precio": 88440.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/QY7T5x3s9vR9M6Xwhog43e",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/fcFFW6KmxoGhpNeP4d5EvU.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     88440
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 88440.0,
+   "referencia_jpy": 22000,
+   "descuento": -2.143,
+   "nivel": "normal",
+   "total_chile_jpy": 97440,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "mercari:5pSSnUNevNVqEv5RLaMqib": {
+   "fuente": "mercari",
+   "id": "5pSSnUNevNVqEv5RLaMqib",
+   "titulo": "【中古】【非常に良い】RAH MGM 美樹さやか 制服Ver. w17b8b5",
+   "precio": 83750.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/5pSSnUNevNVqEv5RLaMqib",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/jLh52Ar9vJVjbNSSCWH7MU.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "sayaka_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     83750
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 83750.0,
+   "referencia_jpy": 50000,
+   "descuento": -0.572,
+   "nivel": "normal",
+   "total_chile_jpy": 92750,
+   "personajes": [
+    "sayaka"
+   ]
+  },
+  "mercari:qhTkeAEnT8bx3ZzCNcw9qi": {
+   "fuente": "mercari",
+   "id": "qhTkeAEnT8bx3ZzCNcw9qi",
+   "titulo": "【中古】RAH MGM 美樹さやか 制服Ver. w17b8b5",
+   "precio": 64440.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/qhTkeAEnT8bx3ZzCNcw9qi",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/RNLr4TNy9QvtLGvtZdxgi.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "sayaka_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     64440
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 64440.0,
+   "referencia_jpy": 50000,
+   "descuento": -0.245,
+   "nivel": "normal",
+   "total_chile_jpy": 73440,
+   "personajes": [
+    "sayaka"
+   ]
+  },
+  "mercari:iB9XVFQ3SgJjLfS2YZmD6c": {
+   "fuente": "mercari",
+   "id": "iB9XVFQ3SgJjLfS2YZmD6c",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 佐倉杏子(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) khxv5rg",
+   "precio": 83570.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/iB9XVFQ3SgJjLfS2YZmD6c",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/UGAFTCF7J5RtSnkVdoDfUn.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     83570
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 83570.0,
+   "referencia_jpy": 17000,
+   "descuento": -2.56,
+   "nivel": "normal",
+   "total_chile_jpy": 92570,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:bsSLQUj4uHuMxsBWNoohHF": {
+   "fuente": "mercari",
+   "id": "bsSLQUj4uHuMxsBWNoohHF",
+   "titulo": "【中古】リアルアクションヒーローズ No.695 RAH MGM 魔法少女まどか☆マギカ 暁美ほむら 制服Ver.(ワンダーフェスティバル2015[冬]開催記念品)",
+   "precio": 57680.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/bsSLQUj4uHuMxsBWNoohHF",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/VWWoypCn4UmAQ2SKw9MNBa.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     57680
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 57680.0,
+   "referencia_jpy": 45000,
+   "descuento": -0.235,
+   "nivel": "normal",
+   "total_chile_jpy": 66680,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:YQGNfjgFrANVqMqegMX2F9": {
+   "fuente": "mercari",
+   "id": "YQGNfjgFrANVqMqegMX2F9",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 巴マミ(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) i8my1cf",
+   "precio": 82760.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/YQGNfjgFrANVqMqegMX2F9",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/eJzcMEEkMvXSixuGzLUTNT.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     82760
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 82760.0,
+   "referencia_jpy": 22000,
+   "descuento": -1.96,
+   "nivel": "normal",
+   "total_chile_jpy": 91760,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "mercari:W4F2VGSUEA5WJZbdwMJs27": {
+   "fuente": "mercari",
+   "id": "W4F2VGSUEA5WJZbdwMJs27",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 暁美ほむら(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) khxv5rg",
+   "precio": 82260.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/W4F2VGSUEA5WJZbdwMJs27",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/gfPvyh3pJDEvaQr8SzAYR5.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     82260
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 82260.0,
+   "referencia_jpy": 33000,
+   "descuento": -1.173,
+   "nivel": "normal",
+   "total_chile_jpy": 91260,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:NgPUfDxX7x9RWKBewsDGcM": {
+   "fuente": "mercari",
+   "id": "NgPUfDxX7x9RWKBewsDGcM",
+   "titulo": "【中古】(未使用･未開封品)　RAH(リアルアクションヒーローズ) MGM 佐倉杏子(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) vf3p617",
+   "precio": 99970.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/NgPUfDxX7x9RWKBewsDGcM",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/v5ZAKvXwnTwAWDfWLjwK8J.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     99970
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 99970.0,
+   "referencia_jpy": 17000,
+   "descuento": -3.191,
+   "nivel": "normal",
+   "total_chile_jpy": 108970,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:FqJ4oKu9angBVWSpfm9r4Y": {
+   "fuente": "mercari",
+   "id": "FqJ4oKu9angBVWSpfm9r4Y",
+   "titulo": "【中古】(未使用･未開封品)　RAH(リアルアクションヒーローズ) MGM 暁美ほむら(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) 60wa65s",
+   "precio": 92650.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/FqJ4oKu9angBVWSpfm9r4Y",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/W3jiz2m53gW4uGyndB5KiN.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     92650
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 92650.0,
+   "referencia_jpy": 33000,
+   "descuento": -1.42,
+   "nivel": "normal",
+   "total_chile_jpy": 101650,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:pPTeCLykTXWoWeWs7tfhZg": {
+   "fuente": "mercari",
+   "id": "pPTeCLykTXWoWeWs7tfhZg",
+   "titulo": "【中古】【非常に良い】RAH(リアルアクションヒーローズ) MGM 暁美ほむら(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) khxv5rg",
+   "precio": 109410.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/pPTeCLykTXWoWeWs7tfhZg",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/D5Aj4SEcPBdLtHJupQF4e9.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     109410
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 109410.0,
+   "referencia_jpy": 33000,
+   "descuento": -1.819,
+   "nivel": "normal",
+   "total_chile_jpy": 118410,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:CdVDiypkcr425nQXqteLxj": {
+   "fuente": "mercari",
+   "id": "CdVDiypkcr425nQXqteLxj",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 佐倉杏子(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 71967.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/CdVDiypkcr425nQXqteLxj",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/WKUEzGZPbn8A7hxGioYRkK.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     71967
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 71967.0,
+   "referencia_jpy": 17000,
+   "descuento": -2.114,
+   "nivel": "normal",
+   "total_chile_jpy": 80967,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:exSzQo9FCvuxkCbMbFyCrF": {
+   "fuente": "mercari",
+   "id": "exSzQo9FCvuxkCbMbFyCrF",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 暁美ほむら(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 79212.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/exSzQo9FCvuxkCbMbFyCrF",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/rptCqvZjdMbcRDtRN7WaDK.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     79212
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 79212.0,
+   "referencia_jpy": 33000,
+   "descuento": -1.1,
+   "nivel": "normal",
+   "total_chile_jpy": 88212,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:noa6oqcrxsn8USUiUcESxA": {
+   "fuente": "mercari",
+   "id": "noa6oqcrxsn8USUiUcESxA",
+   "titulo": "【中古】(未使用･未開封品)RAH(リアルアクションヒーローズ) MGM 佐倉杏子(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 1149998.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/noa6oqcrxsn8USUiUcESxA",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JTFJPynpsEUBXNcZWp5ds.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     1149998
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 1149998.0,
+   "referencia_jpy": 17000,
+   "descuento": -43.577,
+   "nivel": "normal",
+   "total_chile_jpy": 1158998,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:be2uAygT6eh3x4ESMRqYrY": {
+   "fuente": "mercari",
+   "id": "be2uAygT6eh3x4ESMRqYrY",
+   "titulo": "【中古】(非常に良い)RAH(リアルアクションヒーローズ) MGM 佐倉杏子(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 1149998.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/be2uAygT6eh3x4ESMRqYrY",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JTCVpSnje8VoPvuq3bh5e.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     1149998
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 1149998.0,
+   "referencia_jpy": 17000,
+   "descuento": -43.577,
+   "nivel": "normal",
+   "total_chile_jpy": 1158998,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:8iMh8UexVuFy3ypiaLTc4k": {
+   "fuente": "mercari",
+   "id": "8iMh8UexVuFy3ypiaLTc4k",
+   "titulo": "【中古】(非常に良い)RAH(リアルアクションヒーローズ) MGM 暁美ほむら(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 1149998.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/8iMh8UexVuFy3ypiaLTc4k",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JTCAjsAAUjAcM3Cq992tP.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     1149998
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 1149998.0,
+   "referencia_jpy": 33000,
+   "descuento": -26.595,
+   "nivel": "normal",
+   "total_chile_jpy": 1158998,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:ENrre4ker7WmHbmGvNfrUm": {
+   "fuente": "mercari",
+   "id": "ENrre4ker7WmHbmGvNfrUm",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 佐倉杏子(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 35146.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/ENrre4ker7WmHbmGvNfrUm",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/AGLDYD3MM73pSiYgcEz8DE.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     35146
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 35146.0,
+   "referencia_jpy": 17000,
+   "descuento": -0.698,
+   "nivel": "normal",
+   "total_chile_jpy": 44146,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:uUG5HNPSwdnpD5KVoRSTHX": {
+   "fuente": "mercari",
+   "id": "uUG5HNPSwdnpD5KVoRSTHX",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 暁美ほむら(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 52216.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/uUG5HNPSwdnpD5KVoRSTHX",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/yEmtKYXE9vN7TBfQBbnybP.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     52216
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 52216.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.458,
+   "nivel": "normal",
+   "total_chile_jpy": 61216,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "mercari:m68424965264": {
+   "fuente": "mercari",
+   "id": "m68424965264",
+   "titulo": "REAL ACTION HEROES 魔法少女まどか☆マギカ 佐倉杏子",
+   "precio": 21000.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m68424965264",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m68424965264_1.jpg?1791081573",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     21000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 21000.0,
+   "referencia_jpy": 17000,
+   "descuento": -0.154,
+   "nivel": "normal",
+   "total_chile_jpy": 30000,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "mercari:2JVmMGPjcBWGYBDrEiD9Sf": {
+   "fuente": "mercari",
+   "id": "2JVmMGPjcBWGYBDrEiD9Sf",
+   "titulo": "メディコム・トイ RAH/劇場版マドカマギカ 新編 叛逆の物語 暁美ほむら 制服ver",
+   "precio": 62370.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JVmMGPjcBWGYBDrEiD9Sf",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JY47J7NQePrmc8hPRbqF3.jpg@webp",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     62370
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 62370.0,
+   "referencia_jpy": 45000,
+   "descuento": -0.322,
+   "nivel": "normal",
+   "total_chile_jpy": 71370,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "yahoo:z516649870": {
+   "fuente": "yahoo",
+   "id": "z516649870",
+   "titulo": "RAH No.624 MGM 魔法少女まどか☆マギカ 佐倉杏子",
+   "precio": 23000.0,
+   "moneda": "JPY",
+   "url": "https://paypayfleamarket.yahoo.co.jp/item/z516649870",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0111/users/6584f8a92c2830d6c8b1b5f9b0463561dec28e6a/i-img1200x1200-1763742683324pklyo9.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "2026-11-22T04:19:43+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": 0.0,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     23000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 23000.0,
+   "referencia_jpy": 17000,
+   "descuento": -0.231,
+   "nivel": "normal",
+   "total_chile_jpy": 32000,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "yahoo:z603621724": {
+   "fuente": "yahoo",
+   "id": "z603621724",
+   "titulo": "RAH No.624 MGM 魔法少女まどか☆マギカ 佐倉杏子 フィギュア",
+   "precio": 21000.0,
+   "moneda": "JPY",
+   "url": "https://paypayfleamarket.yahoo.co.jp/item/z603621724",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0205/users/142040a32d4d03c66b081010c53685a2c903a4a0/i-img1200x1200-1777846764764wp4e1f.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "2027-05-04T07:22:10+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": 0.0,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     21000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 21000.0,
+   "referencia_jpy": 17000,
+   "descuento": -0.154,
+   "nivel": "normal",
+   "total_chile_jpy": 30000,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "yahoo:r1244775112": {
+   "fuente": "yahoo",
+   "id": "r1244775112",
+   "titulo": "リアルアクションヒーローズ No.695 RAH MGM 魔法少女まどか☆マギカ 暁美ほむら 制服",
+   "precio": 58000.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1244775112",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/1458b9ac4742f35ea46815dab64c8e64887a925f15a0b64d09de649b1ee919c1/i-img1200x1200-17895321724581fgeqp816561.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": true,
+   "compra_inmediata": 60000.0,
+   "termina": "2026-10-26T21:35:11+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": 0.0,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     58000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 58000.0,
+   "referencia_jpy": 45000,
+   "descuento": -0.278,
+   "nivel": "normal",
+   "total_chile_jpy": 69000,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "yahoo:o1246133720": {
+   "fuente": "yahoo",
+   "id": "o1246133720",
+   "titulo": "RAH MGM 魔法少女まどか☆マギカ 巴マミ リアルアクションヒーローズ ",
+   "precio": 32000.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/o1246133720",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/ed0ce826a5ff8b632ec130ac316efbc6fe908a029931c5c8f58ec5ad641fa970/i-img1013x1184-17905129757908slnydr65072.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": true,
+   "compra_inmediata": null,
+   "termina": "2026-10-26T19:37:29+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     32000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 32000.0,
+   "referencia_jpy": 22000,
+   "descuento": -0.323,
+   "nivel": "normal",
+   "total_chile_jpy": 41000,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "yahoo:r1248073141": {
+   "fuente": "yahoo",
+   "id": "r1248073141",
+   "titulo": "【中古】現状渡 リアルアクションヒーローズ RAH MGM No.615 暁美ほむら メディコム・トイ 魔法少女まどか☆マギカ まどマギ[240017801738]",
+   "precio": 36300.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1248073141",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0210/user/7cd4789edf97ad4f4d9dd037e9286ff22dc91d677e22f23a35b022a4808b79a1/i-img800x800-179181066344828a5qe525.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": true,
+   "compra_inmediata": null,
+   "termina": "2026-10-26T23:09:59+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     36300
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 36300.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.079,
+   "nivel": "normal",
+   "total_chile_jpy": 45300,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "yahoo:e1248082153": {
+   "fuente": "yahoo",
+   "id": "e1248082153",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 佐倉杏子(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 59710.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/e1248082153",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0210/user/7c3f91ef084d6f557aed20bf32c96eb336207785d28c12cb097d1ef4c600ff99/i-img801x1200-179181582773958kexuh8807.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": true,
+   "compra_inmediata": 61557.0,
+   "termina": "2026-10-26T21:15:37+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     59710
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 59710.0,
+   "referencia_jpy": 17000,
+   "descuento": -1.714,
+   "nivel": "normal",
+   "total_chile_jpy": 70557,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "yahoo:z707344464": {
+   "fuente": "yahoo",
+   "id": "z707344464",
+   "titulo": "RAH MGM 魔法少女まどか☆マギカ 暁美ほむら 制服Ver. フィギュア",
+   "precio": 50000.0,
+   "moneda": "JPY",
+   "url": "https://paypayfleamarket.yahoo.co.jp/item/z707344464",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0210/users/ae1915280b961640a15653e74c9063a6e6631c7a/i-img900x1200-179240346525342qpso.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "2027-10-19T18:52:01+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": 0.0,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     50000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 50000.0,
+   "referencia_jpy": 45000,
+   "descuento": -0.093,
+   "nivel": "normal",
+   "total_chile_jpy": 59000,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "yahoo:z427300016": {
+   "fuente": "yahoo",
+   "id": "z427300016",
+   "titulo": "【新品未開封】 魔法少女まどか☆マギカ 暁美ほむら リアルアクションヒーローズ RAH",
+   "precio": 61500.0,
+   "moneda": "JPY",
+   "url": "https://paypayfleamarket.yahoo.co.jp/item/z427300016",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0104/users/ddb02b3ea4bcde7b69f2b5a16066bb2f6e0103fc/i-img900x1200-1744087854860u0h9xd.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "2027-04-08T13:52:57+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": 0.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     61500
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 61500.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.679,
+   "nivel": "normal",
+   "total_chile_jpy": 70500,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "yahoo:z690196818": {
+   "fuente": "yahoo",
+   "id": "z690196818",
+   "titulo": "RAH リアルアクションヒーローズ 劇場版 魔法少女まどかマギカ 鹿目まどか 制服Ver. フィギュア",
+   "precio": 105000.0,
+   "moneda": "JPY",
+   "url": "https://paypayfleamarket.yahoo.co.jp/item/z690196818",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/users/b3ef5993dabdf7cb00b6e99617aeab8d4576045b/i-img900x1200-1790163391944l7nz4n.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "2027-09-23T20:47:36+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": 0.0,
+   "articulo": "madoka_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     105000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 105000.0,
+   "referencia_jpy": 45000,
+   "descuento": -1.111,
+   "nivel": "normal",
+   "total_chile_jpy": 114000,
+   "personajes": [
+    "madoka"
+   ]
+  },
+  "yahoo:z711195990": {
+   "fuente": "yahoo",
+   "id": "z711195990",
+   "titulo": "【新品未開封】RAH 暁美ほむら 時間遡行ver. 魔法少女まどか☆マギカ リアルアクションヒーローズ メディコムトイ フィギュア",
+   "precio": 37800.0,
+   "moneda": "JPY",
+   "url": "https://paypayfleamarket.yahoo.co.jp/item/z711195990",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0210/users/894d86b1b442b9f87c05760d0774d473e765f62b/i-img774x1200-17929277642474pj7k9.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "2027-10-25T22:38:31+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": 0.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     37800
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 37800.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.114,
+   "nivel": "normal",
+   "total_chile_jpy": 46800,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "yahoo:z567986328": {
+   "fuente": "yahoo",
+   "id": "z567986328",
+   "titulo": "未開封 魔法少女まどか☆マギカ RAH 暁美ほむら",
+   "precio": 57000.0,
+   "moneda": "JPY",
+   "url": "https://paypayfleamarket.yahoo.co.jp/item/z567986328",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0203/users/5d49c33067c7bb0ec7708ad29ff9c562965406a0/i-img900x1200-1772366097738kobxs8.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "2027-03-01T21:04:51+09:00",
+   "pujas": 0,
+   "fecha_venta": "",
+   "envio": 0.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     57000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 57000.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.571,
+   "nivel": "normal",
+   "total_chile_jpy": 66000,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "rakuma:aa76ec8fe4759dbe42bf20ef4d435477": {
+   "fuente": "rakuma",
+   "id": "aa76ec8fe4759dbe42bf20ef4d435477",
+   "titulo": "【中古】現状渡 リアルアクションヒーローズ RAH MGM No.615 暁美ほむら メディコム･トイ 魔法少女まどか☆マギカ まどマギ[17][240017801738] メディコムトイ(MEDICOM TOY)のエンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 37300.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/aa76ec8fe4759dbe42bf20ef4d435477",
+   "foto": "https://img.fril.jp/img/858329326/m/2973035430.jpg?1791810725",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     37300
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 37300.0,
+   "referencia_jpy": 33000,
+   "descuento": -0.102,
+   "nivel": "normal",
+   "total_chile_jpy": 46300,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "rakuma:a5a058a5d0415268740ee96d4633c14c": {
+   "fuente": "rakuma",
+   "id": "a5a058a5d0415268740ee96d4633c14c",
+   "titulo": "リアルアクションヒーローズ No.610 RAH MGM 巴マミ(ともえまみ) 魔法少女まどか☆マギカ 完成品 可動フィギュア メディコム・トイ エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 27600.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/a5a058a5d0415268740ee96d4633c14c",
+   "foto": "https://img.fril.jp/img/852243056/m/2945761496.jpg?1788930305",
+   "vendido": true,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     27600
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 27600.0,
+   "referencia_jpy": 22000,
+   "descuento": -0.181,
+   "nivel": "normal",
+   "total_chile_jpy": 36600,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "rakuma:41e8cb2c1f235e9e3b49aa852316765e": {
+   "fuente": "rakuma",
+   "id": "41e8cb2c1f235e9e3b49aa852316765e",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) MGM 暁美ほむら (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのエンタメ その他(その他)の商品詳細ページへのリンク",
+   "precio": 79056.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/41e8cb2c1f235e9e3b49aa852316765e",
+   "foto": "https://img.fril.jp/img/838031548/m/2887701722.jpg?1782468865",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     79056
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 79056.0,
+   "referencia_jpy": 33000,
+   "descuento": -1.097,
+   "nivel": "normal",
+   "total_chile_jpy": 88056,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "rakuma:9b623d26b6a1a2d19638344153481895": {
+   "fuente": "rakuma",
+   "id": "9b623d26b6a1a2d19638344153481895",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) MGM 佐倉杏子 (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 57156.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/9b623d26b6a1a2d19638344153481895",
+   "foto": "https://img.fril.jp/img/837990539/m/2887529115.jpg?1782453989",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     57156
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 57156.0,
+   "referencia_jpy": 17000,
+   "descuento": -1.544,
+   "nivel": "normal",
+   "total_chile_jpy": 66156,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "rakuma:366ee98f9bea1858f584cdc487759e48": {
+   "fuente": "rakuma",
+   "id": "366ee98f9bea1858f584cdc487759e48",
+   "titulo": "メディコムトイ 魔法少女まどか☆マギカ REAL ACTION HEROES MGM 1/6 巴マミ フィギュア エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 24770.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/366ee98f9bea1858f584cdc487759e48",
+   "foto": "https://img.fril.jp/img/839085516/m/2891465803.jpg?1784550956",
+   "vendido": true,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     24770
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 24770.0,
+   "referencia_jpy": 22000,
+   "descuento": -0.089,
+   "nivel": "normal",
+   "total_chile_jpy": 33770,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "mandarake:1027388686": {
+   "fuente": "mandarake",
+   "id": "1027388686",
+   "titulo": "メディコム・トイ RAH/劇場版マドカマギカ 新編 叛逆の物語 暁美ほむら 制服ver",
+   "precio": 55000.0,
+   "moneda": "JPY",
+   "url": "https://order.mandarake.co.jp/order/detailPage/item?itemCode=1027388686&ref=list&soldOut=1&keyword=%E3%83%A1%E3%83%87%E3%82%A3%E3%82%B3%E3%83%A0%20%E3%81%BE%E3%81%A9%E3%81%8B%20%E5%88%B6%E6%9C%8D",
+   "foto": "https://img.mandarake.co.jp/webshopimg/02/00/571/0200479571/s_02004795711.jpg",
+   "vendido": true,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     55000
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 55000.0,
+   "referencia_jpy": 45000,
+   "descuento": -0.185,
+   "nivel": "normal",
+   "total_chile_jpy": 64000,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:287679139474": {
+   "fuente": "ebay",
+   "id": "287679139474",
+   "titulo": "RAH Real Action Heroes No.695 Puella Magi Madoka Magica Akemi Homura Figure",
+   "precio": 803.91,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/287679139474?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNM44M2TVA6ZNY714CS&hash=item42fb034e92:g:ZTMAAeSwcnBq3l4U&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BxJVvr1%2BAgih%2FJDTfDemRFuzA0YAtkJeVsZZVJYfJ8ylOb8%2Bv0%2Bm1mEMNoh%2BdVHG0EB3kGqwvFe5H3sDmwm05bdJlCq52swr5h%2F3ua0m76LVJdJ%2FfFOGulUfsAx94sgng4DEfARfTPdGdVFXUe6CgtP6ww9nyVCb%2BDCpninjpeAoRwlOn68yCSZIcCKEsR%2Fb%2FSxvGAKdiK2S7WNkG8n5IAikvTqN6ed9f06Wfz%2BrCgZXIrlfY3x0KxHbmI3rGx9tjYwcRZJXbV8ZOEiNaNQsxg%7Ctkp%3ABk9SR4ir-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/ZTMAAeSwcnBq3l4U/s-l500.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     126104
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 126103.52941176471,
+   "referencia_jpy": 33000,
+   "descuento": -2.169,
+   "nivel": "normal",
+   "total_chile_jpy": 133104,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:407296962342": {
+   "fuente": "ebay",
+   "id": "407296962342",
+   "titulo": "Real Action Heroes RAH MGM Puella Magi Madoka Magica Tomoe Mami Figure",
+   "precio": 500.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/407296962342?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNM200VEXHNNC3RTPKM&hash=item5ed4ca6f26:g:oXgAAeSwNRRq03ZU&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8an8wiQsF4GE2AdJG5EHEF3IrXQoUNy6tRFk2AGTadJath3qLY3VrKxr60QTpr91KItuCin%2BUha7KywsWjOnx%2FiPPqk80XuIzR6UW8UKH186jUUpxNf9RB6jHAQ5s2g%2Bcg3YW6c49Dl5v0wLgQ%2Fecy9heWwIC%2BAl%2B34%2B6IFs2ERpb4v67HTh7VOu4qOXgAosO6yZ6p01rXM1UkCZ6sWdPfYryfinPjuYCq3H3IQFazcuX%2F1YhSNQwiTvbicRTk1SnRhOPht0pOZKvW2dmKUQal%7Ctkp%3ABk9SR4ir-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/oXgAAeSwNRRq03ZU/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     78587
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 78586.66666666667,
+   "referencia_jpy": 22000,
+   "descuento": -1.761,
+   "nivel": "normal",
+   "total_chile_jpy": 85587,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:960060693823": {
+   "fuente": "ebay",
+   "id": "960060693823",
+   "titulo": "RAH Real Action Heroes Tomoe Mami 1/6 Figure Puella Magi Madoka Magica Japan",
+   "precio": 332.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/960060693823?_skw=real+action+heroes+madoka&epid=1617222290&itmmeta=01M5VNYJNNGA95WJ479S1XMXJ6&hash=itemdf88139d3f:g:QNIAAOSwQn1mBToX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BAbuUAEzr3O2%2BW8YFD%2FZDiiR%2B4dFm0lwBKQ0wVod51QoMlcSZzxyi7ndAFrz7ONO4zJtOVDLnZuxZafeNa%2FRvX4DdQdYsYLF91o6TRSElek5BHZ0pre8V%2FGrsXOl%2BMncXBQFSWnzxWXEREdsaHU2%2F4fJmB2kkYl4mua61ogqxRCcpt0e6%2FG3vw6z0JIgeP0ofXSFGrbiu4uAMNrj0xQ6Wixlw2j4%2F%2BDlAlWhrHT2IX%2BOGkAmtlXYOpzM4VAyXwT0qk4TG--qRr4XPtMNWMBR5ylfmHpZhmdaII%2FHLxFLdx2EsTXdIX4f5v4%2BQl2irruhQ%3D%7Ctkp%3ABk9SR4ir-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/QNIAAOSwQn1mBToX/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 39.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     52078
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 52078.43137254902,
+   "referencia_jpy": 22000,
+   "descuento": -0.877,
+   "nivel": "normal",
+   "total_chile_jpy": 58196,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:840013088299": {
+   "fuente": "ebay",
+   "id": "840013088299",
+   "titulo": "RAH MGM Homura Akemi Madoka Magica Real Action Heroes Figure 275mm 13+ Collector",
+   "precio": 313.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/840013088299?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNN0YN7G1QH42X5NYFR&hash=itemc394ae862b:g:uxAAAeSwyKxqzKdi&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8pOJeZZszerRr281ppCNa25WO4eyPXti9UZcJX%2F6IzLubdBTROV5eRzgBylsgGOpiQn7p%2FaaLiD5uEjHJ3cLI%2Bp6b04Ujqem1XcKyD5k0a3wmYLG%2FjyfQedwj1zY%2BXwFJEqi%2Bpe9gCwLvVkUkYvQpmmn4wpvgaH9ecR1EH401diMrEiwRCDT1uSf21iwfajco37oDwFgJCeYpk%2FlzvgHu1kOQsXHY%2B0RBQda0FJasF%2Bq8oMagdFzLbhP1t1lK1Fdn7a4DyOOrX%2BxGTP1r6O4iwUw7bOgYFeIlqw%2FJCxQQb%2FfNM9h405GvGPV6gs%2B%2FMI2k%3D%7Ctkp%3ABk9SR4ir-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/uxAAAeSwyKxqzKdi/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 57.75,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     49098
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 49098.03921568628,
+   "referencia_jpy": 33000,
+   "descuento": -0.385,
+   "nivel": "normal",
+   "total_chile_jpy": 58157,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:860031127678": {
+   "fuente": "ebay",
+   "id": "860031127678",
+   "titulo": "RAH Puella Magi Madoka Magica Homura Akemi School Uniform Ver. Figure Limited",
+   "precio": 626.66,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/860031127678?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNNVN8432EFMXN8XMS5&hash=itemc83dd9907e:g:Dp8AAeSwqIBqys1u&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B5%2BSymwz1rFESHjF0z638xZfOazwU94aeQbAILtNWkIkjwxNqM2wMaHaVs5b8RE%2Fp5iOxsrvwpZEQ3ZidggXsAiJuC%2BL%2FWt4qJJyKrb%2BP6RgJ9Hb9i7fExMWiZvMtANPw1yZALnOtD9cShhiD%2FyPytZ0ZGs5s8a9FXkBTP3u%2BpBNYK9F94XGnKRanW9Ma445ipKXhovENqMtU9axzAGOnMJgSj%2FiIkB5vbOvb5jnP7bVQg36beow8gmOkrLCZxKITdVranyTGaW0ggKUTgDlo34xlAxq%2BJeuJ%2BCbbj6RmL%2FTeI8Rp9CTpO%2BjPDPsSZ5xs%3D%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/Dp8AAeSwqIBqys1u/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 181.0,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     98300
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 98299.60784313726,
+   "referencia_jpy": 45000,
+   "descuento": -1.346,
+   "nivel": "normal",
+   "total_chile_jpy": 126692,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:920025584162": {
+   "fuente": "ebay",
+   "id": "920025584162",
+   "titulo": "Real Action Heroes Medicom Puella Magi Madoka Homura Akemi 1/6 Figure for Adults",
+   "precio": 318.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/920025584162?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNN8NPRSRRSMZV71RXS&hash=itemd635cc5222:g:mpYAAeSwffVqyboK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BvofrZMNz2dBXgNbzSXSCXitXvUmCP9lgw8bWpOYo8RuUh0tjbLPJVkGFDFeJ%2FKcdxLpX0qsJtHhejpa0Eb875coGTgx25vEmTY1%2F4cXiWaqAGfn8PB%2Bxl7urlrBpEpD4HmHRIAGrayWWUCOaurWUKrwFwYgOuC5539Yk%2F87AuToNqtbO6vY%2Bmp4lgUhzIVwU3vV7hTr04MeYSg8YB8TFk82%2FFzMMe9G9u7f5ReevYkk0q%2Foe75Hejd2Q5xulAJfq9WGGzcftoTkFMLaqxb4%2BF%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/mpYAAeSwffVqyboK/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 57.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     49882
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 49882.352941176476,
+   "referencia_jpy": 33000,
+   "descuento": -0.401,
+   "nivel": "normal",
+   "total_chile_jpy": 58824,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:960022573638": {
+   "fuente": "ebay",
+   "id": "960022573638",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 scale figure",
+   "precio": 789.08,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/960022573638?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNPQ5NZ3MH4WAMHDFYV&hash=itemdf85cdf246:g:oCIAAOSwU6Fn~xnO&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8ZrmAan2FaO2RWdp1lwL8FLi7EgWTm54bO9qmPBRQ1uGk1vyMkT3f3quZ5PAZwbyN687qyyHm1WZYQMoD%2F12J9nuW89nXPYQRuli1JZSTfM4wBZftv%2BciydiInizBzhx3%2FMyaFtl2Lg9PUVIhkIcE2P9bJxycrOvgmYwobZMfXWgSXEtd%2B%2Bc%2FwEd4EDyyGQtYneXUIKB9h0Cl3DxGBpEchkNQfZ%2FSiguOr5dvPI5BS9GMuNPSgZARHpnSYLXt70nfvz%2FSX5p6UjPrZg7riNUBcXsl99PfyyQ%2BJ0qMBbKPL%2BPWEQqUmocK5ES3bX%2Bq6yTQ%3D%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/oCIAAOSwU6Fn~xnO/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 39.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     123777
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 123777.2549019608,
+   "referencia_jpy": 33000,
+   "descuento": -2.093,
+   "nivel": "normal",
+   "total_chile_jpy": 129895,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:188951327593": {
+   "fuente": "ebay",
+   "id": "188951327593",
+   "titulo": "Medicom Toy RAH No.695 Homura Akemi School Ver. Figure Puella Magi Madoka Magic",
+   "precio": 824.79,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/188951327593?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNPHVHR85G6GGVEENMG&hash=item2bfe607369:g:xxIAAeSwCJxqrobr&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FEJnYaOfBtyB1wb1LkTUgjBsFcq0EEvC9dH%2FSbXBwdAGCoFtNyKXgW1drmqvrTnp8pIfT8aZ%2BPj0Rh%2BcrUuAvfSK7GJWg4gLPmGReZqXzx5yIAvBKpdmArO1NQEPwAFyjKppK%2F5Uq1rS0GwOidjFWeUaqRjeslT8JLIS1h%2BLX%2FtO%2BM9DH4CmHbOCvIElCtCmo00zDllG%2B3qm9oyK9%2F4x6t5Eb2Cp0wT9uOEWPCc4NwpAdyXdFhOc%2FiHeT8Q%2Fv7phWjzqlHMNKAFBPcTEZIFFq9c64sqiAyVDLSl4jdE9BqyeyEiJuzJycH4HjGlJN0Kks%3D%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/xxIAAeSwCJxqrobr/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 54.98,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     129379
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 129378.82352941176,
+   "referencia_jpy": 45000,
+   "descuento": -1.556,
+   "nivel": "normal",
+   "total_chile_jpy": 138003,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:820081468193": {
+   "fuente": "ebay",
+   "id": "820081468193",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Madoka Kaname Uniform figure",
+   "precio": 666.13,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/820081468193?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNQSHF7RVET37R3191T&hash=itembef0aa2321:g:CpoAAeSwf4Zqn7hI&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BCUcGmZwgfeDoIh6m1DI7Y8XcdcBZenuCFYp9MeO1Yact3lXl3e%2BwSnySC1XHGduDW4puLBxITXzjySA4HGkrcJOsfFe0moNCoEaYiS3%2FheO1hyzNuYezcm%2BHPSCDnEBdJYmkj%2BUwaSfGxALL08JnBUV1Np4QojOkuBxr04E2q%2F8KKqPATjJmRWPRkYlfh4JYPxu%2BJ8xjO5dcbggVq2i9DAIESJgwaKWV3JjGuvh8wlx1xk9N76YYUHzKrzTGfO9iOl9gMhnmhE8nEpDk8fPQk%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/CpoAAeSwf4Zqn7hI/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "madoka_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     104491
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 104490.98039215687,
+   "referencia_jpy": 45000,
+   "descuento": -1.065,
+   "nivel": "normal",
+   "total_chile_jpy": 111491,
+   "personajes": [
+    "madoka"
+   ]
+  },
+  "ebay:287558354803": {
+   "fuente": "ebay",
+   "id": "287558354803",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Madoka Kaname Uniform Figure",
+   "precio": 651.22,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/287558354803?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNQS9JCKD6TTYSEH0C3&hash=item42f3d04773:g:wx0AAeSwmKZqn7q~&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BPfUTPPqwVTzaZYkRFRVOmZ%2FEE4rIwjPQjqXp7Gd7yNvA9vmbhHgF8Bl6lo9PnTsWNbeajMgtThJS%2F%2BdxUc47xtpumYxFvs3w2BAv%2FcB8XMOypSB5ycMhBS0Dnz4InofN3Quz5mH%2BGOUhp6B2VYTaI9YZN6TPNFG0rIpy1vsfWvmvytQmP0nrs3JIu9E1htbyM1P1%2B3n--ijBma%2BVijguA%2BHkTGNBxW1wG84McyrPFbrqGRtWNuUVSV8VYETyihhn9mu0tIXn6UthnuwVBA6lM%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/wx0AAeSwmKZqn7q~/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "madoka_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     102152
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 102152.1568627451,
+   "referencia_jpy": 45000,
+   "descuento": -1.021,
+   "nivel": "normal",
+   "total_chile_jpy": 109152,
+   "personajes": [
+    "madoka"
+   ]
+  },
+  "ebay:137641143707": {
+   "fuente": "ebay",
+   "id": "137641143707",
+   "titulo": "RAH No. 624 MGM Puella Magi Madoka Magica Real Action Heroes Sakura Kyoko Mint",
+   "precio": 259.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/137641143707?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNQ40YVPSESJMMY3NVG&hash=item200c0d2d9b:g:FQkAAeSwCqtqhj7U&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9v5DyMFJsPDc%2Bxs9WCZMly9g26JB0u01ieHDTlCU78hNWjFheUwhRED%2FBUq2r3xxHSLRx%2B%2B4WuirSS3zWVtArA%2BGYPJbYUzz8as%2BI%2FlTMGPHY64KjH5J7Qw%2FpefDGhelU6JbtbaVOoUO4wJ5U%2BAbJiMJvvrx3ilI3FPC1bnbljb8IYvAjCxr0eB0iM31tY8SW2zywCDtOD1yyqAff8jmggGB7Pd31h%2B7xRit2kb4%2Fr2f6CQHVCdP%2BKrr1SWLs%2FTCEM8MugBFqrU1HEhfkO4b4p%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/FQkAAeSwCqtqhj7U/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 48.9,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     40627
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 40627.45098039216,
+   "referencia_jpy": 17000,
+   "descuento": -0.858,
+   "nivel": "normal",
+   "total_chile_jpy": 48298,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "ebay:800438837036": {
+   "fuente": "ebay",
+   "id": "800438837036",
+   "titulo": "RAH Real Action Heroes No.610 Puella Magi Madoka Magica Tomoe Mami 1/6 Figure",
+   "precio": 266.1,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/800438837036?_skw=real+action+heroes+madoka&epid=1617222290&itmmeta=01M5VNYJNQC3J9E1EYH8A5Y6WJ&hash=itemba5ddf5f2c:g:gfIAAeSwwrlqbMDP&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BbRDuo68VgmgyZcergq%2Ba7EwYk2yt13DSlwv9WoxADELKq0bSvIzHt1YvSSf2OrBLWunCUQhzDgM2uwv9SYRDK%2BQQECQzOF%2BHtScUWaiZeSi9wfPJlh3iYmqvAv1dcDKoINximcIeUxKmHPvqlZ6qSK6hKFGuwQW2JspDhzS%2BlL1sqtTcpZjhkcSvXe7E1itxNnanpzPuACHuEUid8ZwlK2TlAKZJIE0A0wy0bQZGf8QZRzg%2BU3OjFpLGkgtFcvj%2BggNwLr%2FJLrXQ01kqTLJt5%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/gfIAAeSwwrlqbMDP/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 83.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     41741
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 41741.176470588245,
+   "referencia_jpy": 22000,
+   "descuento": -0.766,
+   "nivel": "normal",
+   "total_chile_jpy": 54761,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:137550628789": {
+   "fuente": "ebay",
+   "id": "137550628789",
+   "titulo": "Real Action Heroes No. 695 RAH MGM Puella Magi Madoka Magica Homura Akemi School",
+   "precio": 1093.46,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/137550628789?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNRYJA6NCB3FRC51ZF0&hash=item2006a807b5:g:OoUAAeSwgzNq3quz&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9H4zeBlP6Mynr3Tut3UZqtuhIHq9fSa2Up%2FmRZtzz2WjLXnu0gkeWaCDoSE1u2Zmn%2BokXuKzKA5rFQr%2BdthwFs5sJRN8u2Ermvchxt2igCDwWLE7%2B3i6Ejyu3Mk8%2B3c8pNcJzBxYiOH1t84auuZCB634%2BL7sgTObLpsdQPWVEw9NEE8T9a%2Fpp%2BwwjplTzQShoFAM%2FQCwZzXPZARfHQo8AyIcWfPlnLys4SRt79xo7tBAEMUkiI8imQ2vHHXGgKOB%2B3QFniGJ%2FWEjmCGqGOxmKC%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/OoUAAeSwgzNq3quz/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 326.61,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     171523
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 171523.137254902,
+   "referencia_jpy": 45000,
+   "descuento": -3.125,
+   "nivel": "normal",
+   "total_chile_jpy": 222756,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:398085772384": {
+   "fuente": "ebay",
+   "id": "398085772384",
+   "titulo": "Medicom RAH Real Action Heroes No.615 Magi Madoka Magica Homura Akemi 1/6 Figure",
+   "precio": 585.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/398085772384?_skw=real+action+heroes+madoka&epid=1211767418&itmmeta=01M5VNYJNRRGMXJW63MC0G0SY9&hash=item5cafc2d460:g:UQEAAeSwf1FqNgor&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8wLb60hzYtoT5ur5xJwjGCiDD7f1N4HrHyrhtW2cdf1pizmlcJ%2BnyJ5jSlkGw71puW%2FoeC9TLuDbxbJLO0Go4ME%2F%2BjKQ9L519dAtxp9sXA0nEF5UJ8IilGXLd1INL6XnkouvTpo3qajgTBAG8cqjSCd8QJyDqVDUSS%2BZevSvSED7icijvfXm3SIAct4FYcEsGcQNw%2BnovDX4r7SQSTz9brARGO7Ll3ZFcIsWlPfBDVR1UswuZSEH0EB%2BDubKeuKExt1u3Jm6GSTC7D6mrRIFr19DBqY57yZcrWH2SznkvWMyMPhLL2H74YrpXhuJZCWqA%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/UQEAAeSwf1FqNgor/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     91765
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 91764.70588235295,
+   "referencia_jpy": 33000,
+   "descuento": -1.352,
+   "nivel": "normal",
+   "total_chile_jpy": 98765,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:398060180679": {
+   "fuente": "ebay",
+   "id": "398060180679",
+   "titulo": "Medicom Toy RAH Homura Akemi School Uniform Rebellion Puella Magi Madoka Magica",
+   "precio": 600.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/398060180679?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNR81WTETFA1YN95QM1&hash=item5cae3c54c7:g:p4oAAeSwVnxqLUfB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9cu3AcSE4d4pcjDT%2BXK9szrOlizV4ye5U0l4tG%2FAtrdd3sYqYnqLiCetHw3QIOJCbAt6B%2FhuX4BZoKEsNRG05AhyC34fVoimj%2FTD9IXeD0r1xQyVSakVCbRwK%2Fow914Tt8a%2BRkSHQdfriLidYDCGNY5eukNTrAsH8qh6uI36keY7XY9yGUMJ%2Bq8%2B36bE7gL5vOa1Z4Dx1VJMJDnKt6x3fK72YTe3LWZM1EBtTr48S%2BsTObMQZSJnJJeqBI%2FBmRGyOwwdg16OqomraRJNj3WQ%2BrAALGd6oftp8TgblVpSCzTWTLzoWYvptV2stehCwSkOg%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/p4oAAeSwVnxqLUfB/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 94.5,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     94118
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 94117.64705882354,
+   "referencia_jpy": 45000,
+   "descuento": -1.017,
+   "nivel": "normal",
+   "total_chile_jpy": 108941,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:327189832439": {
+   "fuente": "ebay",
+   "id": "327189832439",
+   "titulo": "RAH MGM Puella Magi Madoka Magica Real Action Heroes Tomoe Mami Figure Boxed JP",
+   "precio": 318.43,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/327189832439?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNRMR49SEXTWCJPR9ZD&hash=item4c2e08a2f7:g:50YAAeSwlrFpecqq&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde81JDPDJ1lcTfhsavzrQxsTtgzhT2k4UkMxxZJwJHsYF0%2FPl5WCqio8G7hI4DTd5i1utwN%2BdaPPdcSQT2JfA4OOt3%2B0rcV8XtXfp9kSIKkSff9%2F7AxmzYgRe%2FjJIUxmlcVuRNdrlYpNot2kMWB4g7r9excqZuaZZaM4EIoVwIceYCUEQfDUjn1DiYGXJd5JJ2QastvY88DJOSZZSvI%2B1%2FciXIbJjb3cD8ZafKqu2wZhObK0xcUH4hE0Rj28kKlAkStBJnLd4PiBmZTWHt3lIacr%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/50YAAeSwlrFpecqq/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 49.94,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     49950
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 49949.80392156863,
+   "referencia_jpy": 22000,
+   "descuento": -0.864,
+   "nivel": "normal",
+   "total_chile_jpy": 57784,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:188301930901": {
+   "fuente": "ebay",
+   "id": "188301930901",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 W/box RAH Medicom",
+   "precio": 399.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/188301930901?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNRD8QTDQT6B7B0RGHQ&hash=item2bd7ab7195:g:fnQAAeSw0lZp58ZB&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FQnoG2rTM3atXwnbBBIqQchyYrrrvqgT5jJ6i2Ce4x12oaaBNOarJXzcYymmKCPYJRZJBw44%2Fp%2Fj8d5sMLMuQhQstA5bH5Metwrd%2BVhQhhWEgna3gvMADfhiHBPvuEwdaQ2NzUxL%2F5ztuWahI25nNRukqleW00BMYbSLxRKGY6J%2Fy9b%2BB%2BL72qRMLb1f1FdS92im4xNIcuogZ86P9ZeuBoYbfVL0dz2ducBrYiOULRjNSlEz%2BZpobg5pnifQ5pi%2FzlTnqVcrRLgLTXRv0QGUFScG06pcUIJiIXj0kXgg%2FJAQHxjw7d0uXYyN3IVyXi2k8%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/fnQAAeSw0lZp58ZB/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 51.49,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     62744
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 62743.52941176471,
+   "referencia_jpy": 33000,
+   "descuento": -0.686,
+   "nivel": "normal",
+   "total_chile_jpy": 70820,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:168320372114": {
+   "fuente": "ebay",
+   "id": "168320372114",
+   "titulo": "RAH MGM Puella Magi Madoka Magica Kyoko Sakura Casual Clothes Figure NEW",
+   "precio": 628.16,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/168320372114?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNRSF7PN8GKPC1F3FC9&hash=item2730ad0d92:g:VlIAAeSw-dNp5j4C&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8mg8rpPFLh2mLVnkjmdqfQBoTOnXVEo6HTb6Hup3VC4Ra3JMd8h88nS5SOFKfrrtIeF7bGjS4fSMNGVAxMTUIs0PPOp%2BdQaU9e9Gkpe1vhN5QcH59fbI5pYmOMdx%2BMim6WP%2F9oVpi6HzDc4FfVjaY1zynIyEdRdbZCZKe6t8tY9JZvQqVuPJEI2TLUZy7rMBeGPUpyeneduEuPsgjAzcRCychoIN0Hgu3EVXIUq1nExMRhMpG0o8FgQua1X6AMmZAy0XL25vCLD5ufHNPqiDFr%2FrylgqRk3Fs6awDmkrDf3geJf5%2FpLOHn%2FS6EVma0FFU%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/VlIAAeSw-dNp5j4C/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 106.0,
+   "articulo": "kyoko_civil",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     98535
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 98534.90196078432,
+   "referencia_jpy": 40000,
+   "descuento": -1.35,
+   "nivel": "normal",
+   "total_chile_jpy": 115162,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "ebay:137077442043": {
+   "fuente": "ebay",
+   "id": "137077442043",
+   "titulo": "Puella Magi Madoka Magica Akemi Homura Real Action Heroes Akemi Uniform Ver.",
+   "precio": 611.8,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/137077442043?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNSTNB38DPG83VH2J4C&hash=item1fea73c5fb:g:8RUAAeSwylBpoZIk&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8XZTiK%2F3%2FEIZA7wtiSm1FOxY8luvBjDmQaUVOLsxfy80%2Bf43RU7ZoosdaWC%2FUxIQCiyvNK%2BEr6aQpwlHtBDWyFHRfhas2d3eNQxgq%2BTMym3oMhIoBQFYDX2CwUR3IWYz27ZLiuc2ZiamK9xIsqB%2BSLKPo1fEsCMNNusY7T%2BFJInuq1ITVyXB72BXJIp4PY%2Bm79jm5xxXifN16Z2evuT4jZmvEUlZcHkvuNfvEBp2iVlVmlX9cwdj0Qpw1F%2BW0DVV9y8%2FaVcjsAUjGjF3LzXA61CVyzCjaIdJdcKjwFt2QN7hcgOqq%2BpoZQstqq%2F3kRdzE%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/8RUAAeSwylBpoZIk/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 107.25,
+   "articulo": "homura_escolar",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     95969
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 95968.62745098039,
+   "referencia_jpy": 45000,
+   "descuento": -1.089,
+   "nivel": "normal",
+   "total_chile_jpy": 112792,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:236646702017": {
+   "fuente": "ebay",
+   "id": "236646702017",
+   "titulo": "Auth Kyoko Sakura Real Action Heroes No.624 Madoka Magica MGM Medicom Figure",
+   "precio": 454.1,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/236646702017?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNSWZVJ8PZQGKP84FPX&hash=item37193e1bc1:g:Oc4AAeSwtJ1pmFJv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9hLlpFlIr%2BK2G%2Bp6MsExHXNlF2ekC5nYXUwirTgLzW8YR9YBOtWOBnuY52IPdyfLMDfkJiI%2F1J4zJKerijvYtbuhsOUyPdNGXMwfEiaL6%2FUVzPjJr9t7YnsJEjTETUv%2FHTipr3fgY4I9f4hmMoFGO4U5a4pYgHvdkkYOFuH1RI8sBbDnh1SDD%2BOV2z6tDS%2FLK9y2SVuZlqeaxp58ocEJmp5r%2FqGtTRmAis28GfAdbIFml5xCtb4BP7N47A9Z5pwOvUt%2FsvhwdbArkt8h6%2FpZzMVrry%2BRU%2FGxDSurRynEg3oW5MsSZlsNbuX4jc5ikibsg%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/Oc4AAeSwtJ1pmFJv/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 75.0,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     71231
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 71231.37254901962,
+   "referencia_jpy": 17000,
+   "descuento": -2.192,
+   "nivel": "normal",
+   "total_chile_jpy": 82996,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "ebay:389598519721": {
+   "fuente": "ebay",
+   "id": "389598519721",
+   "titulo": "Puella Magi Madoka Magica Kyoko Sakura Real Action Heroes Medicom Toy",
+   "precio": 218.87,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/389598519721?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNS8SYS9WDGTZV0DX6Y&hash=item5ab5e1a1a9:g:Q4kAAeSwEZVpigt-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde92O3NrH2sVcfEdDHYaWgq%2BSzn8LPFpzJSscWzwKz1o7viu7vMNTc4P8IPllnPniIMNhDXFrhpGhWxsX5ynXrDdGAQXwliWynyTRXuhg4SE85XbvsW9ZNt5DIJKzakovtVWyV9a91oo8ukB3BFL7pRhma6qM4BnksYiVoqtMA9%2B4diVUodn1qGatWg5je%2FXI1vOlDkYkuwWnlpsHA2ZWJx6QhYaie1Gs%2B94IroyuWSpurFdKAe2sCs1OsCJF6NKZ1WtUB10UhJmgmvFj%2FFlbv10%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/Q4kAAeSwEZVpigt-/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 78.0,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     34333
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 34332.549019607846,
+   "referencia_jpy": 17000,
+   "descuento": -0.791,
+   "nivel": "normal",
+   "total_chile_jpy": 46568,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "ebay:177815270424": {
+   "fuente": "ebay",
+   "id": "177815270424",
+   "titulo": "RAH MGM Puella Magi Madoka Magica Real Action Heroes Tomoe Mami Figure Boxed JP",
+   "precio": 302.72,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/177815270424?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNSK6KA8JK6FW15N84J&hash=item29669db418:g:50YAAeSwlrFpecqq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FqddzqqJuXhwfZ2tq1eKa0QaO7%2Fq5d2fwn2JJCWapxVsrQeQNbxXIisF%2Bdkm0niG2VnGEpaBiCJzSyhLPlV19KOO85MFTs2DFSsJliZaVp%2BQ%2FLanVz9oZdXX1NfBP4hcWWfw1Jhjk58dgMXcRDrbjrY5VRiRdomdfu5OxJt8vhTHnPxntW%2FRCcXW8QXrKaOFYRrBG1MHz9klhZWVDYdrem5AAusv%2FiY89Tl90aTlE6USgZkzDHJdsVa2jq0TNFLWC6lP%2By%2BJN2tjo07n7dQDI4I0KmJ6ydJYstcGSaKOwiEpZGClWGQN%2BBfyVQ2XQAZv0%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/50YAAeSwlrFpecqq/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 68.64,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     47485
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 47485.49019607844,
+   "referencia_jpy": 22000,
+   "descuento": -0.879,
+   "nivel": "normal",
+   "total_chile_jpy": 58253,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:177815240091": {
+   "fuente": "ebay",
+   "id": "177815240091",
+   "titulo": "RAH No. 624 MGM Puella Magi Madoka Magica Real Action Heroes Sakura Kyoko Mint",
+   "precio": 251.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/177815240091?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNSW8GPYJK5XWHH3GA2&hash=item29669d3d9b:g:~-MAAeSwXlVpecjg&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FMVYmI1tDX5D8xr0VMb9sVRWcULkgdSph2l5hc2ilGeB0Q%2FIZ5iYWOqujDNjzdLSFrNUIpP7oJIbbwCWFpfIfk%2F4OQoVAvn5XqjkWLeGoGIw34jQqEGvoAF7zblTnQIAzJ4eTR5%2FXfAvI9%2BriMkxtayY9r0pIDJBnjnA1SfbNgLH21%2FNfLg2f7W2Ew8BWFlBAgxy%2FCKLV5%2Ffy9t%2FzbmFRS5nTwgMn8nlaY0C%2BaUw9cZVk%2FnHivFe2epZE4FeDg79oY6p10f3%2Fqh8rEg9UQtSRf%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/~-MAAeSwXlVpecjg/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 59.53,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     39528
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 39527.84313725491,
+   "referencia_jpy": 17000,
+   "descuento": -0.879,
+   "nivel": "normal",
+   "total_chile_jpy": 48866,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "ebay:287068147834": {
+   "fuente": "ebay",
+   "id": "287068147834",
+   "titulo": "Medicom Toy RAH Tomoe Mami Puella Magi Madoka Magica Real Action Heroes",
+   "precio": 378.89,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/287068147834?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNSA9G0ZPA3W7NCW23C&hash=item42d698507a:g:2X8AAeSwGJ5pZB9N&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BALFLTkTXpZMJ5TcETemUPMWcRIPMfRxhO5gBP0CSa4vrkIT3dhpE0yprm2bC2Rl5pJgh5XJPPA%2FDuBe8Bh54G6HDyl5rEVYrMV8bdFm44MvhKioTagWzu%2FpSArnPoWoatjajgrMCdq4ItwGIdoNercy76ByrFV%2Ffm88nvOCD7O6uABRVAPn8aDC6Swvlc7Ps3cBnyqtYyA7585j436A%2ByhTyQlLvJpSNV7qGHolnPq2LZ8D4qsSmOvF0JiAHPDQWa%2BrQJD%2FQKgPVWkVq%2FFVA3%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/2X8AAeSwGJ5pZB9N/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 122.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     59434
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 59433.72549019608,
+   "referencia_jpy": 22000,
+   "descuento": -1.535,
+   "nivel": "normal",
+   "total_chile_jpy": 78571,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:376814200062": {
+   "fuente": "ebay",
+   "id": "376814200062",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Tomoe Mami Figure",
+   "precio": 513.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/376814200062?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNSX4NSWMQX14X2JXX2&hash=item57bbe064fe:g:DnQAAeSwaNlpUdOC&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bv3x0zvxSL1gBukvB24fMPjNS9v7%2BxYG4S%2BPvONyDiB7LLLYSLRTutEzEnMPjHNJbAkAKdFmzRRBOSOi%2BUklr4OGEYhUWIe1%2F2R6uzuq0UKQpKs3J%2FYaBFKCyTMOHndF%2BZRgZ6WjNplDkRLemqCmCH56mT6i6F%2FH%2F7NzEzwcQGIc72cYN%2FN1gPGAAFwiajMiHt0LDGLQtYvwnF2U12T1yyWaQIB6jQqkpqBS2bYmpps%2BGgjqmQX%2B%2BPI0hivZtKIFXQc1OP014k4JzjR4X83mS3%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/DnQAAeSwaNlpUdOC/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 121.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     80471
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 80470.58823529413,
+   "referencia_jpy": 22000,
+   "descuento": -2.208,
+   "nivel": "normal",
+   "total_chile_jpy": 99451,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:389257324360": {
+   "fuente": "ebay",
+   "id": "389257324360",
+   "titulo": "Madoka Magica Tomoe Mami Real Action Heroes Medicom",
+   "precio": 266.16,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/389257324360?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNT2ZZRDEHJ3RE00A2X&hash=item5aa18b6748:g:6OMAAeSwxIZpHqD-&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde98RWw6W0z9klulyNF1ElXOK3QHtCNyMcmi%2F2vfNEwCGeiCvNKtdd4crjr4EiyirPUCvUVq1EiV%2FfLhpDN2d6MYPRfe62BUQGtcnl7h8Se8a5qcr9CtI4B3%2FSKx77mAPE9JSbKyIT9dJkeChHabv9%2FbsDl3UOYJRJ9GC08AGFt6BoloVXHatpXPwnY8uxHAvjVNj0u%2FOV2%2BCOi6sQzs8hB0VUT5WBWTDK1%2BePu0bxZaaT0JsBdSDH3jhfQUZNduiKe%2F2CoL3565JiMmYuAxmbGVXcMka9eaO3tC4p2tz264Ua2fGxP7PdSNPV%2BGY5LD78I%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/6OMAAeSwxIZpHqD-/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 83.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     41751
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 41750.588235294126,
+   "referencia_jpy": 22000,
+   "descuento": -0.767,
+   "nivel": "normal",
+   "total_chile_jpy": 54770,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:396929832213": {
+   "fuente": "ebay",
+   "id": "396929832213",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Tomoe Mami Medicom Toy figure",
+   "precio": 264.04,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/396929832213?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNTYNSP08VDNPJW0P30&hash=item5c6adc9515:g:x38AAeSwrF9okMQR&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FeE4y8p8Ys4CQyOAimhC%2FoLljkl2JCCrhm9ZpF7Rm6ljoIumaAlg3RVxUaDInleQUTgAWpNCXe5TM%2BMXycOPpmcFS7mnkpgmDzISi2mAt941blzdLH%2BkllB8FNGoVL7Hc06MvYp5O9HDIrQW5lRQKk5YncuRc6xOTwOBOj%2BqHnIV6h7TuGe5YxXFnk2mbHNhXtVbibXVPuB%2FCCdFuduSWUMf2oL8JiEpjTC9ftGO7QNNKrboXApcnLstm%2BP4wU%2F4Uw7Mc2rRN0uC2Z4rng4Lsn4voEe9i3gkGPli7hV1eqLzfNcq9jetFk8WD114wBJjI%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/x38AAeSwrF9okMQR/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 55.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     41418
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 41418.03921568628,
+   "referencia_jpy": 22000,
+   "descuento": -0.614,
+   "nivel": "normal",
+   "total_chile_jpy": 50045,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:357369934758": {
+   "fuente": "ebay",
+   "id": "357369934758",
+   "titulo": "RAH Homura Akemi No.615 Madoka Magica Real Action Heroes Figure Medicom Toy New",
+   "precio": 1080.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/357369934758?_skw=real+action+heroes+madoka&epid=1211767418&itmmeta=01M5VNYJNT9B2KGZBTR4HB8YCK&hash=item5334e873a6:g:M9kAAeSw7uxohx-U&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FKD2tzj1FrxAsPGAWsvyFpxosCitVu5PxuER8%2FFmNQTWHImHKLh5TleJ4VAJflfdbTmqwEr0NGVHh93W%2BlE3QD%2F84fcUO01Igao9cqaCBguRNGRNRnz5EgYo44IiIYzrVcSad93LkJYw0Td2Dsy2REVEH2rL%2By%2FdAYD%2FShFbFpkVaKIp5NK%2BlF4RP3MI%2B2PEtBtVcwLNN8JP1AQ9xdisLw%2BacyOu%2FqKeMi9Wls5ZAbSfuLsgLVCKP2%2BAQDyh5smCDv%2BRH%2B0JQT3Rm1Cvrt0YX%2BPv8fJAFv8wDpja6JNdSHcH%2FZPZ3xsHMgf%2FNKyYOnv3c%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/M9kAAeSw7uxohx-U/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 25.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     169412
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 169411.76470588235,
+   "referencia_jpy": 33000,
+   "descuento": -3.127,
+   "nivel": "normal",
+   "total_chile_jpy": 173333,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:357369704100": {
+   "fuente": "ebay",
+   "id": "357369704100",
+   "titulo": "RAH Sakura Kyoko Madoka Magica Real Action Heroes No.624 Figure Medicom Toy New",
+   "precio": 585.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/357369704100?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNTTMSBG1801KKEA9Z8&hash=item5334e4eea4:g:AHoAAeSwIQ9ohxX1&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FuVir38s5%2BwoDupkuYfwqbeKTaBXh3%2FfDTeMFfgfpPInBxqmOvZMTu44z8DjFTmZtOnAjwtgnQDA48BDnhpcDcMkzbxbLJsyeH%2FixLMo%2F%2BgL%2F9kZZQbS2CJQxSRosc6bUjTgzsXtvfmlBKACymPxjGs%2BkEiAEQGKg%2BxFCKAsCP21fFuyeU%2Ba5U7F9%2Fd8uQY0v0ffiSCeaGvAG%2FGtS%2BF57YAL9B9kEuDlT4oVQJ8e8uOzcxq3MhP9oeTa0VEkhGIq3GJL5MJpk0W70LorMvMCSy%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/AHoAAeSwIQ9ohxX1/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 25.0,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     91765
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 91764.70588235295,
+   "referencia_jpy": 17000,
+   "descuento": -2.68,
+   "nivel": "normal",
+   "total_chile_jpy": 95686,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "ebay:396904910637": {
+   "fuente": "ebay",
+   "id": "396904910637",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 scale Figure J",
+   "precio": 326.31,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/396904910637?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNT2A8Q0K208VX62PT4&hash=item5c69604f2d:g:wyIAAeSwaxlohbT4&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2Bpa7wjqMdbv1iD4irbrLyaQG5UiouZjMIjD5ANyEhVWqC1mJ7lN9kj94KWhYduVIX3LzadPXbfhPufCZXyImxoumO%2BgW2tIetkp4R0g0ufLZend3UZnnhMpUQOav69Em0B3H7xvxFDypKIGLheioauHNn2UYhuERTqJdOdEU24ntQNr3tKxYB%2BzdSjKITLW1sd137%2FpG2a%2BoMc4ah7DnBCzzKFHLd%2F%2B9zWGwF1Sl4Eqd%2FsWSODHnNXml7NOjMAERZ5lAlrgg8U6gRAL2J6AzDGEmFTN4gAVcEsfI61CvbHBmlycQFQmgyWMCt90%2FC%2BO7M%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/wyIAAeSwaxlohbT4/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 64.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     51186
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 51185.88235294118,
+   "referencia_jpy": 33000,
+   "descuento": -0.458,
+   "nivel": "normal",
+   "total_chile_jpy": 61225,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:388714555372": {
+   "fuente": "ebay",
+   "id": "388714555372",
+   "titulo": "Medicom Toy RAH Real Action Heroes Puella Magi Madoka Magica Tomoe Mami Figure",
+   "precio": 315.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/388714555372?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNV7H074YX8T4CFFKYK&hash=item5a813167ec:g:LvsAAeSw56Rodzbs&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Ifip03qCRjQF8Dint4nCFb32ZXYMcUH%2FeFpDqZsJo4zYeltBildoaU7qjbogw6QbMdCO9VIbggDAfLfOJg6XtJqEa3Z%2FGPEVGpuLpd2QQl9llS3x9DYJ6A7oG3P1dFz%2Bqkqw6VZvVNjyiP6xZN84rqh%2BvmY%2BrQNP4%2Fyfd1Qr5e%2BUWvd3hYyXp8st6YDo3JB7jc7%2B%2F7PPLXR5yOMFsmEqM%2FQPFBkvwaGfu9dJiZ1z19jl%2FKoWqyynoSQZo4q4aTDGZdh1x6Zk4vqyetdPXif83rL3TTIZZcpnXYKQ3vYLF%2FV2%2FFbkXlnm9SoM6oQNRzCg%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/LvsAAeSw56Rodzbs/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 47.5,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     49412
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 49411.76470588236,
+   "referencia_jpy": 22000,
+   "descuento": -0.834,
+   "nivel": "normal",
+   "total_chile_jpy": 56863,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:396808331356": {
+   "fuente": "ebay",
+   "id": "396808331356",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 Figure Medicom",
+   "precio": 330.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/396808331356?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNVZ1N6CJPVAY5MSBE6&hash=item5c639ea05c:g:ANQAAeSwV5FoY5U~&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B%2BcrFrgswDlr%2F2ShFvJ03syaN5nDkA6BtHbEupCB%2Ft2IA8gcfXreHFnZqyAQuJezOGIILG5Msb3uYnJ1GiS%2FnlOhI80ILHyZFYKq3w18wr%2BlYIB%2BKf7yvXYxTKr6Eezsxii7dg4vQVUFYz6O2R2IQeJUFrwRT4xU0zZBK1XxRPW6gQGWGGoHfABkrgCvwodlbvRtZRiYs9a1jVguxrPtTcBbywkGvYJ%2F3NP0ZyN3BRTuywTte73bafnJMxqS%2FsNUuJ5ogF%2FP30X9GpkO97OCoBXxdqKGiAvkCLdlZA%2BC26HORJzYtEnjFO5JvWkmWY%2BTI%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/ANQAAeSwV5FoY5U~/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 64.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     51765
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 51764.705882352944,
+   "referencia_jpy": 33000,
+   "descuento": -0.472,
+   "nivel": "normal",
+   "total_chile_jpy": 61804,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:376280124756": {
+   "fuente": "ebay",
+   "id": "376280124756",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 scale Figure J",
+   "precio": 451.29,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/376280124756?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNVAXKB38P80ZY3P4T8&hash=item579c0b0d54:g:3lkAAOSwG1NoM~5k&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8krPidHJ91Ko9jcddvfpjllV%2BWF8K5GNe6Pmdk5cCQcZhvJ9mAM%2BlcSl5sBz3wgzBRoBiLy8jvpM%2FR1WIfNPAxEPBY2BBSrCcWut%2Frjm9DjZbJaeIQZAsRdaGmkJrLX40VymtMmxo7T1FG2AfsKUJJon7ZhOsLnaCUxIYp5DaavVBhX4qhzUBB19BUYL2HqRUhf%2FBxEy7stPs29oeVl%2BdYwXaH5DYQi0ORrym75Y1nDABitOTz1K5VaXq2qX6aInI9MHYlEiFpsPMPnSQ8WNXMff7QDXKKjtX%2FfTV3BLfglijvqBmQ3KZbF3e2nnvZwic%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/3lkAAOSwG1NoM~5k/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 110.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     70791
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 70790.58823529413,
+   "referencia_jpy": 33000,
+   "descuento": -1.096,
+   "nivel": "normal",
+   "total_chile_jpy": 88045,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:356734117021": {
+   "fuente": "ebay",
+   "id": "356734117021",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 from japan NEW",
+   "precio": 943.33,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/356734117021?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNVDYNKS65VG885R7Z7&hash=item530f02a49d:g:CacAAeSwUwlq3CTV&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B1YZIJalI7%2FtwXGvGD3SXZM01xqBS%2BMrDh7hSZ%2Fe3sSCjAWtGUkrFhb%2BV2Oc3cytTvYD2SjvC2IUlfHKFQn4LewhT8yDIqKGRDNiTSFd%2BkjJl4hKe9xMvhIdj5Of4HVz3LekcVq0x13%2B4G%2BVSuJsxJuWoC112ZRGzxHZUNLI%2FoJjNKwdUj5J7pc7r8aLZZcEzQIxovm8Hdx1Yhgg5yAQQS0daaUWb0SD4XVCAbpQn%2Fm%2BmnCI5Rt8s44t9sjDN%2FkW%2Bnaatz9zW%2BLpth9wJrhEzX7XFE6sfclJ%2Bpvq49UKncHx33hbrp6LcNcMNfdr5333E%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/CacAAeSwUwlq3CTV/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     147973
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 147973.33333333334,
+   "referencia_jpy": 33000,
+   "descuento": -2.69,
+   "nivel": "normal",
+   "total_chile_jpy": 154973,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:126984592212": {
+   "fuente": "ebay",
+   "id": "126984592212",
+   "titulo": "Real Action Heroes Puella Madoka Magica Mami Tomoe Medicom Toy Action Figure",
+   "precio": 365.75,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/126984592212?_skw=real+action+heroes+madoka&epid=1617222290&itmmeta=01M5VNYJNWT7PSAP9GZV9DB50D&hash=item1d90df1b54:g:tBIAAOSwuEhnzkG0&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FSRKM9zV%2B0GT8jJHaCmE8m5DxYqCUkjIRHXC3jRTwuogN%2BA5grXg9OYklg6MtCs1wEE0nCiEVBBRJX063bD1OIE1vBykZRNNioJ3X7UvwrqwwZE6eSz69Yyk3imfrdFaKm0mLtv7CvUQQN3sCPViuyq%2FIKWEjlumermnDhgAit9YWqMBP8ALhRqOMDTk7aZvz2Bxhl3gnxVBce04SXkftoZd2YwYyIC09IuimX6EuQkly3oOJiKwQl%2B2bXOOamy87Jga7BBiBlSKruiI6a45hr%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/tBIAAOSwuEhnzkG0/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     57373
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 57372.549019607846,
+   "referencia_jpy": 22000,
+   "descuento": -1.077,
+   "nivel": "normal",
+   "total_chile_jpy": 64373,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:126984575743": {
+   "fuente": "ebay",
+   "id": "126984575743",
+   "titulo": "Real Action Heroes Madoka Magica Homura Akemi Medicom Toy Movable Figure 2013",
+   "precio": 394.25,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/126984575743?_skw=real+action+heroes+madoka&epid=1211767418&itmmeta=01M5VNYJNWCKNVARFKR7HKYEF4&hash=item1d90dedaff:g:7gIAAOSw4Hlnzj06&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BePg%2BmRt6Rq3scS7KRLbClQp6usnapaeeMU8zoecKv1gO9r7azuMMn1meenmMBVfL2I0a6s56iPuYSYgJhGXyYh9RQvKeVnK96pco0%2FToqxAG4lXWhOx4KRtbYQrtlnR7a3aSF3DxgnStabb9YNWCa4t%2B3WeE7pGGCrhEIHIL2x4%2F8smQc%2BqvIqu8qBb8OiPYLjQV1oHNGeMiKPlCHsMKfuxyhLgQCk%2BJectihZwNnM7UtZ8rizGpqYC9rG9eiQLXha%2BwrYBeFaiEiHmox2XEb%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/7gIAAOSw4Hlnzj06/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     61843
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 61843.137254901965,
+   "referencia_jpy": 33000,
+   "descuento": -0.639,
+   "nivel": "normal",
+   "total_chile_jpy": 68843,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:197090658689": {
+   "fuente": "ebay",
+   "id": "197090658689",
+   "titulo": "Rcoo Medicom Toy Real Action Heroes Rah Mgm Puella Magi Madoka Magica Sakura Kyo",
+   "precio": 301.05,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/197090658689?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNWFCN4BZNHTKYFEMF6&hash=item2de384c981:g:ZbwAAOSwtNhnzVDv&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2BGbxiHLjXS8c%2Bt5Xovdk6gXhap%2FcIwqYigm6FUzbonCaebK8kBEjrt%2FxShPZl08%2FVlwMwQ0pcTtLP%2FlNfqE%2BGTvXAFSFqxJCwbsN1dpS0POYCBewrqs68JjcTH3LXgrZX6GXyPf32xfhm%2FsIfKWwCMVe9wEjfu2YWQd36YI4bH%2BbRhj%2FCScgMLcTjpTanh%2F1%2FxYyXffwHBwdGBoqSEp3KnM%2Fx%2BcPUADjsBL%2Bem%2Bb5Z6gFJVjR%2FPkwM3RAnOHCxfeqT2hBwUdj2cnW104MWN8t%2Ft4mhmMD6wdRDqGlVQoxV%2FHnid0F80HOazT%2B5l4Fwt4%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/ZbwAAOSwtNhnzVDv/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 57.75,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     47224
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 47223.52941176471,
+   "referencia_jpy": 17000,
+   "descuento": -1.165,
+   "nivel": "normal",
+   "total_chile_jpy": 56282,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "ebay:388035242376": {
+   "fuente": "ebay",
+   "id": "388035242376",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Tomoe Mami Medicom Toy Figure",
+   "precio": 319.03,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/388035242376?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNWKX2XK7Q27GE1AA4K&hash=item5a58b3e988:g:mHoAAOSw-x9nx9~k&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8G0UhCzOaj8fM6uWxmL0Tx28BcWBL4FzIeZjxOXZe57h0e8QeBP1UXCkJ%2Bj9vnROIhIXhXtMYY2eVLOiDiUcrI8eHeyWyjLuB08kaWSCiNUo8QeAUy8TjERqtCDR3At%2BFV0PV2%2BQe8aE5SmKzx%2BHCvaBkWdM%2Fxj9ODAXd0pAhCgcCK8WbNYAzftvv6siDBe3bdoPJt2pDGQA75QDxHxaZhuRvNUbgibp22vENmxVG1dA88Gueq6aewx9wdvFjBq8xRmqAjSZ6eLBDSxczAFL3cAnZesAkhI0xsdrM%2BNiI7o24gRa%2FwnaM7AoMRwU3ouX8%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/mHoAAOSw-x9nx9~k/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 61.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     50044
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 50043.92156862745,
+   "referencia_jpy": 22000,
+   "descuento": -0.923,
+   "nivel": "normal",
+   "total_chile_jpy": 59613,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:326733803470": {
+   "fuente": "ebay",
+   "id": "326733803470",
+   "titulo": "RAH Real Action Heroes Tomoe Mami 1/6 Figure Puella Magi Madoka Magica Japan",
+   "precio": 287.75,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/326733803470?_skw=real+action+heroes+madoka&epid=1617222290&itmmeta=01M5VNYJNWMN8M124N01QH7TNY&hash=item4c12da2fce:g:Ic4AAeSwFAlprqfD&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8kJbLDu%2FbaIH8SdHM9cov2Zhgxphh7ybDbpbSmhUmj6eofudhbKrRzGK1VvtCIINt7tiFuJIHlMh%2BZSZucc%2Bi6tPvQDZhRA4MoMib2UzBg8sCIb7zRZQgVDA4pL9HuDGM2jPp8nehAQlwe0LZZRk2xdqPhzseMmJzQXK%2FrFmk%2FxreBdaEbrvWOwBFlDkyYY2DhCDdzJY0wuHufctUpx6jwhGdFoaT116cfWGHmqow776mWwL3yzx1iPRa9KZj2nVXNn4x2A6S9MYQ7Dg01Yl0P%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/Ic4AAeSwFAlprqfD/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 50.01,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     45137
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 45137.25490196079,
+   "referencia_jpy": 22000,
+   "descuento": -0.709,
+   "nivel": "normal",
+   "total_chile_jpy": 52982,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:235919366808": {
+   "fuente": "ebay",
+   "id": "235919366808",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Akemi Homura Action Figure Model",
+   "precio": 529.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/235919366808?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNWAVPEGX7YBM49MCYG&hash=item36ede3da98:g:YFAAAOSwbptni2Cf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8AxcDnH0NnCSz5Ei0Z%2FWzJ6sZJYiaxIWyEkItdDgqsmSJtpLsPHhpY3MgRwN7LFVji35pKn5%2FfSf3aC7UpynXjWxs5e8PcsfV%2BqjhI3rQLKm%2B%2Fm3QxntYF9f82C4DKhGOjOhBpuQ4gqji6yl83rhIzrmpGK28oV5iN9ZL5jUioJH8Z6I0AXVg9532pMPFavJe%2FgGeCwFkH8RDe9WOTK9fuqfJCKYpVdYTGOVSdZbfhmDlOG2l%2FTlcehAvVYdNr7oq%2Bo5chi%2FR1p4VAB30PvxwLXrxuWvZitBDqzkgPQvy%2BmJ%2FYL8OQu60zOQ%2FWnCiw1RQ%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/YFAAAOSwbptni2Cf/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 119.99,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     83136
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 83135.6862745098,
+   "referencia_jpy": 33000,
+   "descuento": -1.428,
+   "nivel": "normal",
+   "total_chile_jpy": 101958,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:235917934910": {
+   "fuente": "ebay",
+   "id": "235917934910",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Sakura Kyouko Action Figure Model",
+   "precio": 419.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/235917934910?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNW4H7JFW07AGGYBD01&hash=item36edce013e:g:CGIAAOSwePtnihEK&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8miRqWFXS5mP2W%2F4b0vE%2FahROWyLbIhJn7gmcIHwY3%2BqEF1h30Rq32BtCA2M2nGhJvJTLknjzo0CvK%2BGRiEC4FPVFU5V90PBf78FimPU01PaNhmETySUq9I%2B8TKr2R11eMRTLmbrQ6VuNMVbCP%2BRQHJ4zLY5RihHlNgSRk%2BqNpC4kPpwuM8tnoPZb%2BrmCCLHOmLdjmvH3cajFXWy%2BJlvd%2BTLpPaIOgUxdUMYcgNWSm63cNJgt4RLWKlPgT6MWOHea7ueuPjzzgVp%2FHi%2Bp%2FpNKc%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/CGIAAOSwePtnihEK/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 119.99,
+   "articulo": "kyoko_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     65881
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 65880.7843137255,
+   "referencia_jpy": 17000,
+   "descuento": -2.258,
+   "nivel": "normal",
+   "total_chile_jpy": 84703,
+   "personajes": [
+    "kyoko"
+   ]
+  },
+  "ebay:235917919426": {
+   "fuente": "ebay",
+   "id": "235917919426",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Tomoe Mami Action Figure Model",
+   "precio": 469.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/235917919426?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNX1YHW3X5W903XF9Z6&hash=item36edcdc4c2:g:99AAAOSwinRnihD8&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9tWQXTOsXWFELYeVLXvBF4vHGQyPunNGftfnzux5I6njLuw4Toua6GnBwFK9%2BVa7S%2B4Ge4ESdUGSKYQFV1CT1YAVAuVveKVsS8znxtlB%2BwmFE7bAz4FQDsFMW%2BmztiO2UdPmgfjBS%2BiaC7A5BpULIpz6BotvgGlcxXGA2k175c5J4gcD%2FtQtD19V3oc15BbotFaic9AYeVviVHNVYuyy%2B35Mpn9DE40E0rQRJ4aOV57HUnP7loDH%2BtVVSLED2NZ4XpVpO2TGJgV29auUGf%2Bd6xCxB8f6xV7PQ9gEBGrekqKV%2FXOq6XnnbM8RDaTk7FKPU%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/99AAAOSwinRnihD8/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 119.99,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     73724
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 73723.92156862745,
+   "referencia_jpy": 22000,
+   "descuento": -1.985,
+   "nivel": "normal",
+   "total_chile_jpy": 92546,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:205025506203": {
+   "fuente": "ebay",
+   "id": "205025506203",
+   "titulo": "RAH Real Action Heroes No.610 Puella Magi Madoka Magica Tomoe Mami 1/6 Figure",
+   "precio": 296.9,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/205025506203?_skw=real+action+heroes+madoka&epid=1617222290&itmmeta=01M5VNYJNX9VZ4P4KKP3EYST36&hash=item2fbc78f39b:g:Dy4AAeSwSx9p5uQL&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde84dwVddZym2lS3iVxLnEhxwDhLnm%2BDC6TD0CeNPbm8DGR4g4kD9bXEdFjlPURXFjz3vvKiN1plz79F4AdkQZaOF8mY6vY32m6LWxik7PLusIAdpmciccKwYHBvOnBAzy3SQaXVPt0Lq9XKHEYsQDxTA%2FVcOubzBgMnfqZ2%2FbX1m5ffPqxcya%2FVdhXoR2HvFIys6Ss7zEprU9geyofgTXHYiwKLGLqgwcGsIUxMTPWMCJuIpdvKI7HORQsxiMitNx53axmBzw8oZKmv%2BGOaSdLq%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/Dy4AAeSwSx9p5uQL/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 59.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     46573
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 46572.54901960784,
+   "referencia_jpy": 22000,
+   "descuento": -0.801,
+   "nivel": "normal",
+   "total_chile_jpy": 55827,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:355711148167": {
+   "fuente": "ebay",
+   "id": "355711148167",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 W/box RAH Medicom",
+   "precio": 349.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/355711148167?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNX619ENZKA3YEMM2FD&hash=item52d2096087:g:N~kAAOSwNXdnIlDT&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B3EECDEtj9euCzPF6mUyXFcAJh%2BTCMWlvuoRt7szPX6CA996573IMMY%2FYP8qUHLPcLdr%2BUTDYDo%2FnuCBXciz%2Bue4eJaGYcXHx9UbgDfvIsGV0PYLuzSaSXFkOQoDVCvFZG0E5%2F2b687LwqkBYeKSzW6M0DSvLEaCwlQeBejN1NPc9xaHEiPgynkEKc9qUjaqKZ55k0FrfigbH8YNadjQ7hEEJ4f5%2BEqkb3eBFbCFmMU62swb9ukm1S4THmZF22CqZ3GoaiW6G%2FDNb8Ds3dpJjY3aiHqpHlfduGlgawLK9baI9yYynYZg%2BfvL7LpDPdpw0%3D%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/N~kAAOSwNXdnIlDT/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 73.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     54900
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 54900.39215686275,
+   "referencia_jpy": 33000,
+   "descuento": -0.58,
+   "nivel": "normal",
+   "total_chile_jpy": 66351,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:364814018330": {
+   "fuente": "ebay",
+   "id": "364814018330",
+   "titulo": "RAH Real Action Heroes Tomoe Mami 1/6 Figure Puella Magi Madoka Magica Japan",
+   "precio": 285.55,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/364814018330?_skw=real+action+heroes+madoka&epid=1617222290&itmmeta=01M5VNYJNXHJV8M0E2YEHXGTBB&hash=item54f09c271a:g:QNIAAOSwQn1mBToX&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9lQm9TVUDIbrQYPf2CcFG6W0T8NPatQ%2F9Jh%2Bf1MiTNh%2FEbcdwlbue6Do175vUvDG0hmS0IgRXuaz1O7tzWEc5IEBALMwjIQPrAqj%2FcArul6nDcQ9SkFWmM7lt95ENDxYT7DoSh6PhGtq9Av84qe%2FrVbD1R64%2BHkHCUBvNNmMxTI70IpCimWnXTGeBJ2WCGbim88TOvLi27p15E0NvnJeXlJvi%2F0VAXTBVCQEx2Pu7xwgYnBWpVBCn50%2Fn1Rz7bmOjtuLPAHJF%2FaJ5gzjM0%2BTUAMl07JZz5gMHgAucuiSMRu0XVGEZWtmo4PGD2iMq4Gwg%3D%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/QNIAAOSwQn1mBToX/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 52.0,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     44792
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 44792.156862745105,
+   "referencia_jpy": 22000,
+   "descuento": -0.708,
+   "nivel": "normal",
+   "total_chile_jpy": 52949,
+   "personajes": [
+    "mami"
+   ]
+  },
+  "ebay:395236757487": {
+   "fuente": "ebay",
+   "id": "395236757487",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 scale figure",
+   "precio": 680.08,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/395236757487?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNX6G7QJHR40TGA6GR8&hash=item5c05f24fef:g:oCIAAOSwU6Fn~xnO&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Bp5Z6KCGQ8M5DPIjsUKFuTj%2BeLM6d8QH%2Flo%2FcpPtgkv72QlhAAbFapmVQqrhKkdAJuYkGFm8llVYBat9BRm%2By%2F0z2h76oW2d1%2BFKVmMC99cDwD7gxy%2BXnC4hb8ZmkpMHwrOewcu%2FCZrgYZt0ot%2BTzwbwLk3R81COIuaVqU2xphXfRJpcAIrGHLQMsqDkuKb%2FnwbH0bUUaVPrr5C1%2FPxVnouVbIDP8bMzltZe9SA%2FejM%2BXHWcLI%2BsYHt%2BDo9EGdVg3LYTiQLy%2FOfVBXSQc4CPY0%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/oCIAAOSwU6Fn~xnO/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 143.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     106679
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 106679.21568627452,
+   "referencia_jpy": 33000,
+   "descuento": -2.074,
+   "nivel": "normal",
+   "total_chile_jpy": 129111,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:204457422543": {
+   "fuente": "ebay",
+   "id": "204457422543",
+   "titulo": "Medicom RAH Real Action Heroes No.615 Magi Madoka Magica Homura Akemi 1/6 Figure",
+   "precio": 398.9,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/204457422543?_skw=real+action+heroes+madoka&epid=1211767418&itmmeta=01M5VNYJNX7X6T2MXZ9PENHD4J&hash=item2f9a9caecf:g:AtUAAOSwoqdlEoG5&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde9HrMy1Qm%2FHS%2FYCV0n9uRA6lZBiSS0ouU3GBJjlttn%2BUR2WoaWHDanKyVxKwUDdaZaAlPJ2lPIUS2izSHdcymFEexwLxMtReFn5XK%2FImtYHu69di8arCMz1tsHuR9NX4nY9ZRs7X7daLfWUyObineJxmvmvTEjqSg8vm%2F9GcexWlIpbHNq4%2Fkl9XgMgnkA7q9eEDTQDl3eMSp%2FC%2BTU1t1uYUQzQLWMUeHk1HErtjkqzdV7bN12DyXHU10UuF4JkVVR5EkVBtBIx4zlqUdEVai5j%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/AtUAAOSwoqdlEoG5/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 79.0,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     62573
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 62572.549019607846,
+   "referencia_jpy": 33000,
+   "descuento": -0.785,
+   "nivel": "normal",
+   "total_chile_jpy": 74965,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:394066447871": {
+   "fuente": "ebay",
+   "id": "394066447871",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Homura Akemi 1/6 Figure Medicom",
+   "precio": 400.55,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/394066447871?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNYX7SC3AVPDX30XB78&hash=item5bc030cdff:g:H78AAeSwYtxokxe-&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde96qXbfCd7jEzGTfBeSjXwfCDJZAgdJw%2B76m4SyXl9oRjNn9q6o86cPKHzTj8EwerNzLakpvljKMaaguFIeGWoFWh2JKm0hjvCuuhasxiY6VRAZJSuc3GQ6Q0SV%2BNHMMgXaYxT2up8ud5um16J80xG6d05F6UiH2h1QNpm5yqAGN%2BW4Kck0dsPz4R4xGwqPETP8kGgVevjl1EwfEAcZPq%2Ft5WAcdivWJbAIGWnbv5MmtnyBu%2FXtmGJbRCWjmI8%2Bg0K%2FaEffW7pd7QYvvdnjWnc6%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/H78AAeSwYtxokxe-/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": 77.13,
+   "articulo": "homura_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     62831
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 62831.372549019616,
+   "referencia_jpy": 33000,
+   "descuento": -0.784,
+   "nivel": "normal",
+   "total_chile_jpy": 74930,
+   "personajes": [
+    "homura"
+   ]
+  },
+  "ebay:123754311289": {
+   "fuente": "ebay",
+   "id": "123754311289",
+   "titulo": "Medicom Toy RAH Real Action Heroes Puella Magi Madoka Magica Tomoe Mami japan",
+   "precio": 369.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/123754311289?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNY68RRBJMZW4HT3CCV&hash=item1cd054ee79:g:ipMAAOSwAJFa6b4G&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde82VPrlRQt4VLFAoJyGH7k1Jrdwc2Jmpu2T14JUQRxzdcgIpsTS1Yx2SnJc2U66CngbytdA5sYmmzis5ti5S6xM1oKhKs%2FjrulLLn3%2F8Bgr7OE3Nk0TWdweMxRdIxCDC5Zp8Sdl6aI%2B3QRzV6ln6zlo5nf1L7S5JFGlyb5yGPBete%2FJWlXvBzEUN9FlXHQHyFzT9jJ%2FecDltDhLOjtomVl6WopfymsHyupiqMVCvlKeMk1gRypTNccwCD0pcZ%2B%2B6RmlsCMHk%2FlmkMCxYKNsZuk2%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/ipMAAOSwAJFa6b4G/s-l140.jpg",
+   "vendido": false,
+   "subasta": false,
+   "compra_inmediata": null,
+   "termina": "",
+   "pujas": null,
+   "fecha_venta": "",
+   "envio": null,
+   "articulo": "mami_magica",
+   "primera_vez": "2026-10-26T08:41:38+00:00",
+   "historial": [
+    [
+     "2026-10-26T08:41:38+00:00",
+     57882
+    ]
+   ],
+   "alertas": [],
+   "junk": false,
+   "sin_caja": false,
+   "ultima_vez": "2026-10-26T08:41:38+00:00",
+   "precio_jpy": 57882.352941176476,
+   "referencia_jpy": 22000,
+   "descuento": -1.093,
+   "nivel": "normal",
+   "total_chile_jpy": 64882,
+   "personajes": [
+    "mami"
+   ]
+  }
+ },
  "vendidos": {
   "kyoko_civil": [
    {
@@ -1862,7 +5571,11 @@
     "fecha": "2026-10-26T08:21:41+00:00",
     "resultados": 118,
     "error": ""
-   }
+   },
+   "ultima": "2026-10-26T08:39:45+00:00",
+   "resultados": 103,
+   "error": "",
+   "ultima_ok": "2026-10-26T08:39:45+00:00"
   },
   "yahoo": {
    "fallas_seguidas": 0,
@@ -1871,7 +5584,11 @@
     "fecha": "2026-10-26T08:21:44+00:00",
     "resultados": 0,
     "error": ""
-   }
+   },
+   "ultima": "2026-10-26T08:39:53+00:00",
+   "resultados": 41,
+   "error": "",
+   "ultima_ok": "2026-10-26T08:39:53+00:00"
   },
   "rakuma": {
    "fallas_seguidas": 0,
@@ -1880,7 +5597,11 @@
     "fecha": "2026-10-26T08:21:46+00:00",
     "resultados": 40,
     "error": ""
-   }
+   },
+   "ultima": "2026-10-26T08:40:02+00:00",
+   "resultados": 160,
+   "error": "",
+   "ultima_ok": "2026-10-26T08:40:02+00:00"
   },
   "surugaya": {
    "fallas_seguidas": 0,
@@ -1898,7 +5619,11 @@
     "fecha": "2026-10-26T08:21:57+00:00",
     "resultados": 48,
     "error": ""
-   }
+   },
+   "ultima": "2026-10-26T08:40:10+00:00",
+   "resultados": 1,
+   "error": "",
+   "ultima_ok": "2026-10-26T08:40:10+00:00"
   },
   "rakuten": {
    "fallas_seguidas": 0,
@@ -1907,16 +5632,23 @@
     "fecha": "2026-10-26T08:22:09+00:00",
     "resultados": 0,
     "error": ""
-   }
+   },
+   "ultima": "2026-10-26T08:40:56+00:00",
+   "resultados": 0,
+   "error": "",
+   "ultima_ok": "2026-10-26T08:40:56+00:00"
   },
   "yahoo_shopping": {
-   "fallas_seguidas": 0,
+   "fallas_seguidas": 1,
    "avisado": false,
    "diagnostico": {
     "fecha": "2026-10-26T08:22:18+00:00",
     "resultados": 0,
     "error": "HTTP 500 — shopping.yahoo.co.jp"
-   }
+   },
+   "ultima": "2026-10-26T08:41:28+00:00",
+   "resultados": 0,
+   "error": "メディコム まどか 制服: HTTP 500 — shopping.yahoo.co.jp"
   },
   "offmall": {
    "fallas_seguidas": 0,
@@ -1961,7 +5693,11 @@
     "fecha": "2026-10-26T08:22:45+00:00",
     "resultados": 120,
     "error": ""
-   }
+   },
+   "ultima": "2026-10-26T08:41:38+00:00",
+   "resultados": 71,
+   "error": "RAH madoka medicom: bloqueado (HTTP 403) — www.ebay.com",
+   "ultima_ok": "2026-10-26T08:41:38+00:00"
   },
   "mercadolibre_cl": {
    "fallas_seguidas": 0,
@@ -1973,8 +5709,886 @@
    }
   }
  },
- "iniciados": [],
- "sin_clasificar": [],
+ "iniciados": [
+  "fuente:rakuten",
+  "fuente:mandarake",
+  "fuente:rakuma",
+  "fuente:ebay",
+  "fuente:yahoo",
+  "fuente:mercari"
+ ],
+ "sin_clasificar": [
+  {
+   "clave": "mercari:66ivjsenzUY5kojYQq2bzd",
+   "titulo": "【中古】「非常に良い」RAH(リアルアクションヒーローズ) MGM 鹿目まどか (塗装済み完成品)(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 73680.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/66ivjsenzUY5kojYQq2bzd",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JXpodKMZtW6fHW3MPfNki.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:m43360836488",
+   "titulo": "RAH MGM 魔法少女まどかマギカ　美樹さやか",
+   "precio": 48000.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m43360836488",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m43360836488_1.jpg?1791007791",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:m96173538901",
+   "titulo": "RAH MGM 673 魔法少女まどか☆マギカ アルティメットまどか フィギュア",
+   "precio": 47800.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m96173538901",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m96173538901_1.jpg?1789979146",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:m50259087828",
+   "titulo": "【新品未開封】RAH MGM 鹿目まどか フィギュア",
+   "precio": 57000.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m50259087828",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m50259087828_1.jpg?1790262727",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:2JX9KVbCB46N7MadHSrgDH",
+   "titulo": "【中古】フィギュア RAH MGM 美樹さやか 「魔法少女まどか☆マギカ」 リアルアクションヒーローズ No.620",
+   "precio": 31522.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JX9KVbCB46N7MadHSrgDH",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JX9KVZZnVWq3L2qQV3GFx.webp@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:m80728606832",
+   "titulo": "リアルアクションヒーローズ No.624 RAH MGM 魔法少女まどか☆マギ…",
+   "precio": 27900.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m80728606832",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m80728606832_1.jpg?1723713797",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:m49662105710",
+   "titulo": "RAH MGM 魔法少女まどか☆マギカ 美樹さやか ◆最終価格！◆",
+   "precio": 49800.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m49662105710",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m49662105710_1.jpg?1773384803",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:m53187779702",
+   "titulo": "RAH MGM 魔法少女まどか☆マギカ 鹿目まどか ◆ ワルプルギスの廻天 色紙",
+   "precio": 59500.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m53187779702",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m53187779702_1.jpg?1773384146",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:BKhesiHqGpnCbHX3uKoczC",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 鹿目まどか (塗装済み完成品)(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 109880.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/BKhesiHqGpnCbHX3uKoczC",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JV5RdJiiDDY7DGze6TVbE.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:WjWEhECkoMX6buYYQTSWCB",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) MGM 美樹さやか (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 56360.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/WjWEhECkoMX6buYYQTSWCB",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JQsdDSbgvqYeYFCYkoE5V.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:s5x9DEz8q2uXPdevxmwonN",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) MGM アルティメットまどか (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 109600.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/s5x9DEz8q2uXPdevxmwonN",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JLCpyHTiWnDHDwrRo4Gwr.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:ixuPMaVgdAPmSx5bW5AJkC",
+   "titulo": "【中古】ワンフェス/wf2014 夏　限定　まどか☆マギカ　RAH MGM 巴マミ 制服Ver.　No.672 d2ldlup",
+   "precio": 82760.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/ixuPMaVgdAPmSx5bW5AJkC",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/TqA6gWXHairmGXXpBPXQDR.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:5Kxc9icCdUgwdw8hyD2BDL",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 鹿目まどか (塗装済み完成品)(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) tf8su2k",
+   "precio": 121770.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/5Kxc9icCdUgwdw8hyD2BDL",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/c8gk46xswRUjPejapv3sVo.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:GSSZXpkMn7a8ekGUdLC9HE",
+   "titulo": "【中古】(未使用･未開封品)　RAH(リアルアクションヒーローズ) MGM アルティメットまどか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) v1yptgt",
+   "precio": 146630.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/GSSZXpkMn7a8ekGUdLC9HE",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/tLELaaMbyARSuGSXzPDxLJ.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:PoEwMiEf4Ty7BVHgLsnySh",
+   "titulo": "【中古】【非常に良い】RAH(リアルアクションヒーローズ) MGM 美樹さやか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) khxv5rg",
+   "precio": 61980.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/PoEwMiEf4Ty7BVHgLsnySh",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/VgjhNLQa993tzyC2AqStP7.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:aRvaygzyG2kcM3zVnRVd3L",
+   "titulo": "【中古】【非常に良い】RAH(リアルアクションヒーローズ) MGM アルティメットまどか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) 9jupf8b",
+   "precio": 133950.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/aRvaygzyG2kcM3zVnRVd3L",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/geAYXaGcwggiV749bV6w43.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:qcufv3seXamSSomgiQCfsF",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM アルティメットまどか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) 9jupf8b",
+   "precio": 150480.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/qcufv3seXamSSomgiQCfsF",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/KMBrmrocu2mZk6LTdv6RVj.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:T2zbHTDZkoy2ysj5prQsRJ",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 美樹さやか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) khxv5rg",
+   "precio": 48780.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/T2zbHTDZkoy2ysj5prQsRJ",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/yaR7Eh3fepjaMTcp5Hmh2B.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:xMkfXYe7rtAkPwR23S7CX4",
+   "titulo": "【中古】(未使用･未開封品)　RAH(リアルアクションヒーローズ) MGM 鹿目まどか (塗装済み完成品)(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) p1m72rm",
+   "precio": 147260.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/xMkfXYe7rtAkPwR23S7CX4",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/r87LBeGP6HPPiuGWyYT7TL.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:WQjg9evQc3B2pBhDh7Qf2J",
+   "titulo": "【中古】(未使用･未開封品)　RAH(リアルアクションヒーローズ) MGM 美樹さやか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) 60wa65s",
+   "precio": 80490.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/WQjg9evQc3B2pBhDh7Qf2J",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/pW9q5QKmKqZ42XZMHA7vHA.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:2JPdXN4Pq5yKL65ZEKRC59",
+   "titulo": "メディコム・トイ　リアルアクションヒーローズ No.673 RAH MGM 魔法少女まどか☆マギカ アルティメットまどか",
+   "precio": 69900.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JPdXN4Pq5yKL65ZEKRC59",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JPrgnj97cxoPX4ndoYF5Q.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:2JPps4Ly9Q4wKypbtM4UhT",
+   "titulo": "7” Billy Eckstine & Sarah Vaughan Dedicated To You MGMEP561 MGM Records /00080",
+   "precio": 968.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/2JPps4Ly9Q4wKypbtM4UhT",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/2JPps4KzTgfXUrsNRLByoD.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:g6LSvu94ZQcoVuFAUggWa6",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 美樹さやか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 68055.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/g6LSvu94ZQcoVuFAUggWa6",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/JJLSeCo9RHhZEx64WKtGUR.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:Y8ZTnNPMc3VRdssi6KjjpB",
+   "titulo": "米7” Billy Eckstine & Sarah Vaughan Youre All I Need / Dedicated To You 458005 MGM Records /00080",
+   "precio": 1078.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/Y8ZTnNPMc3VRdssi6KjjpB",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/p6GYnGW2CXoVx7UFgursWA.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:oeRtTB5ZUWwZvdtvNsPLuX",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 美樹さやか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 55417.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/shops/product/oeRtTB5ZUWwZvdtvNsPLuX",
+   "foto": "https://assets.mercari-shops-static.com/-/small/plain/gNSL59mhuWgtpUAGYAVwTM.jpg@webp",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "mercari:m74533730538",
+   "titulo": "REAL ACTION HEROES 魔法少女まどか☆マギカ 美樹さやか",
+   "precio": 21000.0,
+   "moneda": "JPY",
+   "url": "https://jp.mercari.com/item/m74533730538",
+   "foto": "https://static.mercdn.net/thumb/item/webp/m74533730538_1.jpg?1791081664",
+   "fuente": "mercari",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "yahoo:q1195912203",
+   "titulo": "★☆ちらし2枚劇場版魔法少女まどかマギカRAH MGMアルティメット",
+   "precio": 250.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/q1195912203",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0108/user/6e64ac9aefd669e3ff1f91f29c1325a1e913ec4192e3b7da1e53f9866d57271b/i-img600x418-17548260040143617bi4mv31.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "fuente": "yahoo",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "yahoo:k1208624323",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM アルティメットまどか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 99350.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/k1208624323",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0111/user/ca8e8e63324acfbd2dd34b69e45346fb2329b29579af4c7d9b35772e41159e8b/i-img825x1200-17636780497809vvm7ev10186.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "fuente": "yahoo",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "yahoo:d1225371856",
+   "titulo": "即決★非売品販促用チラシ★フライヤー★RAH MGMアルティメットまどか★魔法少女まどか☆マギカ",
+   "precio": 100.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1225371856",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0204/user/16138616485bb0083beff349a441df356435d0fdb3001cc349eaac10e55cfd8d/i-img421x600-17753135659313wtwhhz35.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "fuente": "yahoo",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "yahoo:d1227087169",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM アルティメットまどか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 86950.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1227087169",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0112/user/7c3f91ef084d6f557aed20bf32c96eb336207785d28c12cb097d1ef4c600ff99/i-img825x1200-17669453558182iahqug35.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "fuente": "yahoo",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "yahoo:c1236808367",
+   "titulo": "RAH美樹さやか◎ドールふう武器つき可動フィギュア◎魔法少女まどか☆マギカ◎マギアレコード◎マギアエクセドラ◎まどマギ メディコムトイ",
+   "precio": 27000.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/c1236808367",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0207/user/99f34c4424b53e88d150b60a60925c61bb0811b196766add694fe95d94761b8c/i-img846x1160-17838296941589328okqkh8.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "fuente": "yahoo",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "yahoo:e1246114875",
+   "titulo": "メディコムトイ RAH MGM 劇場版 魔法少女まどか☆マギカ 巴マミ 制服Ver. ",
+   "precio": 35000.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/e1246114875",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/ed0ce826a5ff8b632ec130ac316efbc6fe908a029931c5c8f58ec5ad641fa970/i-img805x1196-17904953185724xdspnj37.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "fuente": "yahoo",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "yahoo:d1247759211",
+   "titulo": "リアルアクションヒーローズ　 RAH MGM 魔法少女まどか☆マギカ アルティメットまどか [メディコムトイ]",
+   "precio": 48800.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1247759211",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0210/user/c57918eab25c0f34e1e7c788927561f0ed2b256604c898f1fd624acea9706345/i-img537x493-17915639556343rzmhp137.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "fuente": "yahoo",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "yahoo:k1248068688",
+   "titulo": "【中古】RAH(リアルアクションヒーローズ) MGM 美樹さやか(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア)",
+   "precio": 50996.0,
+   "moneda": "JPY",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/k1248068688",
+   "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0210/user/7c3f91ef084d6f557aed20bf32c96eb336207785d28c12cb097d1ef4c600ff99/i-img1200x801-1791815732288883kf3l183339.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+   "fuente": "yahoo",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:a6e6678496689147aa8d4151943576d9",
+   "titulo": "【中古】RAH 仮面ﾗｲﾀﾞｰ第2号(ｼﾝ･仮面ﾗｲﾀﾞｰ) 開封　箱ｲﾀﾐ　ｼﾝ･仮面ﾗｲﾀﾞｰ[92][240092296993] メディコムトイ(MEDICOM TOY)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 30040.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/a6e6678496689147aa8d4151943576d9",
+   "foto": "https://img.fril.jp/img/841509983/m/2901035159.jpg?1783319586",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:3ffa02f68061e188347c2c5df7eef66f",
+   "titulo": "【中古】未開封 リアルアクションヒーローズ RAH M No.32 1/6 ゾル大佐 タイムハウス 仮面ライダー[17][240017788775] メディコムトイ(MEDICOM TOY)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 7655.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/3ffa02f68061e188347c2c5df7eef66f",
+   "foto": "https://img.fril.jp/img/847658695/m/2926379114.jpg?1786531866",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:ec4fabcb59d740ac6421acfd0694ea15",
+   "titulo": "【中古】開封・箱イタミ・ベタつき)ﾏｼﾞﾝｶﾞｰZ RAH ﾘｱﾙｱｸｼｮﾝﾋｰﾛｰｽﾞ[22][240022212348] エンタメ/ホビーのおもちゃ/ぬいぐるみ(キャラクターグッズ)の商品詳細ページへのリンク",
+   "precio": 7776.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/ec4fabcb59d740ac6421acfd0694ea15",
+   "foto": "https://img.fril.jp/img/846970946/m/2923473355.jpg?1786163419",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:dc02ffffd8bcf1ecb2096e55152d815a",
+   "titulo": "12” Rah Band Rising Star / Deep Song RHRSS40 RUSH HOUR /00250 エンタメ/ホビーのエンタメ その他(その他)の商品詳細ページへのリンク",
+   "precio": 4227.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/dc02ffffd8bcf1ecb2096e55152d815a",
+   "foto": "https://img.fril.jp/img/846170016/m/2920006027.jpg?1785744522",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:f453104128c842e10674712be4ebd160",
+   "titulo": "リアルアクションヒーローズ No.672 RAH MGM 巴マミ(ともえまみ) 制服Ver. 劇場版 魔法少女まどか☆マギカ 完成品 フィギュア ワンフェス2014夏限定 メディコム・トイ エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 38128.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/f453104128c842e10674712be4ebd160",
+   "foto": "https://img.fril.jp/img/840434097/m/2896781629.jpg?1782809465",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:f01d5115916e27f11d63a7821fb35ffd",
+   "titulo": "【中古】 リアルアクションヒーローズ No.259 RAH 本郷猛 (1971Ver.) アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのエンタメ その他(その他)の商品詳細ページへのリンク",
+   "precio": 38000.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/f01d5115916e27f11d63a7821fb35ffd",
+   "foto": "https://img.fril.jp/img/838138417/m/2888152947.jpg?1782520137",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:7c2a6289c4f58992f119f3195d70c9e1",
+   "titulo": "【中古】 RAH リアルアクションヒーローズ DX 仮面ライダークウガ アメイジングマイティ 1/6スケール ABS&ATBC-PVC製 塗装済み アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 46960.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/7c2a6289c4f58992f119f3195d70c9e1",
+   "foto": "https://img.fril.jp/img/838135967/m/2888143602.jpg?1782519355",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:2e10f3aadd9f5e5f8190c035af3ec646",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) THE AMAZING SPIDER-MAN (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 29720.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/2e10f3aadd9f5e5f8190c035af3ec646",
+   "foto": "https://img.fril.jp/img/838079425/m/2887901086.jpg?1782487654",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:3b08e30debd56f9dc6685d032ef7e567",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) MGM 美樹さやか (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 56360.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/3b08e30debd56f9dc6685d032ef7e567",
+   "foto": "https://img.fril.jp/img/838011549/m/2887618697.jpg?1782460790",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:5d5f552f13b535032a4a5350b803ad4d",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) リンク (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 89980.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/5d5f552f13b535032a4a5350b803ad4d",
+   "foto": "https://img.fril.jp/img/838000621/m/2887562941.jpg?1782456735",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:fdbf6160b05e9f85310852fee4241cfd",
+   "titulo": "【中古】 RAH リアルアクションヒーローズ 進撃の巨人 ミカサ・アッカーマン 1/6スケール ABS&ATBC-PVC製 塗装済み可動フィギュア アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 51960.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/fdbf6160b05e9f85310852fee4241cfd",
+   "foto": "https://img.fril.jp/img/837912557/m/2887381515.jpg?1782434103",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:6033d501c24e866573e1a5478067b2a6",
+   "titulo": "【中古】 メディコムトイ RAH リアルアクションヒーローズ No.093 仮面ライダースーパー1 アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 52998.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/6033d501c24e866573e1a5478067b2a6",
+   "foto": "https://img.fril.jp/img/837885355/m/2887300625.jpg?1782408966",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:0bffa37b736207045c26720fa06095d7",
+   "titulo": "【中古】 RAH (リアルアクションヒーローズ) MGM アルティメットまどか (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 109600.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/0bffa37b736207045c26720fa06095d7",
+   "foto": "https://img.fril.jp/img/837882677/m/2887292238.jpg?1782407902",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:78526781d42b9a338747c4e7ff733bab",
+   "titulo": "【中古】 メディコムトイ RAH No.160 本郷猛 購入チケット限定 アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのエンタメ その他(その他)の商品詳細ページへのリンク",
+   "precio": 18048.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/78526781d42b9a338747c4e7ff733bab",
+   "foto": "https://img.fril.jp/img/837873316/m/2887256775.jpg?1782404291",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:cd949fe645994c03c6e2bbc5835e2630",
+   "titulo": "【中古】 RAH220 No.35 仮面ライダーアマゾン アンドバイピーアンドディー(&byP&D)のエンタメ/ホビーのエンタメ その他(その他)の商品詳細ページへのリンク",
+   "precio": 31008.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/cd949fe645994c03c6e2bbc5835e2630",
+   "foto": "https://img.fril.jp/img/837673383/m/2886530640.jpg?1782310827",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:069e045921cb2162ff5d3d34576cc8b7",
+   "titulo": "1/6計画限定 リアルアクションヒーローズ 717 RAH 美少女仮面ポワトリン 1/6 完成品 可動フィギュア メディコム・トイ エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 100360.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/069e045921cb2162ff5d3d34576cc8b7",
+   "foto": "https://img.fril.jp/img/832190122/m/2865468333.jpg?1779167257",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:1f66d66b1de6464d506509d2d50e3727",
+   "titulo": "【中古】 Rah rah エンタメ/ホビーのエンタメ その他(その他)の商品詳細ページへのリンク",
+   "precio": 450.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/1f66d66b1de6464d506509d2d50e3727",
+   "foto": "https://img.fril.jp/img/811413719/m/2778895166.jpg?1768890378",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:335983735370600c4fb21e91006da84d",
+   "titulo": "リアルアクションヒーローズ RAH220 No.35 仮面ライダーアマゾン 完成品 可動フィギュア メディコム・トイ エンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 8849.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/335983735370600c4fb21e91006da84d",
+   "foto": "https://img.fril.jp/img/810564471/m/2775064673.jpg?1768464142",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:a34800b4c20ae828538a61dad9e2f0b3",
+   "titulo": "【中古】「未使用品」RAH220 No.35 仮面ライダーアマゾン エンタメ/ホビーのおもちゃ/ぬいぐるみ(その他)の商品詳細ページへのリンク",
+   "precio": 73320.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/a34800b4c20ae828538a61dad9e2f0b3",
+   "foto": "https://img.fril.jp/img/783071522/m/2657598150.jpg?1771729487",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:a2ce0b380b75bb39293175796e02e8c8",
+   "titulo": "【中古】「未使用品」メディコムトイ RAH No.160 本郷猛 購入チケット限定 エンタメ/ホビーのフィギュア(その他)の商品詳細ページへのリンク",
+   "precio": 25940.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/a2ce0b380b75bb39293175796e02e8c8",
+   "foto": "https://img.fril.jp/img/783059816/m/2657570013.jpg?1771723483",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:ed240357a4f8201a06e360e5e1d72f9a",
+   "titulo": "【中古】「未使用品」メディコムトイ RAH リアルアクションヒーローズ No.093 仮面ライダースーパー1 エンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 70440.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/ed240357a4f8201a06e360e5e1d72f9a",
+   "foto": "https://img.fril.jp/img/783057333/m/2657559953.jpg?1771717840",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:3affde85260c021ad08a12d965300dd8",
+   "titulo": "【中古】「未使用品」RAH(リアルアクションヒーローズ) レイカ (GANTZ)(1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 116840.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/3affde85260c021ad08a12d965300dd8",
+   "foto": "https://img.fril.jp/img/783028417/m/2657431637.jpg?1771693387",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:653597113a1729716c960bd0b5ff4468",
+   "titulo": "【中古】「未使用品」リアルアクションヒーローズ No.259 RAH 本郷猛（1971Ver.） エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 54620.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/653597113a1729716c960bd0b5ff4468",
+   "foto": "https://img.fril.jp/img/783022315/m/2657403772.jpg?1771692043",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:568b0f779e17b68e0660fe1ce72e067c",
+   "titulo": "【中古】「未使用品」RAH リアルアクションヒーローズ キングジョー 1/6スケール ABS&ATBC-PVC製 塗装済み可動フィギュア エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 77620.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/568b0f779e17b68e0660fe1ce72e067c",
+   "foto": "https://img.fril.jp/img/782932752/m/2657128945.jpg?1771683853",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:cb2ec58823a5a2581dd706b9b97417bf",
+   "titulo": "【中古】「未使用品」RAH(リアルアクションヒーローズ) GHOST RIDER (1/6スケール ABS&ATBC-PVC塗装済み可動フィギュア) エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 90560.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/cb2ec58823a5a2581dd706b9b97417bf",
+   "foto": "https://img.fril.jp/img/782931934/m/2657124685.jpg?1771683762",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:9316bcb831b0c882a2b4a68e4d8a4f04",
+   "titulo": "【中古】「非常に良い」RAH リアルアクションヒーローズ GENESIS No.780 仮面ライダーアマゾン ネオアルファ 全高約300mm 塗装済み アクションフィギュア エンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 76820.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/9316bcb831b0c882a2b4a68e4d8a4f04",
+   "foto": "https://img.fril.jp/img/782638061/m/2655984771.jpg?1791768021",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:f84d8cd7e7de217bb046b2aecb3e5371",
+   "titulo": "【中古】「非常に良い」RAH220 No.35 仮面ライダーアマゾン エンタメ/ホビーのおもちゃ/ぬいぐるみ(その他)の商品詳細ページへのリンク",
+   "precio": 68920.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/f84d8cd7e7de217bb046b2aecb3e5371",
+   "foto": "https://img.fril.jp/img/782474040/m/2655401369.jpg?1771658842",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:ffb7e7d59dbdbd084840036f60fc0005",
+   "titulo": "リアルアクションヒーローズ No.640 RAH 式波・アスカ・ラングレー ヱヴァンゲリヲン新劇場版:Q 完成品 可動フィギュア メディコム・トイ エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 54109.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/ffb7e7d59dbdbd084840036f60fc0005",
+   "foto": "https://img.fril.jp/img/856408927/m/2964173237.jpg?1790923867",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:a67276a7258e89934312c24562c7c61e",
+   "titulo": "ＢＥ＠ＲＢＲＩＣＫ　ＥＬＭＯ　Ｃｏｓｔｕｍｅ　Ｖｅｒ．２．０　４００％ メディコムトイ(MEDICOM TOY)のエンタメ/ホビーのエンタメ その他(その他)の商品詳細ページへのリンク",
+   "precio": 15000.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/a67276a7258e89934312c24562c7c61e",
+   "foto": "https://img.fril.jp/img/860572269/m/2982937959.jpg?1792815519",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:e2a73a81e89479e87bdcd67b0fb31ad7",
+   "titulo": "メディコムトイ 劇場版 魔法少女まどか☆マギカ 新編 叛逆の物語 1/6 巴マミ 制服Ver. フィギュア エンタメ/ホビーのフィギュア(アニメ/ゲーム)の商品詳細ページへのリンク",
+   "precio": 28771.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/e2a73a81e89479e87bdcd67b0fb31ad7",
+   "foto": "https://img.fril.jp/img/838863857/m/2890662611.jpg?1784550930",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "rakuma:44f55a90d0b14130c13d4f569a91da76",
+   "titulo": "ＢＥ＠ＲＢＲＩＣＫ　ＣＨＡＳＥ　ＴＯＹ　ＳＴＯＲＹ メディコムトイ(MEDICOM TOY)のエンタメ/ホビーのフィギュア(特撮)の商品詳細ページへのリンク",
+   "precio": 850.0,
+   "moneda": "JPY",
+   "url": "https://item.fril.jp/44f55a90d0b14130c13d4f569a91da76",
+   "foto": "https://img.fril.jp/img/829898024/m/2856143506.jpg?1778077786",
+   "fuente": "rakuma",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:206645766222",
+   "titulo": "REAL ACTION HEROES Puella Magi Madoka Magica Sayaka Miki",
+   "precio": 311.18,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/206645766222?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNMGYGS1B9PBCCHS4CR&hash=item301d0c284e:g:3PoAAeSww8tq2ggN&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2F2jB6HzYGG%2BdyQbBrGO%2Fy1iSyUsZOYNLL5eHV%2BS2JE%2BorqtdWjupKEpLA%2FNxOnsOOT78YoLdGaMWFkxMjHay98jxDiYMIC3kgeMCYIXxWfcBuVbi4ctq7%2FmuF3ia1oSWmUktX9uHhqzmFkyzHONcQ8SF2NjT8UdwDfZuKtrA0DvA9ecyuEhu%2BEE1E97B8GfSlsxz%2F93HS18GOa8uCuTvEv6yWrKVOqUvvB15%2FRp0EBvEMTXLuACazxw6K0irYblFqHlH8XzY32sPej62qAe01W%7Ctkp%3ABk9SR4ir-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/3PoAAeSww8tq2ggN/s-l500.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:880019852649",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Miki Sayaka Action Figure READ",
+   "precio": 380.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/880019852649?_skw=real+action+heroes+madoka&epid=1325197790&itmmeta=01M5VNYJNMJ3FZH6DF404AA8XX&hash=itemcce5454d69:g:DzMAAeSw2Qxq0Ugl&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FMqCJrDhC3AQcpewTRnycGmmTD1Dy8qX3rY5yKvcz7GycrVb%2Bs8llygmHAGV4LBp5BXiP81VEjb%2F%2B%2FaKgC7ZD0nb8xzZzTjUsMeowzeTCwmaeOyxG2M84W8lzV%2F3odJl6tL%2BrrX2R1AHxzGQTwxrXoQoko5kJfE3EsC9jrPTZzOBbMKc65DpBoAHugxGsqDBTBbTGMykNa6eagoK55S0FYsnwDWbrQVu0q2Lq%2FDfDo8Y0KbAwExpSD2UIDQg8hQU4%2FQTL7DnhQN12G38uOYEVR%7Ctkp%3ABk9SR4ir-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/DzMAAeSw2Qxq0Ugl/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:327397423824",
+   "titulo": "Real Action Heroes No. 695 RAH MG Master Grade Master Grade M Puella Magi Madoka",
+   "precio": 867.56,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/327397423824?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNNS8ADP85N55TKMM07&hash=item4c3a683ad0:g:drkAAeSwTPNqyely&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde9%2FmxDpz8W9AscOwfL%2FbIZEsIaXTew1L92%2BB8E6HUIeBtWHOIs%2Fl05BmxQC%2B9y1Fq%2BZUe9NmL%2F1DmEpF6ho53KK1HvZ%2BmBkYu675eS7O6PrSFvY396f6N2o%2FR46EbJC1f6Mb3sCeQK9nXpIkaCUGD7Qv%2Fv8fB5kBaELDqCvavcdWV%2Fb%2BinDvDfSvatoR2oEJSu%2BLlYWtbeh0Y90iFWYEusQ8KdKfxLZ0xBJoqPZ1B6BJU0UTZb35wuOBjzESVEQ0yM%2FCr5j77s7jDi%2BtQy7T26MxIl4G%2FhET%2FcBGmvvmCLRcaa89CoKDw31UhJA338%2FJMo%3D%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/drkAAeSwTPNqyely/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:860022830854",
+   "titulo": "MEDI COM TOY Mammy Real Action Heroes Madoka Magica",
+   "precio": 399.7,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/860022830854?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNNG267G4FA8483BH9Q&hash=itemc83d5af706:g:kG0AAeSwlyRqx4JF&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Mkdkydf3iMG%2FW%2Bx4GR9SJPezU9I0YDVE%2F8NcOCeHyBnfu%2BWiKwVyWKoVN7j6rAswWFv1EzXif30ksDs4irLOv%2B8%2Fps5R43bZRlB4IKtroTSz6J9yda9nJG2goNWVVpTmLw%2BL4X3rzu4lvOeWQedk4AAM5SVQqKazrbCvSUCcoufd%2F1JGaSOnFwMD4UiagzlzwgVrk3TEpM7BW9xkq4LHaYfEfRG%2BicBlQx%2BFTtPkwQmkVxXKhpPacGreRJHyvucaVLAiR6abfeAVCR2FUiRk4ccKNNyASeUSUyvdXxZP0M%2FmfLKhwEIW20noFuKq9sqI%3D%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/kG0AAeSwlyRqx4JF/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:377546924122",
+   "titulo": "Puella Magi Madoka Magica Kaname Madoka Real Action Heroes New Unopened",
+   "precio": 550.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/377546924122?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNPKX56KDC5Z33BFT83&hash=item57e78ce05a:g:FfAAAeSwERVqxDK2&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8mH0i0yBp4g2gT%2FM87%2BFNGDv--PjL7S5rkDrMwsO2D947lZbyJ2gHw28ToJqFJLPCbQqAcQelLgM%2FLXfJNqq2P2aANItX3DUSp8fkrlksBy5QjvC1RiaIcmyGSGYmrOLB5jdtHFiNM8PZHFVf%2FUgu1jQ2TwogO5un4vDCCTJOjmWM1AQT03Y5AytvQeoP3tQ0XftffaiCEJL6e%2BJCMtk7eCHSo7xa9gWi1f6egqy32xR2wlvvXexu%2FVhmGVxmyLRIvQNQ%2BXHCAw0Fab1lB7Lzu%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/FfAAAeSwERVqxDK2/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:168712738918",
+   "titulo": "Medicom toy Real Action Heroes No.590 Puella Magi Madoka Magica Madoka Kaname",
+   "precio": 726.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/168712738918?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNP5AV4B76X84QX4WAM&hash=item2748101866:g:49IAAeSws1Bqs3rA&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2By8GY1hHBXQdjj%2F9EMpvP0LY1uw0GziNc79HmKAck0MNKso8KmpfLTcQGcMyE8L3tZP4jVeIM9M9E%2FQsIABwW3BsUzcGnvMw3MzTJ1wABuRTtwhdPyJoK8iANsq3KFB5A%2F0paQALY457lketUoFwhct0Fj1HscPMs7hP48KCLjX9FmDiXN3BZNjMCV0O3wChn2pyly7ZqE3ljKq5CrJJNp7qVzCwHM3UzbzOGRY3%2FA4wZyL%2FJrsyU8QOK5HVRNrowyKVODLH%2FotGWlmHpeYs1PNaDyl7VBWLAj%2FCU4eHeel3PZ6X6s7g5kbh8T7Wdu1Lk%3D%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/49IAAeSws1Bqs3rA/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:398375617728",
+   "titulo": "Real Action Heroes No.590 Puella Magi Madoka Magica Madoka Kaname Medicom toy",
+   "precio": 622.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/398375617728?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNPPBWF2WBV11Z63MVA&hash=item5cc10984c0:g:ZhMAAeSwRYFqoMVu&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2B5k3qF2CAkxD3X0K7PWLOQ5rpOSu6wJ9phBszRQjRfjZpzeYCvW69Ph1cTvNLj7g4MMOrghZcHcTi4EYf3gjffOcZmW1LC%2Fn20885p51vvgaX4h%2BFzDf3UE9zuRCkU2MPLtbS3QH5OJP4EiGBbQLKdzf7I86qvq8oEP2cEbhH4KtMzoSX1xG%2BNJf9IUCGNgvRkPafZUBGf3LGYmwAtkUmagqptEOYjb%2B9sC1%2F9c6%2FOtLI%2B2ijlUbQnZE1HDsca1gvuAxWGLLk0dI6L2G2OE4Gm%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/ZhMAAeSwRYFqoMVu/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:307218294156",
+   "titulo": "Real Action Heroes No.590 Puella Magi Madoka Magica Madoka Kaname Medicom toy",
+   "precio": 548.7,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/307218294156?_skw=real+action+heroes+madoka&epid=1903950295&itmmeta=01M5VNYJNQ03HEPEDS7B6X3NW2&hash=item4787a3258c:g:iFMAAeSwSL1quRcQ&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8M3FHnxx29luLPVkeCdmf2clCqJ7wL3gq1%2F2mOoIzX%2ByMh%2BcjRUvmk%2BLIYe9X%2FiNqtfJvGtX%2BtCTOnNc8U1cBKrQ5ou303uScyXO1BSyT%2Fsq7eXg7DxZ%2B%2BFLl2DUJD0dq%2BXOIk9qAv0hJP2SDY%2F4HuObTjyhACSGRvyHyaxpefDNNSA6Hhvpj2nq0t3YXCSp2IwALafMOvYZlhdiHeOlQ2KD9cvPLp%2BggJsHHNcV2sRHFEkfkyC2Sih3%2FpfW1wUokLiBYBT9AC09nYI5ODc2byI3qZb0DQcr%2BGqiLlGk0U%2ByjfeAd5AWniRm%2BzliYmQKc%3D%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/iFMAAeSwSL1quRcQ/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:407129132763",
+   "titulo": "Real Action Heroes No.590 Puella Magi Madoka Magica Madoka Kaname Medicom toy",
+   "precio": 601.52,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/407129132763?_skw=real+action+heroes+madoka&epid=1903950295&itmmeta=01M5VNYJNQHPEFH5T91QAPXPFV&hash=item5ecac98edb:g:SEcAAeSwdSZqdwg6&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde8OZOikq%2FmjmXD56HGQZOlRYN5y6oEc0%2FHfqTaDS%2B7Tb6Qrz%2B91jHTzqWTWOZszDNFr5stlCSbn%2FshLEfvwn4xZgo64SasdRHm3JkvL36rsM49uM8hiahLiL9rHjIWMgVnAKRqdtx2txjfAP2D2c775t66jsjQCdwHXnE01CC2GLWX3F78Htg87GkWJLv6zWgGsbsG%2ByFIT8h9KU9n2d2g4X6ibYdBLxogRDlfZhrr30oQITfNDWAdnKt6YxMx2xRj4DuJWBRBBYoTHxLyG0Jz0%7Ctkp%3ABk9SR4qr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/SEcAAeSwdSZqdwg6/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:336567656906",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Madoka Kaname Medicom toy New",
+   "precio": 737.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/336567656906?_skw=real+action+heroes+madoka&epid=1903950295&itmmeta=01M5VNYJNRA9P17THE6MNVNWCQ&hash=item4e5cfee1ca:g:DSYAAeSweUpp-KBq&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2B8YCCeWkloFchC%2FJlYHU7A6LPc5YI4XnSsKpK9AQbs44S48OavfvuIft8wk5f0vhBFvH%2FiRyaV2at%2FgksbTvYIAsYRCPYhXoLmbRSEUsR7eZ%2BQaaKK3A%2BNjeniWOep7q7sKZ%2FGgIA9JsN8JbMTRBamAZUg1DWDDUCkg8Sc5Yj8Uaz%2FDKV5q73K7E1oBHNMMf43SA7RvOilQTaGLgsrfSwaL3%2BpNIF9%2BE%2BIEo0duO8Vxpm1ur5XgoipjkA3LmNgyv9uvrOmXgAvjmGB1G61J3xzpin0izwUG5CG2jaFCUCLbIMNwwvwdPQ7GyhjJ%2F37%2F8Q%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/DSYAAeSweUpp-KBq/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:236794518942",
+   "titulo": "Medicom Toy RAH MGM Madoka Magica Madoka Kaname 1/6 Figure Real Action Heroes",
+   "precio": 770.45,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/236794518942?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNRE29MECT0SVFTYXRP&hash=item37220d9d9e:g:1MAAAeSwcY5p9pG7&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FQcBs3X4H%2BNd1cv1ndqY4rh%2BaPlfw2fwaJVJS42k8Kop99k3G3ArEmGKtm0%2Fuit7wmFbSP7d7OYxFXtedJMmKImJImxCrCouQvWMsgxABfDhDCxLLRRnBobyfmKRqqWU5TrUgPrGrMbIkgtPazAsr3JCCb5OSqw4OJiGkTJsSG0wRaYvfsG2OfN5MwHJ2TOvrWdzQL4afub88mfSrceOKegIEG79dIAjYRAyATJAchAUL%2F8vEH1PgSo4ODwJLOFsOTehrfuoy5ysFUJRn6%2BRb%2B%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/1MAAAeSwcY5p9pG7/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:366301776897",
+   "titulo": "Real Action Heroes No 624 RAH MGM Madoka Magica Sayaka Miki Collectible Figure",
+   "precio": 432.85,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/366301776897?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNSR5C7NKR0S7R2PQR7&hash=item5549498c01:g:p74AAeSwFVNpw16a&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde95Bxvv4Dke8dBsi0UVL4hOC3bqNWEANwWh0f9Y%2Fn8YH2KZpRfvV%2BWehfnW4VSWw34lk4TkfuBKDPkcyWBvzS8v8mQR5ff6CSSi1oqFIg7daN9%2F5HD3n5x%2FurkhlIPiLRcWcU33ChISbNHXzvYV7BheXuRSqgb7XTjYMyNdobZQWFu79FF2a9C%2FNzPc1QudbXTSynX3UHSDuRg%2FbzlyzLtTRJHZTpCcBBR971KDipH5Ca8%2B8f%2BsKXELchYT0GnLT7U7Gc5ChIwi9h2tNtUz1sKICxmplWXpzU08h5uKWU%2BzJ045l%2FORXDk%2BwZH6vv%2F1rbg%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/p74AAeSwFVNpw16a/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:157453880949",
+   "titulo": "Real Action Heroes No.673 Puella Magi Madoka Magica Ultimate Madoka Medicom Toy",
+   "precio": 487.79,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/157453880949?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNTFC7WS5NRBG5Y93NE&hash=item24a8fb8e75:g:CPgAAOSwCmRn2y7E&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8R8BjC%2FJuYT7lYu4PR5B%2Fx6m5o5%2FK1dJBWJkjfNsAkjQMppm%2FBJ%2BXHS%2FLcianOxXo0j1ojW8ATOeAu0N7MRwJeitPITyzZQ1%2FvCIIcC8Bjz39Lphit9gkhELPvW6DNnXg%2BNOMBZT1gFRtaJDIPyC2ilQkK%2BDajiG45B1B7H7wf7FWoKubHBJjjxgFgqsQYAojCw2KHDJ6w6UsjkERJ1zpXqyoEd9s19ppy7%2BgvhKVJ0R7kxQgkH09dMfXj9GhoXrq%2BZqdkAtuZWTo3tcCUyNCUMnmGrQZQzovQ%2Fy9%2BPoD0Y9T6x3lXzWk%2FGhtbUhH48nw%3D%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/CPgAAOSwCmRn2y7E/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:157453880120",
+   "titulo": "Puella Magi Madoka Magica Miki Sayaka Real Action Heroes Figure Medicom Toy 2013",
+   "precio": 343.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/157453880120?_skw=real+action+heroes+madoka&epid=1325197790&itmmeta=01M5VNYJNT4T5F6MF2D11RW6ZN&hash=item24a8fb8b38:g:5l8AAOSwqk5n0lQH&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BuQfn1IUW059ZlUWeWwEWya987xKsKwcFWaMZWotDKMGflVmVg%2Fm%2B8pCGzf8VJGX9qOsN7qVFUnPoAv1oGkR4OPj3QNt1J2dJI9IjoHeRACzGH1W93PU2EqO%2Bbc1naxqhiTuj%2BgeY4ldnGl51e6wL46Aez6tribQzvZ%2BqgcYXdL9titOnEE99cXOvmmb5tXJpRIEKkq%2F5stYF4QNlMHMDUvksJeZG0ltcNqm6uvgZbol%2BPn7D8tIBmiEwNky1OuJKHGEqNzwk3tApo8CvR96Bd%7Ctkp%3ABk9SR4yr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/5l8AAOSwqk5n0lQH/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:396904916783",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Miki Sayaka Figure 1/6 Medicom",
+   "precio": 258.92,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/396904916783?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNT0D4KEG626EWCFMQJ&hash=item5c6960672f:g:CCwAAeSwfeZohaSJ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BVqHh6Yh3puRGdkfpjybxBSPOWPU7V6Ue9fOCZpiCt8ghU63OqQVuGmKEmwVljBIXsH9HuFkySLg2LvFweBcKUW3XwaTTp26o19uP3WWL7OyKJ2EahkznPoKZOvA8YBEnd%2FIdNccWA6wuVag9Q1nQcOZhaFIfslSsq2WzlflWC9i61ti756M7FbzJVeGULSs6PXIbeFq7aEQAcK%2FK1lCHlOjq5G4a4GQWHzMe1L97Bf1nqKFIzwx8hZA%2BGJOctrsUCrtMB6crBxgodkK%2F8sbI8%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/CCwAAeSwfeZohaSJ/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:127053653719",
+   "titulo": "Puella Magi Madoka Magica Miki Sayaka Real Action Heroes Figure Medicom Toy 2013",
+   "precio": 325.85,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/127053653719?_skw=real+action+heroes+madoka&epid=1325197790&itmmeta=01M5VNYJNVE6FQVM234ZWX0J53&hash=item1d94fce6d7:g:5l8AAOSwqk5n0lQH&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2FRveNdOSqd6ggQdzyNpittQYOrrZwlX5owoQxbH3tjkFxxPPrRS267c02xOMNWZ%2Ft1pLIFFElzcoyba1HXYZLhuKGsX6UMelC%2BcMO1yQPB%2FcQ9Z5aWhguKZ9%2FP%2BE79Pw3qXOsJFq9EMKVwIPzne5MdR179gdncjDJ5kmR0YGF8DV%2Bt2R0KpDIepShh58EszBmrdBh8LNXPO%2FNjRa8%2BYVfVujR%2F0gdyAsV0JrPc29U4CHuh72sUIzcZrS2GSaMaKAowd0QM%2FI1EUwPhvqaww%2F87muh82slKPIcX6JotoxNm5xHx%2BguDcT2jA%2FL3p9QvICU%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/5l8AAOSwqk5n0lQH/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:127003145012",
+   "titulo": "Real Action Heroes No.673 Puella Magi Madoka Magica Ultimate Madoka Medicom Toy",
+   "precio": 919.6,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/127003145012?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNVDFZR8V456421T02S&hash=item1d91fa3334:g:CPgAAOSwCmRn2y7E&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2Boa7imK1ysy4FuoJwNqpmtLvqIaaTc65sJKy6AIThNE86CvTp7AiRtBfhXWQIszHPrS4O%2FoJvLf0QsCHSUwNtuvsRfuUy19dJPNVIbsK%2FsTqkBGhuixqK%2Fsq57qdIsaU5U1mTi1iVazwyxK0yuzAsOKd%2B4F5b5w0Mr2%2FYTYT6h4T%2FjrCWJ9Q0aIr7xs6Q5uD3ocKTXMyvBvsmdAjFBkFVI9PdbAGjDYLuGFkYIPcAJNTbXjKOc8msRl9JXHfsUBjjkhEYIlx4h0KTifQ8PGThF%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/CPgAAOSwCmRn2y7E/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:126988330486",
+   "titulo": "Real Action Heroes No.590 Puella Magi Madoka Magica Madoka Kaname Medicom toy",
+   "precio": 1030.75,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/126988330486?_skw=real+action+heroes+madoka&epid=1903950295&itmmeta=01M5VNYJNVJ0GKWAECQPX5J715&hash=item1d911825f6:g:5EcAAOSwgaln0LUf&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8jisfjmWeL9fJY8vE3NmHOL3D4yYWVRxpNfuabQyVzxGKRDUlGb%2FpiIEJS4zhClA%2FbY5aURxhTpsrWYCUgdeI%2FFxMbv8SqnJV3k1sQL8%2Br32ETf2%2FmtVzYf%2F5HTw%2BM9SPEFTRupGPZNiSPyrZdTbur3wl5Zm%2B5NtGzJuXUprGA8L8Mep2X%2Bf3dDtCwT9m%2BNjvngMa6PRyn9VZPje%2F2Q%2FCKXw8UdJcou1N5Amoqq2jqWoPOKmMLdtAJO6%2BIhUPaNQdMHcDr1q%2BAHL9HXCKTmRCZ3wwLwa5Hjuuu1cvsfJ2HiOSepVZo9cXyxCxTdC1eKDU%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/5EcAAOSwgaln0LUf/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:235917931138",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Miki Sayaka Action Figure Model",
+   "precio": 419.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/235917931138?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNWZ2ZV388JNBN7F0KN&hash=item36edcdf282:g:~WUAAOSwW1JnihAQ&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2FxhfnKJDlBVD1XgA3dGeTmlC1KO8WauPQwL0FFivJ7NXmez5qTevmDGa%2FlQfADBtXpPqmjDWk3YGoTI0oQH956nw36eSEPIlkjri6QetNU8t0hmqfeYDJVMG4GEFlnKlxS62nwmDcBlLKlsn9kVeiPn84fSf1HSAGNUigbVUrtKB6%2FO19mRr6hUmv0IRNvFEADJZeKt9Fz12oMwMekDDr2VwkeFyizVcH4sX6G%2FMQCOuQgGc5XT%2BFMQqKVfMwaotHSeHCxNGJD86xb%2Fg8BDpZp%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/~WUAAOSwW1JnihAQ/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:235917907026",
+   "titulo": "Real Action Heroes Puella Magi Madoka Magica Madoka Kaname Action Figure Model",
+   "precio": 649.99,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/235917907026?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNX0JDJ8SB8TDBPM95W&hash=item36edcd9452:g:jKEAAOSwvuxnig9p&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde8Aw06yYFwpKaXY%2B%2Blm1UT8LV8E5dYOgblWlXixMfox8m32OtSQ0G7aLk%2BmmkSdhnhmfD%2BwjHaM6GvGAfKax2c0puR%2BzTMtrMK5ubGzvF1ANPFXPOzX826HHc337lVdNIuomdaGXa25E96PYQc5mNn46vPSO901%2FmAzsfrmkwnU4AmgZHGbucmFV4mI8gwFUM3uiFBqR0H2V6N8hq7st1AzijF5Rp79MQ%2FTeW0n%2FDPcIo3VF9aiPi%2BDERHrSGZltr7szk%2Bb1Vi%2BwN%2BW82Nxl4FW4uOJlrph8HMtIoLmhR0mXzXNoClym1tU%2FYZH17Vlp9I%3D%7Ctkp%3ABk9SR46r-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/jKEAAOSwvuxnig9p/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:195622586175",
+   "titulo": "Lot Of 6 Medicom Real Action Heroes Sayaka Miki 1/6 Figure Madoka Magica Japan",
+   "precio": 500.0,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/195622586175?_skw=real+action+heroes+madoka&itmmeta=01M5VNYJNYSZXZNQCXXB1NQ8NV&hash=item2d8c03c73f:g:ipAAAOSwBAZj-h7g&itmprp=enc%3AAQALAAAA4CHNgUiiE%2FjQhlDTaMiAde%2BnDAxfMmj7WcwKAYAr3j7z0wZYPpqyLyJ%2By6T9hfcI7V0uCoMzbKL8bMY7E7QeZeLaCmGT%2BFfeSruTJe0i1Uyqq2Cy1tt4fwoSMNs2VQDsh75OSjZEWp01sIw9PW6kr5vWHsxYGqlFD%2BvmZsD6PrJFzGYJpyaOtU6%2BS10vjghsbozw0i1Y11kj%2BMEvDoF6H%2FeM5q7fGTzRpTRW%2FL%2Bq0G0ABiirToFzIHECikDvDgA8XlMZux6JYpwdpbIxd5CaidCWcLS%2BSq8hGvQO4r2eSsG4%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/ipAAAOSwBAZj-h7g/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  },
+  {
+   "clave": "ebay:165634288952",
+   "titulo": "RAH Real Action Heroes Puella Magi Madoka Magica Miki Sayaka Figure 1/6 Medicom",
+   "precio": 287.07,
+   "moneda": "USD",
+   "url": "https://www.ebay.com/itm/165634288952?_skw=real+action+heroes+madoka&epid=1325197790&itmmeta=01M5VNYJNYNR7QVW7G9T9FR8XS&hash=item269092ad38:g:njUAAOSwvkdi~wUp&itmprp=enc%3AAQALAAABACHNgUiiE%2FjQhlDTaMiAde%2BC5YuCVwmQG1jBCZ1Ft%2FgFBcJytLCCW8PPuelPDB4Lc42kd6QaF36vWjQaC3qkwonI28UQO13yB0wLl%2ByE4hB%2B4VCwb7bIUhClLvGmYqEmNEI%2FZPZjGx%2Bop0d2jpvRDhYXRCeUoKH8hAQocVa3dHD8FnauOs2oUlJS0pWC4zgxk%2FlW22H9WOoJ5Z1LFjE9WLW3TTLT3y7Mu6FwE59bhzxlmADQHGWk6VDeyGdn8dxhgUetxkau8cX9srblkjBqN%2Bt9pahUNkND7gJ%2BOpm7d8iThnnmTpnnzmphS4LwD%2Fhm5c%2FdtLA%2FFFuuJLnycuREl%2BA%3D%7Ctkp%3ABk9SR5Cr-vWuaA",
+   "foto": "https://i.ebayimg.com/images/g/njUAAOSwvkdi~wUp/s-l140.jpg",
+   "fuente": "ebay",
+   "visto": "2026-10-26T08:41:38+00:00"
+  }
+ ],
  "ref_aprendida": {
   "kyoko_civil": {
    "mediana": 27950,
@@ -2043,7 +6657,14 @@
  "ultima_fuente": {
   "RAH Madoka Magica|mercari|v": "2026-10-26T08:21:11+00:00",
   "RAH Madoka Magica|yahoo|v": "2026-10-26T08:21:20+00:00",
-  "RAH Madoka Magica|ebay|v": "2026-10-26T08:21:30+00:00"
+  "RAH Madoka Magica|ebay|v": "2026-10-26T08:21:30+00:00",
+  "RAH Madoka Magica|mercari|a": "2026-10-26T08:39:36+00:00",
+  "RAH Madoka Magica|yahoo|a": "2026-10-26T08:39:45+00:00",
+  "RAH Madoka Magica|rakuma|a": "2026-10-26T08:39:53+00:00",
+  "RAH Madoka Magica|mandarake|a": "2026-10-26T08:40:02+00:00",
+  "RAH Madoka Magica|rakuten|a": "2026-10-26T08:40:10+00:00",
+  "RAH Madoka Magica|yahoo_shopping|a": "2026-10-26T08:40:56+00:00",
+  "RAH Madoka Magica|ebay|a": "2026-10-26T08:41:28+00:00"
  },
  "tasas": {
   "base": "JPY",
@@ -2217,7 +6838,7 @@
   },
   "fecha": 1793002871.31664
  },
- "actualizado": "2026-10-26T08:22:49+00:00",
+ "actualizado": "2026-10-26T08:41:38+00:00",
  "articulos": [
   {
    "id": "madoka_escolar",
@@ -2322,5 +6943,6 @@
    "tipo": "lote",
    "paises": null
   }
- ]
+ ],
+ "bienvenida": "2026-10-26T08:41:38+00:00"
 }
