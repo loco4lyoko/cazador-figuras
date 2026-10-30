@@ -25,7 +25,7 @@ ajustes:
   costo_hasta_chile_jpy: {JP: 9000, CN: 7000, INT: 7000, CL: 0}
   # Sitios que bloquean CUALQUIER revisión automática (también desde casa): no se rastrean.
   # En el panel tienes botones para revisarlos a mano con la búsqueda ya hecha.
-  revision_manual: [goofish, surugaya, lashinbang, offmall, amiami]
+  revision_manual: [goofish, surugaya, lashinbang, offmall, amiami, rakuten, yahoo_shopping]
 
 # Palabras que descartan un listado en TODAS las búsquedas.
 # Las figuras junk, incompletas o SIN CAJA sí se aceptan, y las cajas vacías /
@@ -101,7 +101,7 @@ busquedas:
       en: ["RAH madoka medicom", "real action heroes madoka"]
       es: ["rah madoka", "medicom madoka magica"]
       zh: ["RAH 小圆", "RAH 魔法少女小圆", "medicom 小圆", "RAH 晓美焰"]
-    fuentes: [mercari, yahoo, rakuma, mandarake, rakuten, yahoo_shopping, ebay]
+    fuentes: [mercari, yahoo, rakuma, mandarake, ebay]
     # mercadolibre_cl: desactivado, MercadoLibre ahora exige iniciar sesión para ver resultados
 
     articulos:
