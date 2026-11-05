@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: cazador
+  group: cazador-${{ github.event_name }}
   cancel-in-progress: false
 
 jobs:
@@ -23,21 +23,6 @@ jobs:
     timeout-minutes: 70
     steps:
       - uses: actions/checkout@v4
-
-      - name: Ordenar archivos sueltos
-        run: |
-          if [ -f main.py ]; then
-            mkdir -p cazador/fuentes docs tests/datos notebook
-            for f in main avisos clasificador modelos monedas; do mv -f $f.py cazador/; done
-            for f in base goofish mercari tiendas yahoo; do mv -f $f.py cazador/fuentes/; done
-            mv -f "__init__ (1).py" cazador/fuentes/__init__.py
-            rm -f __init__.py cazador.yml download env.ejemplo
-            mv -f index.html docs/; mv -f test_cazador.py tests/; mv -f yahoo_2026.html tests/datos/
-            mv -f *.bat notebook/ 2>/dev/null || true
-            git config user.name "cazador-bot"
-            git config user.email "cazador-bot@users.noreply.github.com"
-            git add -A && git commit -m "Ordenar archivos en sus carpetas" && git push
-          fi
 
       - uses: actions/setup-python@v5
         with:
@@ -50,26 +35,34 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          SMTP_HOST: ${{ secrets.SMTP_HOST }}
-          SMTP_PUERTO: ${{ secrets.SMTP_PUERTO }}
-          SMTP_USUARIO: ${{ secrets.SMTP_USUARIO }}
-          SMTP_CLAVE: ${{ secrets.SMTP_CLAVE }}
-          CORREO_DESTINO: ${{ secrets.CORREO_DESTINO }}
           GOOFISH_COOKIES: ${{ secrets.GOOFISH_COOKIES }}
-        run: |
-          MODO="${{ inputs.modo }}"
-          if [ "${{ github.event.schedule }}" = "23 12 * * *" ]; then MODO=historico; fi
-          if [ "${MODO:-normal}" = "normal" ]; then EXTRA="--repetir 50"; fi
-          python -m cazador.main --modo "${MODO:-normal}" $EXTRA
-
-      - name: Guardar historial
-        if: always()
         run: |
           git config user.name "cazador-bot"
           git config user.email "cazador-bot@users.noreply.github.com"
-          git add docs/data.json docs/debug 2>/dev/null || git add docs/data.json || true
-          if ! git diff --staged --quiet; then
-            git commit -m "Actualizar datos $(date -u +%Y-%m-%dT%H:%MZ)"
-            git pull --rebase --autostash || true
-            git push
+          guardar() {
+            git add docs/data.json docs/debug 2>/dev/null || git add docs/data.json || true
+            if ! git diff --staged --quiet; then
+              git commit -q -m "Actualizar datos $(date -u +%Y-%m-%dT%H:%MZ)"
+              for i in 1 2 3; do
+                git pull -q --rebase -X theirs && git push -q && break
+                sleep 5
+              done
+            fi
+          }
+          MODO="${{ inputs.modo }}"
+          if [ "${{ github.event.schedule }}" = "23 12 * * *" ]; then MODO=historico; fi
+          MODO="${MODO:-normal}"
+          if [ "$MODO" = "normal" ] && [ "${{ github.event_name }}" = "schedule" ]; then
+            VUELTAS=4    # turno automático: 4 revisiones, una cada 15 min
+          else
+            VUELTAS=1    # botón "buscar ahora": una sola revisión, al tiro
           fi
+          for n in $(seq 1 $VUELTAS); do
+            inicio=$(date +%s)
+            python -m cazador.main --modo "$MODO" || true
+            guardar
+            if [ "$n" -lt "$VUELTAS" ]; then
+              espera=$(( 900 - ($(date +%s) - inicio) ))
+              [ $espera -gt 0 ] && sleep $espera
+            fi
+          done
