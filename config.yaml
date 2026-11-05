@@ -61,7 +61,7 @@ busquedas:
     # El listado debe mencionar la línea (al menos una de estas)
     debe_incluir: [RAH, リアルアクションヒーローズ, real action heroes, real action hero, medicom, メディコム, 美蒂科姆]
     # Si el título tiene una de estas, es una caja vacía o pieza suelta (va a su propio artículo)
-    palabras_piezas: [本体なし, 箱のみ, 空箱, 外箱のみ, 箱だけ, ヘッドのみ, 頭部のみ, ヘッドパーツ, 衣装のみ, 素体のみ,
+    palabras_piezas: [本体なし, 部品取り, 箱のみ, 空箱, 外箱のみ, 箱だけ, ヘッドのみ, 頭部のみ, ヘッドパーツ, 衣装のみ, 素体のみ,
                       付属品のみ, パーツのみ, 小物のみ, 武器のみ, スタンドのみ, 台座のみ, パーツ取り,
                       empty box, box only, head only, outfit only, accessories only, parts only,
                       caja vacia, caja vacía, solo caja, solo cabeza, 空盒, 只有盒, 仅盒, 单头, 头雕, 只有配件, 仅配件, 只有衣服]
@@ -92,7 +92,7 @@ busquedas:
       homura: [暁美, ほむら, homura, akemi, 晓美, 曉美, 小焰, 焰]
       sayaka: [美樹, さやか, sayaka, miki, 美树, 沙耶香]
       kyoko: [佐倉, 杏子, kyoko, kyouko, sakura kyo, 佐仓]
-      mami: [巴, マミ, mami, tomoe, 麻美]
+      mami: [巴, マミ, tomoe, mami tomoe, tomoe mami, 麻美]
       nagisa: [百江, なぎさ, nagisa, momoe]
     # Nombres que a veces son el personaje y a veces la serie ("Madoka Homura RAH" = Homura).
     # Solo cuentan como personaje si no aparece otro, o si el título dice que es un lote.
@@ -191,7 +191,7 @@ busquedas:
   # ============================================================
   - nombre: figma y Cu-poche Madoka Magica
     debe_incluir: [figma, フィグマ, キューポッシュ, cu-poche, cupoche, q-poche, 可动]
-    palabras_piezas: [箱のみ, 空箱, 外箱のみ, パーツのみ, 付属品のみ, 本体なし, empty box, box only, parts only]
+    palabras_piezas: [箱のみ, 空箱, 外箱のみ, パーツのみ, 付属品のみ, 本体なし, 部品取り, 説明書のみ, 台座のみ, empty box, box only, parts only, for parts]
     excluir: [エヴァ, evangelion, カヲル, kaworu]
     quitar_antes_de_detectar:
       - 魔法少女まどか☆マギカ
@@ -207,7 +207,7 @@ busquedas:
       homura: [暁美, ほむら, homura, akemi, 晓美]
       sayaka: [美樹, さやか, sayaka, miki, 美树]
       kyoko: [佐倉, 杏子, kyoko, kyouko, 佐仓]
-      mami: [巴, マミ, mami, tomoe, 麻美]
+      mami: [巴, マミ, tomoe, mami tomoe, tomoe mami, 麻美]
       nagisa: [百江, なぎさ, nagisa, momoe]
     alias_ambiguos:
       madoka: [madoka, まどか, 小圆]
@@ -238,3 +238,9 @@ busquedas:
         precio_referencia_jpy: 4000    # estimado
         costo_hasta_chile_jpy: {JP: 5000, CN: 4000, INT: 4000}
         prioridad: alta
+      - id: piezas_figma
+        nombre: "figma / Cu-poche: cajas y piezas sueltas"
+        tipo: piezas
+        presupuesto: {monto: 15000, moneda: CLP}
+        costo_hasta_chile_jpy: {JP: 4000, CN: 4000, INT: 4000}
+        prioridad: media
