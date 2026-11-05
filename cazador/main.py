@@ -370,7 +370,10 @@ class Cazador:
         """Busca algo genérico ("フィギュア") en cada sitio: si no sale nada, el lector se rompió."""
         print("\n=== Diagnóstico de lectores ===")
         rotos = []
+        activas = {f for b in self.cfg.get("busquedas", []) for f in b.get("fuentes", [])}
         for fuente, (fn, _) in FUENTES.items():
+            if fuente not in activas:
+                continue   # sitios de revisión manual: no tiene sentido avisar que bloquean
             if self.solo and fuente not in self.solo:
                 continue
             if not self.solo and fuente in self.solo_notebook():
@@ -389,12 +392,8 @@ class Cazador:
                 rotos.append(f"• {NOMBRE_FUENTE.get(fuente, fuente)}: {s['diagnostico']['error'] or '0 resultados'}")
             time.sleep(PAUSA)
         if rotos:
-            extra = ""
-            if any("Goofish" in r for r in rotos) and not self.solo:
-                extra = ("\nGoofish suele bloquear la nube: puedes correrlo desde tu notebook "
-                         "(LEEME → \"Goofish desde el notebook\").")
-            self.texto("🛠 <b>Lectores que no están funcionando</b>\n" + "\n".join(rotos) +
-                       "\nMándale este mensaje a Claude para arreglarlos." + extra, silencioso=True)
+            self.texto("🛠 <b>Sitios que hoy no respondieron</b>\n" + "\n".join(rotos) +
+                       "\nSi se repite varios días, mándale este mensaje a Claude.", silencioso=True)
 
     def guardar_debug(self, fuente: str):
         """Guarda en docs/debug/ la página que devolvió el sitio, para poder arreglar su lector."""
@@ -477,6 +476,8 @@ def links_manuales(config: dict) -> list[dict]:
         "lashinbang": "https://shop.lashinbang.com/products/list?keyword={q}",
         "offmall": "https://netmall.hardoff.co.jp/search/?q={q}",
         "amiami": "https://www.amiami.com/eng/search/list/?s_keywords={q}&s_st_condition_flg=1",
+        "rakuten": "https://search.rakuten.co.jp/search/mall/{q}/?s=4",
+        "yahoo_shopping": "https://shopping.yahoo.co.jp/search?p={q}",
     }
     out = []
     for b in config.get("busquedas", []):
@@ -503,6 +504,9 @@ def main():
     ap.add_argument("--solo", help="fuentes separadas por coma (ej: goofish)")
     ap.add_argument("--datos", help="archivo de historial alternativo (modo notebook)")
     ap.add_argument("--forzar", action="store_true", help="revisar todas las fuentes ahora")
+    ap.add_argument("--repetir", type=int, default=0,
+                    help="seguir trabajando N minutos, revisando cada --intervalo (GitHub atrasa los horarios)")
+    ap.add_argument("--intervalo", type=int, default=15)
     args = ap.parse_args()
     cargar_env()
     if args.datos:
@@ -521,7 +525,19 @@ def main():
     elif args.modo == "diagnostico":
         c.diagnostico()
     else:
-        c.rastrear()
+        inicio = time.time()
+        while True:
+            vuelta = time.time()
+            c.rastrear()
+            guardar_datos(c.d)
+            if not args.repetir:
+                break
+            siguiente = vuelta + args.intervalo * 60
+            if siguiente - inicio > args.repetir * 60:
+                break
+            print(f"Esperando {max(0, int(siguiente - time.time()))} s para la próxima revisión…", flush=True)
+            time.sleep(max(0, siguiente - time.time()))
+            c = Cazador(config, c.d, enviar=not args.sin_enviar, solo=solo, forzar=args.forzar)
     guardar_datos(c.d)
 
 

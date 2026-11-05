@@ -114,7 +114,7 @@ td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
   </div>
 
   <details class="card" id="manual"><summary>🔎 Revisar a mano los sitios que no permiten bots</summary>
-    <p class="sub">Goofish, Suruga-ya, Lashinbang, Off Mall y AmiAmi bloquean cualquier revisión automática. Toca un botón y se abre la búsqueda ya hecha.</p>
+    <p class="sub">Estos sitios no dejan que el bot los revise. Toca un botón y se abre la búsqueda ya hecha.</p>
     <div id="manual-c" class="manual"></div></details>
   <div id="grid"></div>
 
@@ -165,7 +165,7 @@ function veredicto(a,act){
 function pintar(){
   document.querySelectorAll("#moneda .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.m===MON));
   document.querySelectorAll("#filtro .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.f===FIL));
-  $("#actualizado").textContent="Última revisión "+hace(D.actualizado)+" · revisa sola cada 15 min";
+  $("#actualizado").textContent="Última revisión "+hace(D.actualizado)+" · revisa solo cada 15 min";
   const L=Object.values(D.listados||{});
   let arts=(D.articulos||[]).map(a=>{
     const ls=L.filter(l=>l.articulo===a.id);
@@ -192,7 +192,7 @@ function sitios(){
     const activas=D.fuentes_activas||[];
     if(activas.length&&!activas.includes(f)){estado="revisar a mano (bloquea bots)";clase="pend"}
     else if(solo.includes(f)){estado="💻 se revisa desde tu notebook";clase="pend"}
-    else if((s.fallas_seguidas||0)>=4||(s.diagnostico&&s.diagnostico.resultados===0)){estado="no está funcionando";clase="mal"}
+    else if((s.fallas_seguidas||0)>=4||(!s.resultados&&s.diagnostico&&s.diagnostico.resultados===0)){estado="no está funcionando";clase="mal"}
     else if(s.ultima){estado=`funciona · ${s.resultados??0} resultados`;clase="ok"}
     else{estado="esperando primera revisión";clase="pend"}
     return`<div class="sitio"><span>${BANDERA[f]||""} ${NOMBRES[f]}</span><span class="${clase}">${estado}</span></div>`});

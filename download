@@ -1,7 +1,0 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-docs/data.tmp
-.env
-notebook/datos_goofish.json
-notebook/registro.txt
