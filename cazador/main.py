@@ -438,6 +438,12 @@ class Cazador:
             return False
 
     def podar(self):
+        # borra listados de sitios o artículos que ya no están en config.yaml
+        activas = {f for b in self.cfg.get("busquedas", []) for f in b.get("fuentes", [])}
+        ids = {a["id"] for b in self.cfg.get("busquedas", []) for a in b.get("articulos", [])}
+        for k in [k for k, r in self.d["listados"].items()
+                  if r.get("fuente") not in activas or r.get("articulo") not in ids]:
+            del self.d["listados"][k]
         por_art: dict[str, list] = {}
         for k, r in self.d["listados"].items():
             por_art.setdefault(r.get("articulo"), []).append((r.get("ultima_vez", ""), k))
