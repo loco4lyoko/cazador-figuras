@@ -39,7 +39,6 @@ excluir_global:
   - ベアブリック
   - 积木熊
   - 粘土人
-  - figma
   - 30mp
   - プラモ
   - 一番くじ
@@ -67,7 +66,7 @@ busquedas:
                       empty box, box only, head only, outfit only, accessories only, parts only,
                       caja vacia, caja vacía, solo caja, solo cabeza, 空盒, 只有盒, 仅盒, 单头, 头雕, 只有配件, 仅配件, 只有衣服]
     # Otras series con RAH y nombres parecidos (Kaworu "Nagisa" de Evangelion, etc.)
-    excluir: [エヴァ, evangelion, カヲル, kaworu, 福音战士, 渚薰, 碇シンジ, 綾波, 式波, アスカ]
+    excluir: [figma, フィグマ, キューポッシュ, cu-poche, エヴァ, evangelion, カヲル, kaworu, 福音战士, 渚薰, 碇シンジ, 綾波, 式波, アスカ]
     # Se borra antes de detectar personajes (si no, "まどか☆マギカ" contaría como Madoka)
     quitar_antes_de_detectar:
       - 魔法少女まどか☆マギカ
@@ -187,4 +186,55 @@ busquedas:
       - id: lotes
         nombre: "Lotes / sets de varias figuras"
         tipo: lote
+        prioridad: alta
+
+  # ============================================================
+  - nombre: figma y Cu-poche Madoka Magica
+    debe_incluir: [figma, フィグマ, キューポッシュ, cu-poche, cupoche, q-poche, 可动]
+    palabras_piezas: [箱のみ, 空箱, 外箱のみ, パーツのみ, 付属品のみ, 本体なし, empty box, box only, parts only]
+    excluir: [エヴァ, evangelion, カヲル, kaworu]
+    quitar_antes_de_detectar:
+      - 魔法少女まどか☆マギカ
+      - 魔法少女まどかマギカ
+      - まどか☆マギカ
+      - まどかマギカ
+      - まどマギ
+      - madoka magica
+      - puella magi madoka
+      - 魔法少女小圆
+    personajes:
+      madoka: [鹿目, まどか, madoka, kaname, 小圆]
+      homura: [暁美, ほむら, homura, akemi, 晓美]
+      sayaka: [美樹, さやか, sayaka, miki, 美树]
+      kyoko: [佐倉, 杏子, kyoko, kyouko, 佐仓]
+      mami: [巴, マミ, mami, tomoe, 麻美]
+      nagisa: [百江, なぎさ, nagisa, momoe]
+    alias_ambiguos:
+      madoka: [madoka, まどか, 小圆]
+    palabras_lote: [セット, まとめ, set, lot, bundle]
+    consultas:
+      jp: ["figma 巴マミ", "figma 百江なぎさ", "キューポッシュ 巴マミ"]
+      en: ["figma mami tomoe", "figma nagisa momoe", "cu-poche mami"]
+    fuentes: [mercari, yahoo, rakuma, mandarake, ebay]
+    articulos:
+      - id: mami_figma
+        nombre: "figma Mami (chica mágica)"
+        personaje: mami
+        incluir: [[figma, フィグマ]]
+        excluir: [キューポッシュ, cu-poche, 制服, uniform, 水着, swimsuit, 浴衣]
+        precio_referencia_jpy: 9000    # estimado: se reemplaza solo con ventas reales
+        prioridad: alta
+      - id: nagisa_figma
+        nombre: "figma Nagisa (No.219)"
+        personaje: nagisa
+        incluir: [[figma, フィグマ]]
+        excluir: [キューポッシュ, cu-poche]
+        precio_referencia_jpy: 8000    # estimado
+        prioridad: alta
+      - id: mami_cupoche
+        nombre: "Cu-poche Mami"
+        personaje: mami
+        incluir: [[キューポッシュ, cu-poche, cupoche, q-poche]]
+        precio_referencia_jpy: 4000    # estimado
+        costo_hasta_chile_jpy: {JP: 5000, CN: 4000, INT: 4000}
         prioridad: alta
