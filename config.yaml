@@ -34,6 +34,10 @@ excluir_global:
   # otras líneas de figuras / productos que no son RAH
   - ねんどろいど
   - nendoroid
+  - bearbrick
+  - be@rbrick
+  - ベアブリック
+  - 积木熊
   - 粘土人
   - figma
   - 30mp
@@ -184,19 +188,3 @@ busquedas:
         nombre: "Lotes / sets de varias figuras"
         tipo: lote
         prioridad: alta
-
-# ------------------------------------------------------------
-# EJEMPLO para agregar otra cosa (quita los # para activarlo):
-#
-#  - nombre: Consola PS Vita celeste
-#    debe_incluir: [vita, ヴィータ]
-#    consultas:
-#      jp: ["PS Vita アイスシルバー"]
-#      es: ["ps vita"]
-#    fuentes: [mercadolibre_cl]        # solo Chile
-#    articulos:
-#      - id: vita_chile
-#        nombre: "PS Vita en Chile"
-#        presupuesto: {monto: 120000, moneda: CLP}
-#        avisar_nuevos: false
-# ------------------------------------------------------------
