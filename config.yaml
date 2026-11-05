@@ -104,7 +104,7 @@ busquedas:
       en: ["RAH madoka medicom", "real action heroes madoka"]
       es: ["rah madoka", "medicom madoka magica"]
       zh: ["RAH 小圆", "RAH 魔法少女小圆", "medicom 小圆", "RAH 晓美焰"]
-    fuentes: [mercari, yahoo, rakuma, mandarake, ebay]
+    fuentes: [mercari, yahoo, rakuma, mandarake]   # ebay quitado (caro y trae otras franquicias)
     # mercadolibre_cl: desactivado, MercadoLibre ahora exige iniciar sesión para ver resultados
 
     articulos:
@@ -192,7 +192,7 @@ busquedas:
   - nombre: figma y Cu-poche Madoka Magica
     debe_incluir: [figma, フィグマ, キューポッシュ, cu-poche, cupoche, q-poche, 可动]
     palabras_piezas: [箱のみ, 空箱, 外箱のみ, パーツのみ, 付属品のみ, 本体なし, 部品取り, 説明書のみ, 台座のみ, empty box, box only, parts only, for parts]
-    excluir: [エヴァ, evangelion, カヲル, kaworu]
+    excluir: [エヴァ, evangelion, カヲル, kaworu, アイマス, アイドルマスター, idolmaster, 天海, 春香, amami, haruka]
     quitar_antes_de_detectar:
       - 魔法少女まどか☆マギカ
       - 魔法少女まどかマギカ
@@ -213,9 +213,9 @@ busquedas:
       madoka: [madoka, まどか, 小圆]
     palabras_lote: [セット, まとめ, set, lot, bundle]
     consultas:
-      jp: ["figma 巴マミ", "figma 百江なぎさ", "キューポッシュ 巴マミ"]
+      jp: ["figma 巴マミ", "figma 百江なぎさ", "キューポッシュ 巴マミ", "キューポッシュ マミ まどか"]
       en: ["figma mami tomoe", "figma nagisa momoe", "cu-poche mami"]
-    fuentes: [mercari, yahoo, rakuma, mandarake, ebay]
+    fuentes: [mercari, yahoo, rakuma, mandarake]   # ebay quitado (caro y trae otras franquicias)
     articulos:
       - id: mami_figma
         nombre: "figma Mami (chica mágica)"
