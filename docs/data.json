@@ -11615,7 +11615,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-09T13:39:06+00:00",
+    "fecha": "2026-11-10T13:29:31+00:00",
     "resultados": 119,
     "error": ""
    },
@@ -11628,7 +11628,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-09T13:39:09+00:00",
+    "fecha": "2026-11-10T13:29:33+00:00",
     "resultados": 50,
     "error": ""
    },
@@ -11641,7 +11641,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-09T13:39:11+00:00",
+    "fecha": "2026-11-10T13:29:36+00:00",
     "resultados": 40,
     "error": ""
    },
@@ -11663,7 +11663,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-09T13:39:15+00:00",
+    "fecha": "2026-11-10T13:29:39+00:00",
     "resultados": 48,
     "error": ""
    },
@@ -13272,89 +13272,89 @@
    "minimo": 22660,
    "maximo": 39700,
    "n": 6,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "nagisa": {
    "mediana": 64400,
    "minimo": 45000,
    "maximo": 70000,
    "n": 3,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "mami_magica": {
    "mediana": 27600,
    "minimo": 11550,
    "maximo": 55000,
    "n": 47,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "sayaka_escolar": {
    "mediana": 39800,
    "minimo": 27280,
    "maximo": 77600,
    "n": 7,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "homura_magica": {
    "mediana": 32130,
    "minimo": 11700,
    "maximo": 49900,
    "n": 22,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "madoka_escolar": {
    "mediana": 62500,
    "minimo": 27600,
    "maximo": 79200,
    "n": 12,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "homura_escolar": {
    "mediana": 47746,
    "minimo": 21600,
    "maximo": 62370,
    "n": 8,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "kyoko_magica": {
    "mediana": 18640,
    "minimo": 9130,
    "maximo": 35000,
    "n": 15,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "lotes": {
    "mediana": 117500,
    "minimo": 30000,
    "maximo": 191800,
    "n": 4,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "mami_figma": {
    "mediana": 7652,
    "minimo": 800,
    "maximo": 20400,
    "n": 104,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "nagisa_figma": {
    "mediana": 8580,
    "minimo": 5600,
    "maximo": 35200,
    "n": 51,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   },
   "mami_cupoche": {
    "mediana": 4595,
    "minimo": 1500,
    "maximo": 12400,
    "n": 45,
-   "fecha": "2026-11-09T13:39:06+00:00"
+   "fecha": "2026-11-10T13:29:31+00:00"
   }
  },
  "ultima_fuente": {
-  "RAH Madoka Magica|mercari|v": "2026-11-09T13:38:31+00:00",
-  "RAH Madoka Magica|yahoo|v": "2026-11-09T13:38:40+00:00",
+  "RAH Madoka Magica|mercari|v": "2026-11-10T13:28:56+00:00",
+  "RAH Madoka Magica|yahoo|v": "2026-11-10T13:29:05+00:00",
   "RAH Madoka Magica|ebay|v": "2026-11-04T13:32:51+00:00",
   "RAH Madoka Magica|mercari|a": "2026-11-10T13:27:44+00:00",
   "RAH Madoka Magica|yahoo|a": "2026-11-10T13:27:53+00:00",
@@ -13368,8 +13368,8 @@
   "figma y Cu-poche Madoka Magica|rakuma|a": "2026-11-10T13:28:29+00:00",
   "figma y Cu-poche Madoka Magica|mandarake|a": "2026-11-10T13:13:49+00:00",
   "figma y Cu-poche Madoka Magica|ebay|a": "2026-11-05T07:06:06+00:00",
-  "figma y Cu-poche Madoka Magica|mercari|v": "2026-11-09T13:38:49+00:00",
-  "figma y Cu-poche Madoka Magica|yahoo|v": "2026-11-09T13:38:58+00:00"
+  "figma y Cu-poche Madoka Magica|mercari|v": "2026-11-10T13:29:14+00:00",
+  "figma y Cu-poche Madoka Magica|yahoo|v": "2026-11-10T13:29:22+00:00"
  },
  "tasas": {
   "base": "JPY",
@@ -13543,7 +13543,7 @@
   },
   "fecha": 1794299297.2988293
  },
- "actualizado": "2026-11-10T13:28:37+00:00",
+ "actualizado": "2026-11-10T13:29:40+00:00",
  "articulos": [
   {
    "id": "madoka_escolar",
