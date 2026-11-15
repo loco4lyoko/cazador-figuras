@@ -10689,6 +10689,34 @@
     "registrado": "2026-11-14T13:33:18+00:00",
     "junk": false,
     "sin_caja": false
+   },
+   {
+    "clave": "mercari:m93834604978",
+    "fuente": "mercari",
+    "titulo": "マックスファクトリー figma 118 魔法少女まどか☆マギカ 巴マミ",
+    "url": "https://jp.mercari.com/item/m93834604978",
+    "foto": "https://static.mercdn.net/thumb/item/webp/m93834604978_1.jpg?1794532676",
+    "precio": 5000.0,
+    "moneda": "JPY",
+    "precio_jpy": 5000,
+    "fecha_venta": "",
+    "registrado": "2026-11-15T13:19:20+00:00",
+    "junk": false,
+    "sin_caja": false
+   },
+   {
+    "clave": "yahoo:k1251991516",
+    "fuente": "yahoo",
+    "titulo": "1円～ 未開封 figma 118 魔法少女まどか☆マギカ 巴マミ",
+    "url": "https://auctions.yahoo.co.jp/jp/auction/k1251991516",
+    "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0211/user/fc85c16be9838db7e534ef90917dfa87e8a49b506c7cb8beb549286352f129c0/i-img600x600-17944463892733jjddrv34.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+    "precio": 7997.0,
+    "moneda": "JPY",
+    "precio_jpy": 7997,
+    "fecha_venta": "2026-11-14T22:59:39+09:00",
+    "registrado": "2026-11-15T13:19:20+00:00",
+    "junk": false,
+    "sin_caja": false
    }
   ],
   "piezas_figma": [
@@ -12187,8 +12215,8 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-14T13:33:19+00:00",
-    "resultados": 116,
+    "fecha": "2026-11-15T13:19:20+00:00",
+    "resultados": 117,
     "error": ""
    },
    "ultima": "2026-11-15T12:48:20+00:00",
@@ -12200,7 +12228,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-14T13:33:21+00:00",
+    "fecha": "2026-11-15T13:19:22+00:00",
     "resultados": 50,
     "error": ""
    },
@@ -12213,7 +12241,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-14T13:33:24+00:00",
+    "fecha": "2026-11-15T13:19:25+00:00",
     "resultados": 40,
     "error": ""
    },
@@ -12235,7 +12263,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-14T13:33:27+00:00",
+    "fecha": "2026-11-15T13:19:28+00:00",
     "resultados": 48,
     "error": ""
    },
@@ -13844,89 +13872,89 @@
    "minimo": 22660,
    "maximo": 39700,
    "n": 6,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "nagisa": {
    "mediana": 64400,
    "minimo": 45000,
    "maximo": 70000,
    "n": 3,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "mami_magica": {
    "mediana": 27171,
    "minimo": 11550,
    "maximo": 55000,
    "n": 48,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "sayaka_escolar": {
    "mediana": 39800,
    "minimo": 27280,
    "maximo": 77600,
    "n": 7,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "homura_magica": {
    "mediana": 32130,
    "minimo": 11700,
    "maximo": 49900,
    "n": 22,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "madoka_escolar": {
    "mediana": 62500,
    "minimo": 27600,
    "maximo": 79200,
    "n": 12,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "homura_escolar": {
    "mediana": 49990,
    "minimo": 21600,
    "maximo": 62370,
    "n": 9,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "kyoko_magica": {
    "mediana": 18640,
    "minimo": 9130,
    "maximo": 35000,
    "n": 15,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "lotes": {
    "mediana": 117500,
    "minimo": 30000,
    "maximo": 191800,
    "n": 4,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "mami_figma": {
    "mediana": 7700,
    "minimo": 800,
    "maximo": 20400,
-   "n": 107,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "n": 109,
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "nagisa_figma": {
    "mediana": 8580,
    "minimo": 5600,
    "maximo": 35200,
    "n": 52,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   },
   "mami_cupoche": {
    "mediana": 4595,
    "minimo": 1500,
    "maximo": 12400,
    "n": 45,
-   "fecha": "2026-11-14T13:33:19+00:00"
+   "fecha": "2026-11-15T13:19:20+00:00"
   }
  },
  "ultima_fuente": {
-  "RAH Madoka Magica|mercari|v": "2026-11-14T13:32:42+00:00",
-  "RAH Madoka Magica|yahoo|v": "2026-11-14T13:32:51+00:00",
+  "RAH Madoka Magica|mercari|v": "2026-11-15T13:18:45+00:00",
+  "RAH Madoka Magica|yahoo|v": "2026-11-15T13:18:54+00:00",
   "RAH Madoka Magica|ebay|v": "2026-11-04T13:32:51+00:00",
   "RAH Madoka Magica|mercari|a": "2026-11-15T12:47:36+00:00",
   "RAH Madoka Magica|yahoo|a": "2026-11-15T12:47:45+00:00",
@@ -13940,8 +13968,8 @@
   "figma y Cu-poche Madoka Magica|rakuma|a": "2026-11-15T12:48:28+00:00",
   "figma y Cu-poche Madoka Magica|mandarake|a": "2026-11-15T12:48:37+00:00",
   "figma y Cu-poche Madoka Magica|ebay|a": "2026-11-05T07:06:06+00:00",
-  "figma y Cu-poche Madoka Magica|mercari|v": "2026-11-14T13:33:01+00:00",
-  "figma y Cu-poche Madoka Magica|yahoo|v": "2026-11-14T13:33:10+00:00"
+  "figma y Cu-poche Madoka Magica|mercari|v": "2026-11-15T13:19:03+00:00",
+  "figma y Cu-poche Madoka Magica|yahoo|v": "2026-11-15T13:19:12+00:00"
  },
  "tasas": {
   "base": "JPY",
@@ -14115,7 +14143,7 @@
   },
   "fecha": 1794742243.6580114
  },
- "actualizado": "2026-11-15T12:48:45+00:00",
+ "actualizado": "2026-11-15T13:19:29+00:00",
  "articulos": [
   {
    "id": "madoka_escolar",
