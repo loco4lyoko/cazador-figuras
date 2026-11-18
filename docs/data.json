@@ -8645,6 +8645,20 @@
     "registrado": "2026-11-11T13:36:21+00:00",
     "junk": false,
     "sin_caja": false
+   },
+   {
+    "clave": "yahoo:o1246133720",
+    "fuente": "yahoo",
+    "titulo": "RAH MGM 魔法少女まどか☆マギカ 巴マミ リアルアクションヒーローズ ",
+    "url": "https://auctions.yahoo.co.jp/jp/auction/o1246133720",
+    "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/ed0ce826a5ff8b632ec130ac316efbc6fe908a029931c5c8f58ec5ad641fa970/i-img1013x1184-17905129757908slnydr65072.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+    "precio": 32000.0,
+    "moneda": "JPY",
+    "precio_jpy": 32000,
+    "fecha_venta": "2026-11-18T20:59:02+09:00",
+    "registrado": "2026-11-18T13:39:54+00:00",
+    "junk": false,
+    "sin_caja": false
    }
   ],
   "sayaka_escolar": [
@@ -11445,6 +11459,20 @@
     "registrado": "2026-11-16T15:31:26+00:00",
     "junk": false,
     "sin_caja": false
+   },
+   {
+    "clave": "mercari:m84564696280",
+    "fuente": "mercari",
+    "titulo": "figma 巴マミ",
+    "url": "https://jp.mercari.com/item/m84564696280",
+    "foto": "https://static.mercdn.net/thumb/item/webp/m84564696280_1.jpg?1794392610",
+    "precio": 7777.0,
+    "moneda": "JPY",
+    "precio_jpy": 7777,
+    "fecha_venta": "",
+    "registrado": "2026-11-18T13:40:11+00:00",
+    "junk": false,
+    "sin_caja": false
    }
   ],
   "piezas_figma": [
@@ -12317,6 +12345,20 @@
     "registrado": "2026-11-16T15:31:26+00:00",
     "junk": false,
     "sin_caja": false
+   },
+   {
+    "clave": "yahoo:s1251558311",
+    "fuente": "yahoo",
+    "titulo": "新品未開封 魔法少女まどか☆マギカ figma 百江なぎさ maxfactory",
+    "url": "https://auctions.yahoo.co.jp/jp/auction/s1251558311",
+    "foto": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0211/user/58cf37877fcdadd68d1bd2ee1b74c73ff14ca8d4e3a19d7b82f1cc226dd57d70/i-img900x1200-17941333503113iqvyju16181.jpg?pri=l&w=300&h=300&up=0&nf_src=sy&nf_path=images/auc/pc/top/image/1.0.3/na_170x170.png&nf_st=200",
+    "precio": 16050.0,
+    "moneda": "JPY",
+    "precio_jpy": 16050,
+    "fecha_venta": "2026-11-18T21:22:51+09:00",
+    "registrado": "2026-11-18T13:40:11+00:00",
+    "junk": false,
+    "sin_caja": false
    }
   ],
   "mami_cupoche": [
@@ -12971,8 +13013,8 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-17T13:38:36+00:00",
-    "resultados": 120,
+    "fecha": "2026-11-18T13:40:11+00:00",
+    "resultados": 113,
     "error": ""
    },
    "ultima": "2026-11-18T13:34:36+00:00",
@@ -12984,7 +13026,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-17T13:38:38+00:00",
+    "fecha": "2026-11-18T13:40:14+00:00",
     "resultados": 50,
     "error": ""
    },
@@ -12997,7 +13039,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-17T13:38:40+00:00",
+    "fecha": "2026-11-18T13:40:16+00:00",
     "resultados": 40,
     "error": ""
    },
@@ -13019,7 +13061,7 @@
    "fallas_seguidas": 0,
    "avisado": false,
    "diagnostico": {
-    "fecha": "2026-11-17T13:38:43+00:00",
+    "fecha": "2026-11-18T13:40:19+00:00",
     "resultados": 48,
     "error": ""
    },
@@ -14628,89 +14670,89 @@
    "minimo": 22660,
    "maximo": 39700,
    "n": 6,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "nagisa": {
    "mediana": 64400,
    "minimo": 45000,
    "maximo": 70000,
    "n": 3,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "mami_magica": {
-   "mediana": 27171,
+   "mediana": 27600,
    "minimo": 11550,
    "maximo": 55000,
-   "n": 48,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "n": 49,
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "sayaka_escolar": {
    "mediana": 39800,
    "minimo": 27280,
    "maximo": 77600,
    "n": 7,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "homura_magica": {
    "mediana": 32130,
    "minimo": 11700,
    "maximo": 49900,
    "n": 22,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "madoka_escolar": {
    "mediana": 62500,
    "minimo": 27600,
    "maximo": 79200,
    "n": 12,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "homura_escolar": {
    "mediana": 49990,
    "minimo": 21600,
    "maximo": 62370,
    "n": 9,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "kyoko_magica": {
    "mediana": 18820,
    "minimo": 9130,
    "maximo": 35000,
    "n": 16,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "lotes": {
    "mediana": 117500,
    "minimo": 30000,
    "maximo": 191800,
    "n": 4,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "mami_figma": {
    "mediana": 7700,
    "minimo": 800,
    "maximo": 20400,
-   "n": 110,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "n": 111,
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "nagisa_figma": {
    "mediana": 8580,
    "minimo": 5600,
    "maximo": 35200,
-   "n": 53,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "n": 54,
+   "fecha": "2026-11-18T13:40:11+00:00"
   },
   "mami_cupoche": {
    "mediana": 4595,
    "minimo": 1500,
    "maximo": 12400,
    "n": 45,
-   "fecha": "2026-11-17T13:38:35+00:00"
+   "fecha": "2026-11-18T13:40:11+00:00"
   }
  },
  "ultima_fuente": {
-  "RAH Madoka Magica|mercari|v": "2026-11-17T13:38:02+00:00",
-  "RAH Madoka Magica|yahoo|v": "2026-11-17T13:38:10+00:00",
+  "RAH Madoka Magica|mercari|v": "2026-11-18T13:39:37+00:00",
+  "RAH Madoka Magica|yahoo|v": "2026-11-18T13:39:46+00:00",
   "RAH Madoka Magica|ebay|v": "2026-11-04T13:32:51+00:00",
   "RAH Madoka Magica|mercari|a": "2026-11-18T13:34:00+00:00",
   "RAH Madoka Magica|yahoo|a": "2026-11-18T13:34:09+00:00",
@@ -14724,8 +14766,8 @@
   "figma y Cu-poche Madoka Magica|rakuma|a": "2026-11-18T13:34:45+00:00",
   "figma y Cu-poche Madoka Magica|mandarake|a": "2026-11-18T13:05:02+00:00",
   "figma y Cu-poche Madoka Magica|ebay|a": "2026-11-05T07:06:06+00:00",
-  "figma y Cu-poche Madoka Magica|mercari|v": "2026-11-17T13:38:19+00:00",
-  "figma y Cu-poche Madoka Magica|yahoo|v": "2026-11-17T13:38:27+00:00"
+  "figma y Cu-poche Madoka Magica|mercari|v": "2026-11-18T13:39:54+00:00",
+  "figma y Cu-poche Madoka Magica|yahoo|v": "2026-11-18T13:40:03+00:00"
  },
  "tasas": {
   "base": "JPY",
@@ -14899,7 +14941,7 @@
   },
   "fecha": 1795003307.2724771
  },
- "actualizado": "2026-11-18T13:34:53+00:00",
+ "actualizado": "2026-11-18T13:40:20+00:00",
  "articulos": [
   {
    "id": "madoka_escolar",
