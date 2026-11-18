@@ -10,6 +10,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote_plus, urljoin
@@ -43,6 +44,9 @@ PRODUCTOS_DIRECTOS = [
     ("GunDamit", "buceo", "https://gundamit.com/opapa-toys-x-m9-studio-1-6-pg2026016-lara-hot-explorer-diving-version_p11618.html"),
 ]
 
+# Sitios que bloquean a los servidores de GitHub (HTTP 403): se revisan desde el notebook
+BLOQUEADOS_EN_GITHUB = {"GunDamit", "eBay", "Oh My Primus"}
+
 # Páginas de tiendas/listados donde aparecerá la preventa: (tienda, url, exige_marca)
 PAGINAS = [
     ("GunDamit", "https://gundamit.com/c/opapa-toys_1083", False),
@@ -58,7 +62,13 @@ PAGINAS = [
 ]
 # --------------------------------------------------
 
-VISTOS = Path("docs/preventas_vistos.json")
+NOTEBOOK = "--notebook" in sys.argv
+VISTOS = Path("notebook/preventas_vistos.json" if NOTEBOOK else "docs/preventas_vistos.json")
+
+
+def toca(tienda: str) -> bool:
+    """En GitHub revisa los sitios que lo dejan; en el notebook, solo los que bloquean a GitHub."""
+    return (tienda in BLOQUEADOS_EN_GITHUB) == NOTEBOOK
 
 
 def version(texto: str) -> str:
@@ -105,6 +115,8 @@ def revisar_producto(tienda: str, ver: str, url: str) -> dict | None:
     """Una página de producto concreta: ¿está publicada (no redirige) y sin agotar?"""
     r = sesion().get(url, timeout=25, allow_redirects=True)
     pid = re.search(r"_p(\d+)\.html", url)
+    if r.status_code in (401, 403, 429) or r.status_code >= 500:
+        raise RuntimeError(f"HTTP {r.status_code}")  # bloqueado: no confundir con "oculta"
     if r.status_code != 200 or (pid and pid.group(0) not in r.url):
         return None  # sigue oculta
     sopa = BeautifulSoup(r.text, "lxml")
@@ -138,12 +150,17 @@ def mensaje(l: dict, cambio: str) -> tuple[str, bool]:
 
 
 def main() -> None:
+    if NOTEBOOK:
+        from .main import cargar_env
+        cargar_env()  # en el notebook las claves de Telegram están en .env
     vistos = json.loads(VISTOS.read_text()) if VISTOS.exists() else {}
     primera_vez = not vistos.get("_iniciado")
     encontrados: list[dict] = []
     estado_sitios = []
 
     for tienda, ver, url in PRODUCTOS_DIRECTOS:
+        if not toca(tienda):
+            continue
         try:
             l = revisar_producto(tienda, ver, url)
             estado_sitios.append(f"✅ {tienda} ficha {ver}: {'publicada' if l else 'aún oculta'}")
@@ -154,6 +171,8 @@ def main() -> None:
             print("[preventas]", tienda, url, ex)
 
     for tienda, url, exige in PAGINAS:
+        if not toca(tienda):
+            continue
         try:
             r = sesion().get(url, timeout=25)
             if r.status_code != 200:
@@ -180,8 +199,9 @@ def main() -> None:
 
     if primera_vez:
         telegram_texto(
-            f"🛰️ <b>Monitor de preventa activado</b>\n{html.escape(FIGURA)}\n"
-            "Reviso cada 20 minutos y te aviso apenas abra la reserva.\n\n"
+            f"🛰️ <b>Monitor de preventa activado{' (notebook)' if NOTEBOOK else ''}</b>\n{html.escape(FIGURA)}\n"
+            + ("Reviso GunDamit y eBay cada 30 min mientras el notebook esté encendido.\n\n" if NOTEBOOK else
+               "Reviso cada 20 minutos y te aviso apenas abra la reserva.\n\n")
             + "\n".join(html.escape(s) for s in estado_sitios), silencioso=True)
         vistos["_iniciado"] = datetime.now(timezone.utc).isoformat(timespec="minutes")
 
