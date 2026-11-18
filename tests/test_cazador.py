@@ -228,3 +228,15 @@ def test_yahoo_diseno_2026():
     assert clasif["r1248073141"] == "homura_magica"
     assert clasif["q1195912203"] is None          # folleto, no figura
     assert clasif["e1246114875"] is None          # Mami escolar: no está en tu lista
+
+
+def test_preventa_lara_deluxe():
+    from cazador.preventas import listados
+    h = ('<ul><li class="product"><a href="/a_p11619.html">Opapa Toys x M9 Studio 1/6 PG2026018 Lara Hot Explorer '
+         'Deluxe Version</a> Dep. $28.99 Full $229.99</li>'
+         '<li class="product"><a href="/b_p11617.html">Opapa 1/6 PG2026017 Lara Hot Explorer Jungle</a> Sold Out</li>'
+         '<li><a href="/c_p1.html">Opapa Toys 1/6 PG202511 Yuri</a> $184.99</li></ul>')
+    ls = {l["version"]: l for l in listados(h, "https://gundamit.com/", False)}
+    assert set(ls) == {"deluxe", "jungla"}
+    assert not ls["deluxe"]["agotado"] and ls["jungla"]["agotado"]
+    assert "$229.99" in ls["deluxe"]["precio"]

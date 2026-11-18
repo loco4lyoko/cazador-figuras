@@ -1,0 +1,36 @@
+name: Monitor preventas
+
+on:
+  schedule:
+    - cron: "4,24,44 * * * *"   # cada 20 minutos
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor-preventas
+  cancel-in-progress: false
+
+jobs:
+  preventas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Revisar preventas
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python -m cazador.preventas
+      - name: Guardar avisados
+        run: |
+          git config user.name "cazador-bot"
+          git config user.email "cazador-bot@users.noreply.github.com"
+          git add docs/preventas_vistos.json
+          git diff --staged --quiet || (git commit -q -m "Preventas: actualizar avisados" && for i in 1 2 3; do git pull -q --rebase -X theirs && git push -q && break; sleep 5; done)
