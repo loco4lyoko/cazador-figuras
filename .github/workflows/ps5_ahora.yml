@@ -1,0 +1,28 @@
+name: PS5 a pedido
+
+on:
+  workflow_dispatch:
+  push:
+    paths: [".github/workflows/ps5_ahora.yml"]
+
+concurrency:
+  group: ps5-a-pedido
+  cancel-in-progress: true
+
+jobs:
+  escuchar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Escuchar Telegram
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TZ: America/Santiago
+        run: python -u -m cazador.ps5_ahora
